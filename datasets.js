@@ -2,16 +2,16 @@
 const DATASETS = [
   {
     id: "corporate-companies",
-    name: "Corporate Companies",
+    name: "Corporate Companies (CSR)",
     category: "Corporate Sector",
     icon: "apartment",
     description: "Registry of Corporate Identification Numbers (CIN) for companies registered in India, including comparison data for resolving duplicate or conflicting company records with standardized naming conventions.",
     tags: ["CSR", "Corporate", "Industries"],
     download: {
-      csv: "assets/mca_companies.csv",
-      pdf: "assets/mca_companies.pdf",
-      json: "assets/mca_companies.json",
-      docx: "assets/CSR.docx"
+      csv: "assets/csr/mca_companies.csv",
+      pdf: "assets/csr/mca_companies.pdf",
+      json: "assets/csr/mca_companies.json",
+      docx: "assets/csr/CSR.docx"
     },
     //create hyperlinks for below
     related: [
@@ -52,9 +52,10 @@ print(karnataka_districts.head())`,
     description: "Comprehensive standardized registry of disease and illness names used across India's healthcare system for consistent medical reporting.",
     tags: ["Healthcare", "Medical", "Diseases", "Health"],
     download: {
-      csv: "assets/diseases.csv",
-      pdf: "assets/diseases.pdf",
-      json: "assets/diseases.json"
+      csv: "assets/diseases/diseases.csv",
+      pdf: "assets/diseases/diseases_names.pdf",
+      json: "assets/diseases/diseases.json",
+      docx: "assets/diseases/diseases_names.docx"
     },
     related: [
       { name: "Disease-wise Cases and Death reported under IDSP", id: "https://dataful.in/datasets/18514/" },
@@ -86,10 +87,10 @@ print(df['standard'].unique()[:10])`,
     description: "Comprehensive registry of airline names with standardized naming conventions for consistent identification across India's aviation and transportation data systems.",
     tags: ["IATA", "Aviation", "Transport", "Global"],
     download: {
-      csv: "assets/airlines_names.csv",
-      pdf: "assets/airlines_names.pdf",
-      json: "assets/airlines_names.json",
-      docx: "assets/DGCA Draft.docx"
+      csv: "assets/airlines/airlines_names.csv",
+      pdf: "assets/airlines/airlines_names.pdf",
+      json: "assets/airlines/airlines_names.json",
+      docx: "assets/airlines/airline_names.docx"
     },
     related: [
       { name: "DGCA : Airline Wise Data", id: "https://dataful.in/collections/?q=airline%20wise" },
