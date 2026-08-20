@@ -153,6 +153,13 @@
             line-height: 1.75;
             opacity: 0.9;
         }
+        .docx-content .docx-link {
+            color: #b01b55;
+            text-decoration: underline;
+        }
+        .dark .docx-content .docx-link {
+            color: #ffb1c2;
+        }
         .docx-content .docx-table {
             width: 100%;
             border-collapse: collapse;
@@ -714,6 +721,72 @@ git push origin main</code></pre>
             return map;
         }
 
+        // Build a map of relationship-id -> target URL for every hyperlink in the docx
+        async function buildDocxHyperlinkMap(zip) {
+            const map = {};
+            const relsFile = zip.file('word/_rels/document.xml.rels');
+            if (!relsFile) return map;
+
+            const relsXml = await relsFile.async('string');
+            const parser = new DOMParser();
+            const relsDoc = parser.parseFromString(relsXml, 'application/xml');
+            const rels = relsDoc.getElementsByTagNameNS(REL_NS, 'Relationship');
+
+            for (let i = 0; i < rels.length; i++) {
+                const rel = rels[i];
+                const type = rel.getAttribute('Type') || '';
+                if (!/\/hyperlink$/.test(type)) continue;
+
+                const id = rel.getAttribute('Id');
+                const target = rel.getAttribute('Target');
+                if (id && target) map[id] = target;
+            }
+            return map;
+        }
+
+        function escapeHtmlAttr(str) {
+            return String(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        }
+
+        // Every visible top-level segment of a paragraph (a run, or a hyperlink-wrapped
+        // run), each rendered to escaped HTML — hyperlinks become real, clickable <a> tags.
+        function docxParaInlineSegments(node, hyperlinkMap) {
+            const segments = [];
+            const children = node.childNodes;
+            for (let i = 0; i < children.length; i++) {
+                const child = children[i];
+                if (child.nodeType !== 1) continue;
+                const localName = child.localName;
+
+                if (localName === 'r') {
+                    const text = docxParaText(child);
+                    if (!text) continue;
+                    segments.push({ text, html: escapeHtmlText(text) });
+                } else if (localName === 'hyperlink') {
+                    const text = docxParaText(child);
+                    if (!text) continue;
+                    const rId = child.getAttributeNS(R_NS, 'id');
+                    const url = rId ? hyperlinkMap[rId] : null;
+                    const escaped = escapeHtmlText(text);
+                    segments.push({
+                        text,
+                        html: url ? `<a class="docx-link" href="${escapeHtmlAttr(url)}" target="_blank" rel="noopener noreferrer">${escaped}</a>` : escaped
+                    });
+                }
+            }
+            return segments;
+        }
+
+        function docxParaInlineHtml(node, hyperlinkMap) {
+            return docxParaInlineSegments(node, hyperlinkMap).map(s => s.html).join('');
+        }
+
+        // Inline HTML for everything after the paragraph's first visible run — used to
+        // render the continuation text (links included) after a bold "Label:" lead-in.
+        function docxParaInlineHtmlAfterFirstSegment(node, hyperlinkMap) {
+            return docxParaInlineSegments(node, hyperlinkMap).slice(1).map(s => s.html).join('').trim();
+        }
+
         // Render every image referenced within a paragraph/cell (modern DrawingML + legacy VML)
         function docxNodeImages(node, imageMap) {
             let out = '';
@@ -765,7 +838,8 @@ git push origin main</code></pre>
             return false;
         }
 
-        function renderDocxTable(tbl, imageMap) {
+        function renderDocxTable(tbl, imageMap, hyperlinkMap) {
+            hyperlinkMap = hyperlinkMap || {};
             const trs = tbl.getElementsByTagNameNS(WORD_NS, 'tr');
             let rowsHtml = '';
             for (let i = 0; i < trs.length; i++) {
@@ -773,13 +847,13 @@ git push origin main</code></pre>
                 let cellsHtml = '';
                 for (let j = 0; j < tcs.length; j++) {
                     const ps = tcs[j].getElementsByTagNameNS(WORD_NS, 'p');
-                    const cellText = [];
+                    const cellParts = [];
                     for (let k = 0; k < ps.length; k++) {
-                        const t = docxParaText(ps[k]).trim();
-                        if (t) cellText.push(t);
+                        const html = docxParaInlineHtml(ps[k], hyperlinkMap);
+                        if (html) cellParts.push(html);
                     }
                     const cellImages = docxNodeImages(tcs[j], imageMap);
-                    cellsHtml += `<td class="docx-td">${escapeHtmlText(cellText.join(' '))}${cellImages}</td>`;
+                    cellsHtml += `<td class="docx-td">${cellParts.join(' ')}${cellImages}</td>`;
                 }
                 rowsHtml += `<tr>${cellsHtml}</tr>`;
             }
@@ -851,8 +925,9 @@ git push origin main</code></pre>
 
         // Parse a docx's word/document.xml into a document title plus a list of
         // collapsible sub-sections, split at each detected heading paragraph.
-        function parseDocxXmlToSections(xmlString, imageMap, overrideHeadings) {
+        function parseDocxXmlToSections(xmlString, imageMap, overrideHeadings, hyperlinkMap) {
             imageMap = imageMap || {};
+            hyperlinkMap = hyperlinkMap || {};
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(xmlString, 'application/xml');
             const body = xmlDoc.getElementsByTagNameNS(WORD_NS, 'body')[0];
@@ -868,10 +943,9 @@ git push origin main</code></pre>
                 if (current) sections.push(current);
                 current = { title, parts: [] };
             };
-            const pushPara = (text, bold) => {
+            const pushPara = (text, bold, html) => {
                 ensureOpen();
-                const escaped = escapeHtmlText(text);
-                current.parts.push(bold && text.length < 120 ? `<p class="docx-bold">${escaped}</p>` : `<p class="docx-p">${escaped}</p>`);
+                current.parts.push(bold && text.length < 120 ? `<p class="docx-bold">${html}</p>` : `<p class="docx-p">${html}</p>`);
             };
 
             for (let i = 0; i < body.children.length; i++) {
@@ -886,7 +960,7 @@ git push origin main</code></pre>
                     if (!sawFirst) {
                         sawFirst = true;
                         if (text) {
-                            titleHtml = (imagesHtml ? `<div class="docx-image-wrap">${imagesHtml}</div>` : '') + `<h2 class="docx-title">${escapeHtmlText(text)}</h2>`;
+                            titleHtml = (imagesHtml ? `<div class="docx-image-wrap">${imagesHtml}</div>` : '') + `<h2 class="docx-title">${docxParaInlineHtml(child, hyperlinkMap)}</h2>`;
                             continue;
                         }
                     }
@@ -900,14 +974,14 @@ git push origin main</code></pre>
                     const heading = docxSectionHeading(child, text, overrideHeadings);
                     if (heading) {
                         openSection(heading.title);
-                        if (heading.remainder) pushPara(heading.remainder, false);
+                        if (heading.remainder) pushPara(heading.remainder, false, docxParaInlineHtmlAfterFirstSegment(child, hyperlinkMap));
                         continue;
                     }
 
-                    pushPara(text, docxParaBold(child));
+                    pushPara(text, docxParaBold(child), docxParaInlineHtml(child, hyperlinkMap));
                 } else if (localName === 'tbl') {
                     ensureOpen();
-                    current.parts.push(renderDocxTable(child, imageMap));
+                    current.parts.push(renderDocxTable(child, imageMap, hyperlinkMap));
                 }
             }
             if (current) sections.push(current);
@@ -936,7 +1010,8 @@ git push origin main</code></pre>
                 if (!xmlFile) return null;
                 const xmlString = await xmlFile.async('string');
                 const imageMap = await buildDocxImageMap(zip);
-                const doc = parseDocxXmlToSections(xmlString, imageMap, overrideHeadings);
+                const hyperlinkMap = await buildDocxHyperlinkMap(zip);
+                const doc = parseDocxXmlToSections(xmlString, imageMap, overrideHeadings, hyperlinkMap);
                 docxContentCache[datasetId] = doc;
                 return doc;
             } catch (error) {
