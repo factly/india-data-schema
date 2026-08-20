@@ -13,6 +13,15 @@ const DATASETS = [
       json: "assets/csr/mca_companies.json",
       docx: "assets/csr/CSR.docx"
     },
+    // Explicit Data Documentation sub-section titles for CSR.docx — some of its bold
+    // sub-labels (e.g. "Entity Normalisation:") are formatted identically to ones we
+    // don't want split out, so this pins the exact breakdown instead of guessing from
+    // formatting alone.
+    docxSections: [
+      "When Does a Company's Corporate Identification Number (CIN) Change?",
+      "Dataful's Data Cleaning Strategy",
+      "Merger Management:"
+    ],
     //create hyperlinks for below
     related: [
       { name: "Company-wise types of Projects Taken Up, Amount Outlaid and Spent", id: "https://dataful.in/datasets/1612/" },
