@@ -807,11 +807,25 @@ git push origin main</code></pre>
             return !!(pPr && pPr.getElementsByTagNameNS(WORD_NS, 'numPr')[0]);
         }
 
+        // Normalize curly quotes so pasted/typed apostrophes match the docx's own
+        function normalizeDocxText(str) {
+            return str.replace(/[‘’]/g, "'").replace(/[“”]/g, '"').trim();
+        }
+
         // Decide whether a paragraph should start a new Data Documentation sub-section.
+        // If the dataset declares an explicit `docxSections` list, that's used as the only
+        // source of truth (some sub-headings look formatting-identical to plain bold labels
+        // that shouldn't split out — no generic rule can tell them apart reliably).
         // Numbered/bulleted list items are always treated as content, never as headings,
         // since both real sub-headings and plain bullet points are short one-liners in
         // these source documents and numbering is the only reliable way to tell them apart.
-        function docxSectionHeading(p, text) {
+        function docxSectionHeading(p, text, overrideHeadings) {
+            if (overrideHeadings && overrideHeadings.length) {
+                const normalizedText = normalizeDocxText(text);
+                const match = overrideHeadings.find(h => normalizedText.startsWith(normalizeDocxText(h)));
+                return match ? { title: text, remainder: null } : null;
+            }
+
             if (docxHasNumbering(p)) return null;
 
             const style = docxParaStyle(p);
@@ -837,7 +851,7 @@ git push origin main</code></pre>
 
         // Parse a docx's word/document.xml into a document title plus a list of
         // collapsible sub-sections, split at each detected heading paragraph.
-        function parseDocxXmlToSections(xmlString, imageMap) {
+        function parseDocxXmlToSections(xmlString, imageMap, overrideHeadings) {
             imageMap = imageMap || {};
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(xmlString, 'application/xml');
@@ -883,7 +897,7 @@ git push origin main</code></pre>
                     }
                     if (!text) continue;
 
-                    const heading = docxSectionHeading(child, text);
+                    const heading = docxSectionHeading(child, text, overrideHeadings);
                     if (heading) {
                         openSection(heading.title);
                         if (heading.remainder) pushPara(heading.remainder, false);
@@ -907,8 +921,10 @@ git push origin main</code></pre>
             };
         }
 
-        // Fetch, unzip and parse a .docx file into a title + collapsible sub-sections
-        async function loadDocxContent(docxUrl, datasetId) {
+        // Fetch, unzip and parse a .docx file into a title + collapsible sub-sections.
+        // `overrideHeadings`, if given, pins the exact sub-section titles to split on
+        // (see docxSectionHeading) instead of relying on formatting-based detection.
+        async function loadDocxContent(docxUrl, datasetId, overrideHeadings) {
             if (docxContentCache[datasetId]) {
                 return docxContentCache[datasetId];
             }
@@ -920,7 +936,7 @@ git push origin main</code></pre>
                 if (!xmlFile) return null;
                 const xmlString = await xmlFile.async('string');
                 const imageMap = await buildDocxImageMap(zip);
-                const doc = parseDocxXmlToSections(xmlString, imageMap);
+                const doc = parseDocxXmlToSections(xmlString, imageMap, overrideHeadings);
                 docxContentCache[datasetId] = doc;
                 return doc;
             } catch (error) {
@@ -944,7 +960,7 @@ git push origin main</code></pre>
             docCard.classList.remove('hidden');
             docInner.innerHTML = '<p class="docx-p text-on-surface-variant dark:text-gray-400 italic">Loading document content…</p>';
 
-            const doc = await loadDocxContent(dataset.download.docx, dataset.id);
+            const doc = await loadDocxContent(dataset.download.docx, dataset.id, dataset.docxSections);
             // Only apply if user hasn't navigated away in the meantime
             if (window.location.hash !== `#/dataset/${dataset.id}`) return;
 
