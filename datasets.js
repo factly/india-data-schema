@@ -2,10 +2,10 @@
 const DATASETS = [
   {
     id: "corporate-companies",
-    name: "Corporate Companies (CSR)",
+    name: "CSR Companies Registry",
     category: "Corporate Sector",
     icon: "apartment",
-    description: "Registry of Corporate Identification Numbers (CIN) for companies registered in India, including comparison data for resolving duplicate or conflicting company records with standardized naming conventions.",
+    description: "Registry of companies that have filed Corporate Social Responsibility (CSR) disclosures in India, indexed by Corporate Identification Number (CIN), with comparison data for resolving duplicate, renamed, or conflicting company records.",
     tags: ["CSR", "Corporate", "Industries"],
     download: {
       csv: "assets/csr/mca_companies.csv",
@@ -20,28 +20,25 @@ const DATASETS = [
       { name: "Company-wise Average Net Profit, CSR Amount Prescribed and Spent (In Local area and Overall)", id: "https://dataful.in/datasets/1613/" },
     ],
     schema: [
-      { name: "remarks", type: "STRING", primary: false, desc: "Notes about the company record.", sample: '"Company Names aren\'t Matching"' },
-      { name: "current_cin", type: "STRING", primary: false, desc: "Current Corporate Identification Number identifier.", sample: '"CIN-1"' },
-      { name: "to_delete", type: "STRING", primary: true, desc: "CIN marked for deletion.", sample: '"U72200KL2007PTC021228"' },
-      { name: "replace", type: "STRING", primary: false, desc: "Replacement field.", sample: '""' },
-      { name: "cin_1", type: "STRING", primary: false, desc: "First CIN in comparison.", sample: '"U72200KA2007PTC130646"' },
-      { name: "company_name_1", type: "STRING", primary: false, desc: "Company name associated with CIN 1.", sample: '"INFOBLOX TECHNICAL SUPPORT"' },
-      { name: "cin_2", type: "STRING", primary: false, desc: "Second CIN in comparison.", sample: '"U72200KL2007PTC021228"' },
-      { name: "company_name_2", type: "STRING", primary: false, desc: "Company name associated with CIN 2.", sample: '"INFOBLOX TECHNICAL SUPPORT LIMITED"' }
+      { name: "company_name", type: "STRING", primary: false, desc: "Name of the registered company.", sample: '"HEALTHINDIA INSURANCE TPA SERVICES PRIVATE LIMITED"' },
+      { name: "cin", type: "STRING", primary: true, desc: "Corporate Identification Number (CIN) assigned to the company by the Ministry of Corporate Affairs.", sample: '"U67200MH1997PTC105960"' },
+      { name: "other_name", type: "STRING", primary: false, desc: "Semicolon-separated list of alternate or historical name variants found in raw filings for this company.", sample: '"20CUBE LOGISTICS SOLUTIONS PRIVATELIMITED;CUBE LOGISTICS SOLUTIONS PRIVATE LIMITED"' },
+      { name: "other_cin", type: "STRING", primary: false, desc: "Semicolon-separated list of alternate or prior CINs linked to this company, e.g. due to renaming, relocation, or conversion.", sample: '"U74900MH2011PTC218222"' }
     ],
-    previewHeaders: ["remarks", "current_cin", "cin_1", "company_name_1", "cin_2", "company_name_2"],
+    previewHeaders: ["company_name", "cin", "other_name", "other_cin"],
     preview: [
-      { "remarks": "Company Names aren't Matching", "current_cin": "CIN-1", "cin_1": "U72200KA2007PTC130646", "company_name_1": "INFOBLOX TECHNICAL", "cin_2": "U72200KL2007PTC021228", "company_name_2": "INFOBLOX LIMITED" }
+      { "company_name": "20CUBE LOGISTICS SOLUTIONS PRIVATE LIMITED", "cin": "U74900TN2011PTC148864", "other_name": "20CUBE LOGISTICS SOLUTIONS PRIVATELIMITED;CUBE LOGISTICS SOLUTIONS PRIVATE LIMITED", "other_cin": "U74900MH2011PTC218222" },
+      { "company_name": "22 FEET TRIBAL WORLDWIDE PRIVATE LIMITED", "cin": "U74900MH2009PTC310951", "other_name": "22 FEET COMMUNICATIONS PRIVATE LIMITED", "other_cin": "U74900KA2009PTC049244" }
     ],
     pythonCode: `import pandas as pd
 
-url = "https://raw.githubusercontent.com/saisantoshv3/electoral_bonds/main/mca_companies.csv"
+url = "https://raw.githubusercontent.com/saisantoshv3/india-data-schema/main/assets/csr/mca_companies.csv"
 df = pd.read_csv(url)
 
-# Filter by state
-karnataka_districts = df[df['State Name'] == 'Karnataka']
-print(karnataka_districts.head())`,
-    curlCode: `curl -X GET "https://raw.githubusercontent.com/saisantoshv3/electoral_bonds/main/indian_districts_lgd.json" \\
+# Companies with a known alternate CIN (renamed, relocated, or reincorporated)
+reconciled = df[df['other_cin'].notna() & (df['other_cin'] != '')]
+print(reconciled.head())`,
+    curlCode: `curl -X GET "https://raw.githubusercontent.com/saisantoshv3/india-data-schema/main/assets/csr/mca_companies.json" \\
      -H "Accept: application/json"`
   },
   {

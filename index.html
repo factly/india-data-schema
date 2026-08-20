@@ -332,9 +332,9 @@
                                 <span class="material-symbols-outlined text-primary dark:text-[#ffb1c2]">article</span>
                                 <h2 class="font-display text-title-lg font-bold text-on-surface dark:text-[#f3f0ef]">Data Documentation</h2>
                             </span>
-                            <span id="document-chevron" class="material-symbols-outlined text-on-surface-variant dark:text-gray-400">expand_less</span>
+                            <span id="document-chevron" class="material-symbols-outlined text-on-surface-variant dark:text-gray-400">expand_more</span>
                         </button>
-                        <div id="document-body" class="p-lg max-h-[36rem] overflow-y-auto">
+                        <div id="document-body" class="hidden p-lg max-h-[36rem] overflow-y-auto">
                             <div id="document-content-inner" class="docx-content font-body text-on-surface dark:text-[#f3f0ef]"></div>
                         </div>
                     </div>
@@ -345,10 +345,10 @@
                             <h2 class="font-display text-title-lg font-bold text-on-surface dark:text-[#f3f0ef]">Schema Definition</h2>
                             <span class="flex items-center gap-sm">
                                 <span id="detail-schema-count" class="font-label text-label-sm text-on-surface-variant dark:text-gray-400">4 Fields Defined</span>
-                                <span id="schema-chevron" class="material-symbols-outlined text-on-surface-variant dark:text-gray-400">expand_less</span>
+                                <span id="schema-chevron" class="material-symbols-outlined text-on-surface-variant dark:text-gray-400">expand_more</span>
                             </span>
                         </div>
-                        <div id="schema-body" class="overflow-x-auto">
+                        <div id="schema-body" class="hidden overflow-x-auto">
                             <table class="w-full text-left border-collapse font-body">
                                 <thead>
                                     <tr class="bg-surface-container-lowest dark:bg-[#1c1c1e] border-b border-outline-variant dark:border-[#2d2d30] text-on-surface-variant dark:text-gray-400 font-label text-label-sm uppercase tracking-wider">
@@ -369,10 +369,10 @@
                     <div class="bg-surface-container-lowest dark:bg-[#1c1c1e] border border-outline-variant dark:border-[#2d2d30] rounded-lg overflow-hidden shadow-sm transition-colors">
                         <button type="button" onclick="toggleCollapse('preview')" class="w-full p-md border-b border-outline-variant dark:border-[#2d2d30] flex justify-between items-center bg-surface-container-low dark:bg-[#18181a] transition-colors text-left cursor-pointer hover:bg-surface-container dark:hover:bg-[#202022]">
                             <h3 class="font-display text-title-lg text-on-surface dark:text-[#f3f0ef] font-semibold">Sample Records</h3>
-                            <span id="preview-chevron" class="material-symbols-outlined text-on-surface-variant dark:text-gray-400">expand_less</span>
+                            <span id="preview-chevron" class="material-symbols-outlined text-on-surface-variant dark:text-gray-400">expand_more</span>
                         </button>
                         <!-- Content: Data Preview -->
-                        <div id="preview-body">
+                        <div id="preview-body" class="hidden">
                         <div id="detail-content-preview" class="p-md space-y-md">
                             <div class="flex justify-end">
                                 <!-- Local Preview Table Search -->
@@ -786,52 +786,128 @@ git push origin main</code></pre>
             return `<table class="docx-table">${rowsHtml}</table>`;
         }
 
-        function parseDocxXmlToHtml(xmlString, imageMap) {
+        // Every run of visible text within a paragraph, with its bold state
+        function docxParagraphRuns(p) {
+            const runs = p.getElementsByTagNameNS(WORD_NS, 'r');
+            const out = [];
+            for (let i = 0; i < runs.length; i++) {
+                const tNodes = runs[i].getElementsByTagNameNS(WORD_NS, 't');
+                let text = '';
+                for (let j = 0; j < tNodes.length; j++) text += tNodes[j].textContent || '';
+                if (!text.trim()) continue;
+                const rPr = runs[i].getElementsByTagNameNS(WORD_NS, 'rPr')[0];
+                const bold = !!(rPr && rPr.getElementsByTagNameNS(WORD_NS, 'b')[0]);
+                out.push({ text, bold });
+            }
+            return out;
+        }
+
+        function docxHasNumbering(p) {
+            const pPr = p.getElementsByTagNameNS(WORD_NS, 'pPr')[0];
+            return !!(pPr && pPr.getElementsByTagNameNS(WORD_NS, 'numPr')[0]);
+        }
+
+        // Decide whether a paragraph should start a new Data Documentation sub-section.
+        // Numbered/bulleted list items are always treated as content, never as headings,
+        // since both real sub-headings and plain bullet points are short one-liners in
+        // these source documents and numbering is the only reliable way to tell them apart.
+        function docxSectionHeading(p, text) {
+            if (docxHasNumbering(p)) return null;
+
+            const style = docxParaStyle(p);
+            if (style && /Heading/i.test(style) && text.length < 150) {
+                return { title: text, remainder: null };
+            }
+
+            const runs = docxParagraphRuns(p);
+            if (runs.length === 0) return null;
+
+            if (runs.every(r => r.bold) && text.length <= 100) {
+                return { title: text, remainder: null };
+            }
+
+            // A bold "Label:" lead-in followed by regular text in the same paragraph
+            const first = runs[0];
+            if (runs.length >= 2 && first.bold && first.text.trim().endsWith(':') && first.text.trim().length <= 100) {
+                return { title: first.text.trim(), remainder: text.slice(first.text.length).trim() };
+            }
+
+            return null;
+        }
+
+        // Parse a docx's word/document.xml into a document title plus a list of
+        // collapsible sub-sections, split at each detected heading paragraph.
+        function parseDocxXmlToSections(xmlString, imageMap) {
             imageMap = imageMap || {};
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(xmlString, 'application/xml');
             const body = xmlDoc.getElementsByTagNameNS(WORD_NS, 'body')[0];
-            if (!body) return '<p class="docx-p">Unable to parse document content.</p>';
+            if (!body) return { titleHtml: '', sections: [] };
 
-            let html = '';
-            let isFirstParagraph = true;
+            let titleHtml = '';
+            let sawFirst = false;
+            const sections = [];
+            let current = null;
+
+            const ensureOpen = () => { if (!current) current = { title: 'Overview', parts: [] }; };
+            const openSection = (title) => {
+                if (current) sections.push(current);
+                current = { title, parts: [] };
+            };
+            const pushPara = (text, bold) => {
+                ensureOpen();
+                const escaped = escapeHtmlText(text);
+                current.parts.push(bold && text.length < 120 ? `<p class="docx-bold">${escaped}</p>` : `<p class="docx-p">${escaped}</p>`);
+            };
+
             for (let i = 0; i < body.children.length; i++) {
                 const child = body.children[i];
                 const localName = child.localName;
+
                 if (localName === 'p') {
                     const text = docxParaText(child).trim();
                     const imagesHtml = docxNodeImages(child, imageMap);
                     if (!text && !imagesHtml) continue;
 
-                    if (imagesHtml) {
-                        html += `<div class="docx-image-wrap">${imagesHtml}</div>`;
-                    }
-
-                    if (text) {
-                        const style = docxParaStyle(child);
-                        const escaped = escapeHtmlText(text);
-                        const wasFirst = isFirstParagraph;
-                        isFirstParagraph = false;
-
-                        if (style && /Heading/i.test(style)) {
-                            const level = Math.min((parseInt(style.replace(/\D/g, ''), 10) || 1) + 1, 6);
-                            html += `<h${level} class="docx-heading">${escaped}</h${level}>`;
-                        } else if (style === 'Title' || (wasFirst && docxParaBold(child) && text.length < 150)) {
-                            html += `<h2 class="docx-title">${escaped}</h2>`;
-                        } else if (docxParaBold(child) && text.length < 120) {
-                            html += `<p class="docx-bold">${escaped}</p>`;
-                        } else {
-                            html += `<p class="docx-p">${escaped}</p>`;
+                    if (!sawFirst) {
+                        sawFirst = true;
+                        if (text) {
+                            titleHtml = (imagesHtml ? `<div class="docx-image-wrap">${imagesHtml}</div>` : '') + `<h2 class="docx-title">${escapeHtmlText(text)}</h2>`;
+                            continue;
                         }
                     }
+
+                    if (imagesHtml) {
+                        ensureOpen();
+                        current.parts.push(`<div class="docx-image-wrap">${imagesHtml}</div>`);
+                    }
+                    if (!text) continue;
+
+                    const heading = docxSectionHeading(child, text);
+                    if (heading) {
+                        openSection(heading.title);
+                        if (heading.remainder) pushPara(heading.remainder, false);
+                        continue;
+                    }
+
+                    pushPara(text, docxParaBold(child));
                 } else if (localName === 'tbl') {
-                    html += renderDocxTable(child, imageMap);
+                    ensureOpen();
+                    current.parts.push(renderDocxTable(child, imageMap));
                 }
             }
-            return html;
+            if (current) sections.push(current);
+
+            return {
+                titleHtml,
+                sections: sections.map(s => ({
+                    title: s.title,
+                    html: s.parts.length ? s.parts.join('') : '<p class="docx-p text-on-surface-variant dark:text-gray-400 italic">No additional content.</p>'
+                }))
+            };
         }
 
-        // Fetch, unzip and parse a .docx file into display-ready HTML
+        // Fetch, unzip and parse a .docx file into a title + collapsible sub-sections
         async function loadDocxContent(docxUrl, datasetId) {
             if (docxContentCache[datasetId]) {
                 return docxContentCache[datasetId];
@@ -844,16 +920,18 @@ git push origin main</code></pre>
                 if (!xmlFile) return null;
                 const xmlString = await xmlFile.async('string');
                 const imageMap = await buildDocxImageMap(zip);
-                const html = parseDocxXmlToHtml(xmlString, imageMap);
-                docxContentCache[datasetId] = html;
-                return html;
+                const doc = parseDocxXmlToSections(xmlString, imageMap);
+                docxContentCache[datasetId] = doc;
+                return doc;
             } catch (error) {
                 console.error('Error loading docx content:', error);
                 return null;
             }
         }
 
-        // Render the Source Document card by reading straight from dataset.download.docx
+        // Render the Source Document card by reading straight from dataset.download.docx.
+        // The document title is shown up front; its body is split into sub-sections that
+        // start collapsed and reveal their content when clicked.
         async function renderDocumentCard(dataset) {
             const docCard = document.getElementById('document-content-card');
             const docInner = document.getElementById('document-content-inner');
@@ -866,14 +944,38 @@ git push origin main</code></pre>
             docCard.classList.remove('hidden');
             docInner.innerHTML = '<p class="docx-p text-on-surface-variant dark:text-gray-400 italic">Loading document content…</p>';
 
-            const html = await loadDocxContent(dataset.download.docx, dataset.id);
+            const doc = await loadDocxContent(dataset.download.docx, dataset.id);
             // Only apply if user hasn't navigated away in the meantime
-            if (window.location.hash === `#/dataset/${dataset.id}`) {
-                docInner.innerHTML = html || '<p class="docx-p text-on-surface-variant dark:text-gray-400 italic">Could not load the document preview. Use the download button instead.</p>';
+            if (window.location.hash !== `#/dataset/${dataset.id}`) return;
+
+            if (!doc || !doc.sections || doc.sections.length === 0) {
+                docInner.innerHTML = '<p class="docx-p text-on-surface-variant dark:text-gray-400 italic">Could not load the document preview. Use the download button instead.</p>';
+                return;
             }
+
+            const sectionsHtml = doc.sections.map((s, i) => `
+                <div class="docx-section border border-outline-variant dark:border-[#2d2d30] rounded-lg overflow-hidden">
+                    <button type="button" onclick="toggleDocxSection(${i})" class="w-full px-md py-sm flex justify-between items-center gap-md bg-surface-container dark:bg-[#202022] hover:bg-surface-container-high dark:hover:bg-[#2c2c2e] transition-colors text-left cursor-pointer">
+                        <span class="font-label text-label-md font-semibold text-on-surface dark:text-[#f3f0ef]">${escapeHtmlText(s.title)}</span>
+                        <span id="docx-section-chevron-${i}" class="material-symbols-outlined text-on-surface-variant dark:text-gray-400 shrink-0">expand_more</span>
+                    </button>
+                    <div id="docx-section-body-${i}" class="hidden px-md py-md docx-content font-body text-on-surface dark:text-[#f3f0ef]">${s.html}</div>
+                </div>
+            `).join('');
+
+            docInner.innerHTML = (doc.titleHtml || '') + `<div class="docx-sections mt-sm space-y-sm">${sectionsHtml}</div>`;
         }
 
-        // Toggle collapse/expand for Schema Definition & Sample Records sections
+        // Expand/collapse a single Data Documentation sub-section
+        function toggleDocxSection(index) {
+            const body = document.getElementById(`docx-section-body-${index}`);
+            const chevron = document.getElementById(`docx-section-chevron-${index}`);
+            if (!body) return;
+            const collapsed = body.classList.toggle('hidden');
+            if (chevron) chevron.textContent = collapsed ? 'expand_more' : 'expand_less';
+        }
+
+        // Toggle collapse/expand for Data Documentation, Schema Definition & Sample Records
         function toggleCollapse(section) {
             const body = document.getElementById(section + '-body');
             const chevron = document.getElementById(section + '-chevron');
@@ -882,6 +984,18 @@ git push origin main</code></pre>
             if (chevron) {
                 chevron.textContent = collapsed ? 'expand_more' : 'expand_less';
             }
+        }
+
+        // Collapse Data Documentation, Schema Definition & Sample Records back to their
+        // default closed state. These card bodies are persistent DOM nodes shared across
+        // every dataset visit, so without this they'd stay expanded from a previous visit.
+        function resetCollapsibleSections() {
+            ['document', 'schema', 'preview'].forEach(section => {
+                const body = document.getElementById(section + '-body');
+                const chevron = document.getElementById(section + '-chevron');
+                if (body) body.classList.add('hidden');
+                if (chevron) chevron.textContent = 'expand_more';
+            });
         }
 
         // Dynamic Router
@@ -1065,6 +1179,11 @@ git push origin main</code></pre>
 
         // Render Dataset Detailed Page
         async function renderDetail(dataset) {
+            // These card bodies are fixed DOM nodes reused across every dataset visit,
+            // so their collapsed/expanded state must be reset explicitly on each render
+            // — otherwise leaving a section open carries over to the next page visit.
+            resetCollapsibleSections();
+
             // Set Breadcrumbs
             document.getElementById('detail-breadcrumb-category').textContent = dataset.category;
             document.getElementById('detail-breadcrumb-name').textContent = dataset.name;
