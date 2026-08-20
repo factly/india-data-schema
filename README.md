@@ -1,4 +1,4 @@
-# India Data Dictionary (OpenData Dicts)
+# India Data Dictionary
 
 A free, open-source data dictionary for India's public datasets — corporate registries, disease and illness names, airline names, and more. It documents field-level schemas, standardized naming conventions, and sample records so anyone working with Indian open data can resolve inconsistent, duplicated, or conflicting entries with confidence.
 
