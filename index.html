@@ -558,28 +558,26 @@ git push origin main</code></pre>
         let datasetMetadata = {}; // Store row counts and last updated info
 
         // Load CSV metadata (row count only) - lighter weight
+        //
+        // Deliberately does NOT read the HTTP Last-Modified header for a "last updated"
+        // date: it isn't trustworthy for this. Locally it's just the file's OS mtime,
+        // which git checkout/pull resets on every clone regardless of real content
+        // changes; on GitHub Pages it tends to reflect the last deploy rather than the
+        // last time this specific file's content changed. Either way it drifts to "now"
+        // for reasons that have nothing to do with the data. The `updated` field in
+        // datasets.js — maintained by hand — is the only source of truth for that date.
         async function loadCSVMetadata(csvUrl, datasetId) {
             if (datasetMetadata[datasetId]) {
                 return datasetMetadata[datasetId];
             }
 
             try {
-                const response = await fetch(csvUrl, { method: 'HEAD' });
-                const lastModified = response.headers.get('Last-Modified');
-
-                // Now fetch and count rows
-                const dataResponse = await fetch(csvUrl);
-                const csvText = await dataResponse.text();
+                const response = await fetch(csvUrl);
+                const csvText = await response.text();
                 const lines = csvText.split('\n').filter(line => line.trim() !== '');
                 const rowCount = Math.max(0, lines.length - 1); // Subtract header row
 
-                datasetMetadata[datasetId] = {
-                    rowCount: rowCount,
-                    // Only trust a real Last-Modified header — never fabricate "now" as a
-                    // stand-in, or the displayed date would just track whenever the page
-                    // happens to load instead of when the data actually changed.
-                    lastModified: lastModified ? new Date(lastModified) : null
-                };
+                datasetMetadata[datasetId] = { rowCount: rowCount };
 
                 return datasetMetadata[datasetId];
             } catch (error) {
@@ -632,12 +630,6 @@ git push origin main</code></pre>
             } else {
                 return count + ' rows';
             }
-        }
-
-        // Format date as readable string
-        function getRelativeTime(date) {
-            const options = { year: 'numeric', month: 'short', day: 'numeric' };
-            return date.toLocaleDateString('en-US', options);
         }
 
         // Show download notification
@@ -1219,10 +1211,9 @@ git push origin main</code></pre>
                     // Get metadata if available
                     const metadata = datasetMetadata[d.id];
                     const rowCount = metadata ? formatRowCount(metadata.rowCount) : (d.rows || 'Loading...');
-                    // Only use the server's Last-Modified date when it's real — otherwise
-                    // fall back to the dataset's own maintained `updated` field rather than
-                    // showing whatever moment the page happened to load.
-                    const lastUpdated = (metadata && metadata.lastModified) ? getRelativeTime(metadata.lastModified) : (d.updated || 'Unknown');
+                    // Always the dataset's own maintained `updated` field — see the note
+                    // on loadCSVMetadata for why we don't derive this from HTTP headers.
+                    const lastUpdated = d.updated || 'Unknown';
 
                     return `
                     <div onclick="navigateToDataset('${d.id}')" class="bg-surface-container-lowest dark:bg-[#1c1c1e] border border-outline-variant dark:border-[#2d2d30] rounded-xl flex flex-col hover:border-primary dark:hover:border-[#ffb1c2] transition-all group cursor-pointer shadow-sm">

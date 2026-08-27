@@ -66,7 +66,7 @@ Pushing to `main` redeploys automatically via GitHub Pages.
 - **CSV parsing** uses [PapaParse](https://www.papaparse.com/) to load the real file from `download.csv` at runtime; the hand-written `preview`/`previewHeaders` in `datasets.js` are only a fallback if that fetch fails.
 - **Schema inference**: once sample records are loaded (real CSV or fallback preview), `updateSchemaFromSamples()` in `index.html` recomputes each field's `type`, `primary` key guess, and `sample` value from the actual data. It only keeps the `desc` text from `datasets.js` — matched by field name — so **field names in `schema` must exactly match your CSV's header row** for descriptions to show up correctly.
 - **Docx rendering** uses [JSZip](https://stuk.github.io/jszip/) to unzip the `.docx` file and a small custom parser to turn `word/document.xml` into HTML, split into collapsible sub-sections (see [Writing a Good Data Dictionary Document](#writing-a-good-data-dictionary-document)).
-- **"Updated" date**: the homepage card only shows a real date if the CSV's server sends a `Last-Modified` header (most hosts, including GitHub Pages, often don't). Otherwise it shows the dataset's own `updated` field from `datasets.js` — this is never auto-generated from the current date, so remember to update it yourself whenever you change a dataset's data.
+- **"Updated" date**: the homepage card always shows the dataset's own `updated` field from `datasets.js`, verbatim. It's deliberately never derived from HTTP headers or file timestamps — those drift to "today" any time a file is redeployed or re-checked-out, regardless of whether its content actually changed. Remember to update the field yourself whenever you change a dataset's data.
 
 ## Contributing
 
