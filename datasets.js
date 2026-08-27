@@ -7,6 +7,7 @@ const DATASETS = [
     icon: "apartment",
     description: "Registry of companies that have filed Corporate Social Responsibility (CSR) disclosures in India, indexed by Corporate Identification Number (CIN), with comparison data for resolving duplicate, renamed, or conflicting company records.",
     tags: ["CSR", "Corporate", "Industries"],
+    updated: "Aug 6, 2026",
     download: {
       csv: "assets/csr/mca_companies.csv",
       pdf: "assets/csr/mca_companies.pdf",
@@ -57,6 +58,7 @@ print(reconciled.head())`,
     icon: "medical_services",
     description: "Comprehensive standardized registry of disease and illness names used across India's healthcare system for consistent medical reporting.",
     tags: ["Healthcare", "Medical", "Diseases", "Health"],
+    updated: "Aug 6, 2026",
     download: {
       csv: "assets/diseases/diseases.csv",
       pdf: "assets/diseases/diseases_names.pdf",
@@ -92,6 +94,7 @@ print(df['standard'].unique()[:10])`,
     icon: "flight",
     description: "Comprehensive registry of airline names with standardized naming conventions for consistent identification across India's aviation and transportation data systems.",
     tags: ["IATA", "Aviation", "Transport", "Global"],
+    updated: "Aug 6, 2026",
     download: {
       csv: "assets/airlines/airlines_names.csv",
       pdf: "assets/airlines/airlines_names.pdf",

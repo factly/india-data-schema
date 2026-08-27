@@ -62,7 +62,9 @@ const DATASETS = [
     // 5. Short summary of what the dataset contains
     description: "Provide a concise summary explaining the dataset contents, source, and use cases.",
     
-    // 6. Metadata tags shown on cards
+    // 6. Metadata tags shown on cards. `updated` is shown as-is unless the CSV's own
+    // server sends a real Last-Modified header — keep it current when you update this
+    // dataset's data files, since it won't update itself automatically.
     rows: "1.2M rows",
     updated: "2 days ago",
     tags: ["Finance", "National", "Public Registry"],
@@ -80,7 +82,7 @@ const DATASETS = [
       { name: "MCA Companies Registry", id: "mca-companies-registry" }
     ],
     
-    // 9. Schema properties to draw the interactive field definition table
+    // 9. Dictionary properties to draw the interactive field definition table
     schema: [
       { 
         name: "Unique_ID", 

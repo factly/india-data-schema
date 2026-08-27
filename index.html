@@ -201,7 +201,7 @@
                 <div class="flex items-center gap-md">
                     <a href="#/" class="flex items-center gap-sm font-display text-[28px] font-bold text-on-surface dark:text-[#f3f0ef] hover:opacity-90">
                         <span class="material-symbols-outlined text-primary dark:text-[#ffb1c2] text-[32px]">database</span>
-                        <span>India Data Schema</span>
+                        <span>India Data Dictionary</span>
                     </a>
                     <!-- Powered by Dataful -->
                     <a class="flex items-center gap-xs text-sm text-on-surface-variant hover:opacity-80 transition-opacity border-l border-outline-variant dark:border-[#2d2d30] pl-md" href="https://dataful.in/" target="_blank">
@@ -213,7 +213,7 @@
                 <!-- Global Search Bar in Header -->
                 <div class="hidden md:flex items-center bg-surface-container dark:bg-[#2c2c2e] rounded-lg px-md py-xs border border-outline-variant dark:border-transparent focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20 focus-within:bg-surface-container-lowest dark:focus-within:bg-[#1c1c1e] transition-all w-80">
                     <span class="material-symbols-outlined text-on-surface-variant dark:text-gray-400 mr-sm">search</span>
-                    <input id="header-search" class="bg-transparent border-none focus:ring-0 text-body-md w-full p-0 text-on-surface dark:text-[#f3f0ef]" placeholder="Search schemas..." type="text">
+                    <input id="header-search" class="bg-transparent border-none focus:ring-0 text-body-md w-full p-0 text-on-surface dark:text-[#f3f0ef]" placeholder="Search dictionaries..." type="text">
                 </div>
             </div>
             
@@ -243,7 +243,7 @@
                         <span class="material-symbols-outlined text-on-surface-variant dark:text-gray-400 ml-md">database</span>
                         <input id="hero-search" class="flex-grow bg-transparent border-none focus:ring-0 font-body text-body-md py-md px-sm text-on-surface dark:text-[#f3f0ef]" placeholder="Search LGD codes, airlines, corporate registries..." type="text">
                         <button onclick="triggerSearch()" class="bg-primary text-on-primary dark:bg-[#ffb1c2] dark:text-[#3f0019] px-xl py-md rounded-lg font-label text-label-md hover:opacity-90 transition-opacity whitespace-nowrap">
-                            Find Schema
+                            Find Dictionary
                         </button>
                     </div>
                 </div>
@@ -346,10 +346,10 @@
                         </div>
                     </div>
 
-                    <!-- Interactive Schema Table -->
+                    <!-- Interactive Dictionary Table -->
                     <div class="bg-surface-container-lowest dark:bg-[#1c1c1e] border border-outline-variant dark:border-[#2d2d30] rounded-lg overflow-hidden shadow-sm transition-colors">
                         <div onclick="toggleCollapse('schema')" class="w-full p-md border-b border-outline-variant dark:border-[#2d2d30] flex justify-between items-center bg-surface-container-low dark:bg-[#18181a] transition-colors text-left cursor-pointer hover:bg-surface-container dark:hover:bg-[#202022]">
-                            <h2 class="font-display text-title-lg font-bold text-on-surface dark:text-[#f3f0ef]">Schema Definition</h2>
+                            <h2 class="font-display text-title-lg font-bold text-on-surface dark:text-[#f3f0ef]">Dictionary Definition</h2>
                             <span class="flex items-center gap-sm">
                                 <span id="detail-schema-count" class="font-label text-label-sm text-on-surface-variant dark:text-gray-400">4 Fields Defined</span>
                                 <span id="schema-chevron" class="material-symbols-outlined text-on-surface-variant dark:text-gray-400">expand_more</span>
@@ -433,7 +433,7 @@
                 
                 <div class="prose dark:prose-invert max-w-none text-on-surface dark:text-gray-300 font-body space-y-md leading-relaxed">
                     <p class="text-body-lg">
-                        Welcome to the OpenData Dicts Admin Portal guide. The portal is completely static, optimized to run straight out of a <strong>GitHub Pages (github.io)</strong> environment. Adding new datasets, schema tables, CSV files, and PDF data dictionaries requires no database reconfiguration. Simply update the configuration file in your git commits.
+                        Welcome to the OpenData Dicts Admin Portal guide. The portal is completely static, optimized to run straight out of a <strong>GitHub Pages (github.io)</strong> environment. Adding new datasets, dictionary tables, CSV files, and PDF data dictionaries requires no database reconfiguration. Simply update the configuration file in your git commits.
                     </p>
 
                     <div class="bg-primary/5 dark:bg-[#ffb1c2]/5 border-l-4 border-primary dark:border-[#ffb1c2] p-md rounded-r-lg my-lg">
@@ -499,10 +499,10 @@
                         Commit your modifications and push the files:
                     </p>
                     <pre class="bg-[#1e1e1e] text-[#ce9178] p-md rounded-lg font-mono text-xs overflow-x-auto border border-[#2d2d30]"><code>git add datasets.js ADMIN_GUIDE.md index.html
-git commit -m "Update schema registry and documentation"
+git commit -m "Update dictionary registry and documentation"
 git push origin main</code></pre>
                     <p>
-                        Your site hosted on GitHub Pages will automatically compile the modifications and build. Within minutes, the new schema registry is interactive on your homepage!
+                        Your site hosted on GitHub Pages will automatically compile the modifications and build. Within minutes, the new dictionary registry is interactive on your homepage!
                     </p>
                 </div>
             </div>
@@ -575,7 +575,10 @@ git push origin main</code></pre>
 
                 datasetMetadata[datasetId] = {
                     rowCount: rowCount,
-                    lastModified: lastModified ? new Date(lastModified) : new Date()
+                    // Only trust a real Last-Modified header — never fabricate "now" as a
+                    // stand-in, or the displayed date would just track whenever the page
+                    // happens to load instead of when the data actually changed.
+                    lastModified: lastModified ? new Date(lastModified) : null
                 };
 
                 return datasetMetadata[datasetId];
@@ -1216,7 +1219,10 @@ git push origin main</code></pre>
                     // Get metadata if available
                     const metadata = datasetMetadata[d.id];
                     const rowCount = metadata ? formatRowCount(metadata.rowCount) : (d.rows || 'Loading...');
-                    const lastUpdated = metadata ? getRelativeTime(metadata.lastModified) : (d.updated || 'Unknown');
+                    // Only use the server's Last-Modified date when it's real — otherwise
+                    // fall back to the dataset's own maintained `updated` field rather than
+                    // showing whatever moment the page happened to load.
+                    const lastUpdated = (metadata && metadata.lastModified) ? getRelativeTime(metadata.lastModified) : (d.updated || 'Unknown');
 
                     return `
                     <div onclick="navigateToDataset('${d.id}')" class="bg-surface-container-lowest dark:bg-[#1c1c1e] border border-outline-variant dark:border-[#2d2d30] rounded-xl flex flex-col hover:border-primary dark:hover:border-[#ffb1c2] transition-all group cursor-pointer shadow-sm">

@@ -21,7 +21,7 @@ The entire site is a single static page. There's no backend, no build step, and 
 ## Features
 
 - **Searchable dataset catalog** — filter by category, search by name/description/tag, sort alphabetically or by row count.
-- **Schema Definition table** — field types, primary key, description, and sample value. Type, primary key, and sample value are inferred automatically from the live sample records every time a dataset loads, so they never drift out of sync with the actual data.
+- **Dictionary Definition table** — field types, primary key, description, and sample value. Type, primary key, and sample value are inferred automatically from the live sample records every time a dataset loads, so they never drift out of sync with the actual data.
 - **Data Documentation viewer** — parses each dataset's `.docx` data dictionary directly in the browser (no server-side conversion) and organizes it into collapsible sub-sections based on its headings.
 - **Sample Records explorer** — streams and paginates real CSV rows client-side, with a live filter box.
 - **Download Center** — one-click CSV, PDF, and data dictionary downloads for every dataset.
@@ -66,6 +66,7 @@ Pushing to `main` redeploys automatically via GitHub Pages.
 - **CSV parsing** uses [PapaParse](https://www.papaparse.com/) to load the real file from `download.csv` at runtime; the hand-written `preview`/`previewHeaders` in `datasets.js` are only a fallback if that fetch fails.
 - **Schema inference**: once sample records are loaded (real CSV or fallback preview), `updateSchemaFromSamples()` in `index.html` recomputes each field's `type`, `primary` key guess, and `sample` value from the actual data. It only keeps the `desc` text from `datasets.js` — matched by field name — so **field names in `schema` must exactly match your CSV's header row** for descriptions to show up correctly.
 - **Docx rendering** uses [JSZip](https://stuk.github.io/jszip/) to unzip the `.docx` file and a small custom parser to turn `word/document.xml` into HTML, split into collapsible sub-sections (see [Writing a Good Data Dictionary Document](#writing-a-good-data-dictionary-document)).
+- **"Updated" date**: the homepage card only shows a real date if the CSV's server sends a `Last-Modified` header (most hosts, including GitHub Pages, often don't). Otherwise it shows the dataset's own `updated` field from `datasets.js` — this is never auto-generated from the current date, so remember to update it yourself whenever you change a dataset's data.
 
 ## Contributing
 
@@ -94,12 +95,13 @@ If you're comfortable with git and want to preview your change locally before su
 1. **Add the files.** Put your dataset's CSV (required) and, ideally, a PDF and a `.docx` data dictionary into a new folder under `assets/`, e.g. `assets/my-dataset/`.
 2. **Register it in `datasets.js`.** Add a new entry to the `DATASETS` array. [ADMIN_GUIDE.md](ADMIN_GUIDE.md) walks through every field with a full example — here's the short version:
    - `id`, `name`, `category`, `icon` (a [Material Symbol](https://fonts.google.com/icons) name), `description`, `tags`.
+   - `updated` — a plain string like `"Aug 6, 2026"`, shown on the homepage card. Nothing sets this automatically, so update it yourself whenever the data changes.
    - `download.csv` / `download.pdf` / `download.docx` / `download.json` — paths to the files you just added.
    - `schema` — one entry per CSV column: `{ name, type, primary, desc, sample }`. Just make sure `name` exactly matches your CSV's header row (the site figures out `type`/`primary`/`sample` automatically) — `desc` is the one thing you always need to write yourself.
    - `previewHeaders` / `preview` — a couple of example rows, shown only if the live CSV can't be loaded for some reason.
    - `related` — links to other datasets that pair well with this one.
    - `pythonCode` / `curlCode` — a short, working example of loading your dataset's actual columns.
-3. **Double-check it worked**: open the site locally, find your new card on the homepage, and open its detail page. Every field in the Schema Definition table should show your own description, not the generic "Auto-detected from sample records." fallback text.
+3. **Double-check it worked**: open the site locally, find your new card on the homepage, and open its detail page. Every field in the Dictionary Definition table should show your own description, not the generic "Auto-detected from sample records." fallback text.
 
 ### Writing a Good Data Dictionary Document
 
