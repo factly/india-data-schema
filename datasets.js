@@ -6,6 +6,7 @@ const DATASETS = [
     category: "Corporate Sector",
     icon: "apartment",
     description: "Registry of companies that have filed Corporate Social Responsibility (CSR) disclosures in India, indexed by Corporate Identification Number (CIN), with comparison data for resolving duplicate, renamed, or conflicting company records.",
+    useCase: "Use CIN, company names, classifications, and location fields to identify and standardize corporate entities across datasets. The dictionary can support linking company records with financial, regulatory, government, procurement, CSR, litigation, and other public datasets for deeper corporate and sectoral analysis.",
     tags: ["CSR", "Corporate", "Industries"],
     updated: "Aug 6, 2026",
     download: {
@@ -57,6 +58,7 @@ print(reconciled.head())`,
     category: "Healthcare",
     icon: "medical_services",
     description: "Comprehensive standardized registry of disease and illness names used across India's healthcare system for consistent medical reporting.",
+    useCase: "Use the dictionary to map disease records across health surveys, government health statistics, research datasets, and other public data sources. This enables analysis of disease patterns, prevalence, mortality, comorbidities, and regional variations while reducing inconsistencies caused by different disease naming conventions.",
     tags: ["Healthcare", "Medical", "Diseases", "Health"],
     updated: "Aug 6, 2026",
     download: {
@@ -93,6 +95,7 @@ print(df['standard'].unique()[:10])`,
     category: "Transport",
     icon: "flight",
     description: "Comprehensive registry of airline names with standardized naming conventions for consistent identification across India's aviation and transportation data systems.",
+    useCase: "Use airline identifiers to connect datasets on airlines and aviation operations for research and analysis. The dictionary enables consistent identification of airlines across flight, airport, route, passenger, and aviation industry datasets.",
     tags: ["IATA", "Aviation", "Transport", "Global"],
     updated: "Aug 6, 2026",
     download: {

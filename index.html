@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>OpenData Dicts | Central Repository Dashboard</title>
-    
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
     <!-- Tailwind CSS with Forms and Container Queries -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 
@@ -187,10 +188,135 @@
         .dark .docx-content .docx-img {
             border-color: #2d2d30;
         }
+
+        /* Global Footer — shared Factly network footer, styled the same across products
+           regardless of the site's own light/dark toggle. */
+        .site-footer {
+            background: #14121a;
+            background-image: radial-gradient(120% 140% at 88% 0%, rgba(158, 27, 74, 0.28), transparent 55%);
+            border-top: 2px solid #9e1b4a;
+            color: #cfc9d4;
+            margin-top: auto;
+        }
+        .site-footer-inner {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 56px 28px 0;
+        }
+        .site-footer-cols {
+            display: grid;
+            grid-template-columns: 1.7fr 1fr 1fr 1fr;
+            gap: 40px;
+            padding-bottom: 48px;
+        }
+        .site-footer-about img {
+            height: 30px;
+            width: auto;
+        }
+        .site-footer-about p {
+            margin: 20px 0 0;
+            max-width: 21rem;
+            font-size: 14.5px;
+            line-height: 1.65;
+            color: #b9b2c0;
+        }
+        .site-footer-email {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            margin-top: 24px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #4b4553;
+            font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+            font-size: 14px;
+            color: #e8e4ec;
+            text-decoration: none;
+            transition: color 0.2s, border-color 0.2s;
+        }
+        .site-footer-email:hover {
+            color: #fff;
+            border-bottom-color: #9e1b4a;
+        }
+        .site-footer-col h2 {
+            margin: 0;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.19em;
+            color: #8d8697;
+        }
+        .site-footer-col ul {
+            list-style: none;
+            margin: 22px 0 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .site-footer-col a {
+            font-size: 15px;
+            color: #ded9e3;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .site-footer-col a:hover {
+            color: #fff;
+        }
+        .site-footer-social {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 9px;
+            margin-top: 22px;
+            max-width: 13rem;
+        }
+        .site-footer-social a {
+            display: grid;
+            place-items: center;
+            width: 34px;
+            height: 34px;
+            border: 1px solid #3a3543;
+            border-radius: 9px;
+            color: #ded9e3;
+            transition: background 0.2s, border-color 0.2s, color 0.2s;
+        }
+        .site-footer-social a:hover {
+            background: #9e1b4a;
+            border-color: #9e1b4a;
+            color: #fff;
+        }
+        .site-footer-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+            border-top: 1px solid #2c2733;
+            padding: 22px 0 26px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+            font-size: 12.5px;
+            color: #8d8697;
+        }
+        @media (max-width: 900px) {
+            .site-footer-cols {
+                grid-template-columns: 1fr 1fr;
+                gap: 36px;
+            }
+        }
+        @media (max-width: 560px) {
+            .site-footer-cols {
+                grid-template-columns: 1fr;
+            }
+            .site-footer-inner {
+                padding: 44px 18px 0;
+            }
+            .site-footer-bottom {
+                justify-content: flex-start;
+            }
+        }
     </style>
     
     <!-- Load Dataset Registry configuration -->
     <script src="datasets.js"></script>
+    <script src="contributors.js"></script>
 </head>
 <body class="bg-background text-on-background dark:bg-[#121212] dark:text-[#f3f0ef] min-h-screen flex flex-col page-transition">
 
@@ -330,6 +456,7 @@
                         <p id="detail-description" class="font-body text-body-lg text-on-surface-variant dark:text-gray-300 max-w-3xl">
                             A comprehensive directory of all administrative districts in India, indexed with the official Local Government Directory (LGD) codes provided by the Ministry of Panchayati Raj.
                         </p>
+                        <p id="detail-usecase" class="font-body text-body-lg text-on-surface-variant dark:text-gray-300 max-w-3xl mt-sm"></p>
                     </div>
 
                     <!-- Source Document Viewer (rendered live from the DOCX/PDF source file) -->
@@ -507,39 +634,91 @@ git push origin main</code></pre>
                 </div>
             </div>
         </div>
+
+        <!-- Contributors view -->
+        <div id="contributors-view" class="hidden max-w-container-max mx-auto px-lg py-xl">
+            <div class="max-w-5xl mx-auto space-y-lg">
+                <nav class="flex items-center gap-xs text-on-surface-variant dark:text-gray-400 mb-lg font-label text-label-sm">
+                    <a class="hover:text-primary dark:hover:text-[#ffb1c2] transition-colors" href="#/">Home</a>
+                    <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+                    <span class="text-on-surface dark:text-[#f3f0ef] font-medium">Contributors</span>
+                </nav>
+
+                <h1 class="font-display text-[36px] md:text-[44px] text-on-surface dark:text-[#f3f0ef] font-bold border-b border-outline-variant dark:border-[#2d2d30] pb-4">
+                    Contributors
+                </h1>
+
+                <p class="font-body text-body-lg text-on-surface-variant dark:text-gray-300 max-w-2xl">
+                    The people behind India Data Dictionary.
+                </p>
+
+                <div id="contributors-list" class="space-y-xl"></div>
+            </div>
+        </div>
     </main>
 
     <!-- Global Footer -->
-    <footer class="bg-surface-container-low dark:bg-[#18181a] border-t border-outline-variant dark:border-[#2d2d30] full-width py-md transition-colors mt-auto">
-        <div class="flex flex-col md:flex-row justify-between items-center w-full px-lg max-w-container-max mx-auto gap-md flex-wrap">
-            <div class="flex flex-col md:flex-row items-center gap-md flex-wrap">
-                <a href="#/" class="font-display text-title-lg font-bold text-on-surface dark:text-[#f3f0ef]">
-                    India Data Dictionary
-                </a>
-                <span class="font-label text-label-sm text-on-surface-variant dark:text-gray-400">
-                    &copy; 2026 India Data Dictionary. Released under MIT License.
-                </span>
-            </div>
-            
-            <nav class="flex items-center gap-lg font-label text-label-sm">
-                <div class="flex items-center gap-md">
-                    <a class="text-on-surface-variant dark:text-gray-400 hover:text-on-surface dark:hover:text-[#f3f0ef] transition-colors" href="https://twitter.com/Dataful_factly" target="_blank" title="Twitter / X">
-                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="site-footer-cols">
+                <div class="site-footer-about">
+                    <img src="assets/factly-logo-white.png" alt="Factly Media &amp; Research">
+                    <p>Factly Media and Research was founded in 2016 to make public information &amp; data more meaningful.</p>
+                    <a class="site-footer-email" href="mailto:dataful@factly.in">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="2.5" y="5" width="19" height="14" rx="2" />
+                            <path d="m3 6.5 9 6 9-6" />
                         </svg>
-                    </a>
-                    <a class="text-on-surface-variant dark:text-gray-400 hover:text-on-surface dark:hover:text-[#f3f0ef] transition-colors" href="https://www.linkedin.com/showcase/dataful-factly/" target="_blank" title="LinkedIn">
-                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true">
-                            <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"/>
-                        </svg>
-                    </a>
-                    <a class="text-on-surface-variant dark:text-gray-400 hover:text-on-surface dark:hover:text-[#f3f0ef] transition-colors" href="https://www.instagram.com/dataful_factly/" target="_blank" title="Instagram">
-                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true">
-                            <path fill-rule="evenodd" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" clip-rule="evenodd"/>
-                        </svg>
+                        dataful@factly.in
                     </a>
                 </div>
-            </nav>
+
+                <nav class="site-footer-col">
+                    <h2>Site</h2>
+                    <ul>
+                        <li><a href="https://dataful.in/" target="_blank" rel="noopener noreferrer">Dataful</a></li>
+                        <li><a href="https://gopie.ai/" target="_blank" rel="noopener noreferrer">GoPie</a></li>
+                        <li><a href="https://factlymedia.com/products/" target="_blank" rel="noopener noreferrer">Products</a></li>
+                        <li><a href="https://factlymedia.com/awards/" target="_blank" rel="noopener noreferrer">Awards</a></li>
+                        <li><a href="https://factlymedia.com/contact-us/" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="site-footer-col">
+                    <h2>Elsewhere</h2>
+                    <ul>
+                        <li><a href="#/contributors">Contributors</a></li>
+                        <li><a href="https://medium.com/factly" target="_blank" rel="noopener noreferrer">Blog on Medium</a></li>
+                        <li><a href="https://jobs.factlymedia.com/jobs/Careers" target="_blank" rel="noopener noreferrer">Careers</a></li>
+                    </ul>
+                </nav>
+
+                <div class="site-footer-col">
+                    <h2>Follow</h2>
+                    <div class="site-footer-social">
+                        <a href="https://www.linkedin.com/showcase/dataful-factly/posts/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.94 8.5H4.1V21h2.84zM5.52 3.5a1.65 1.65 0 1 0 0 3.3 1.65 1.65 0 0 0 0-3.3M20 13.9c0-3.2-1.7-4.7-4-4.7-1.85 0-2.68 1.02-3.14 1.73V9.5H10v11.5h2.86v-6.4c0-1.35.5-2.35 1.83-2.35s1.85 1 1.85 2.4V21H20z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/dataful_factly/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.9c2.96 0 3.31.01 4.48.06 1.08.05 1.67.23 2.06.38.52.2.89.44 1.28.83s.63.76.83 1.28c.15.39.33.98.38 2.06.05 1.17.06 1.52.06 4.48s-.01 3.31-.06 4.48c-.05 1.08-.23 1.67-.38 2.06-.2.52-.44.89-.83 1.28s-.76.63-1.28.83c-.39.15-.98.33-2.06.38-1.17.05-1.52.06-4.48.06s-3.31-.01-4.48-.06c-1.08-.05-1.67-.23-2.06-.38-.52-.2-.89-.44-1.28-.83s-.63-.76-.83-1.28c-.15-.39-.33-.98-.38-2.06C2.91 15.31 2.9 14.96 2.9 12s.01-3.31.06-4.48c.05-1.08.23-1.67.38-2.06.2-.52.44-.89.83-1.28s.76-.63 1.28-.83c.39-.15.98-.33 2.06-.38C8.69 2.91 9.04 2.9 12 2.9m0 4.77a4.33 4.33 0 1 0 0 8.66 4.33 4.33 0 0 0 0-8.66m0 7.14a2.81 2.81 0 1 1 0-5.62 2.81 2.81 0 0 1 0 5.62m5.5-7.31a1.01 1.01 0 1 1-2.02 0 1.01 1.01 0 0 1 2.02 0"/></svg>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCmQX08zkTh3VqiHgEBiuh6A" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.76-1.77C18.28 5 12 5 12 5s-6.28 0-7.84.43A2.5 2.5 0 0 0 2.4 7.2C2 8.77 2 12 2 12s0 3.23.4 4.8a2.5 2.5 0 0 0 1.76 1.77C5.72 19 12 19 12 19s6.28 0 7.84-.43a2.5 2.5 0 0 0 1.76-1.77C22 15.23 22 12 22 12s0-3.23-.4-4.8M10 15V9l5.2 3z"/></svg>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Vb5WzE9GJP8Ohh650O28" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2.02c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22c5.46 0 9.91-4.45 9.91-9.91a9.85 9.85 0 0 0-2.9-7.01 9.85 9.85 0 0 0-7.01-2.9m0 1.67c2.2 0 4.27.86 5.82 2.42a8.2 8.2 0 0 1 2.42 5.82c0 4.54-3.7 8.24-8.25 8.24a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24M8.53 7.35c-.16 0-.43.06-.66.31-.22.25-.86.84-.86 2.06 0 1.22.88 2.39 1 2.56.12.16 1.73 2.65 4.2 3.71.59.25 1.04.4 1.4.52.59.19 1.12.16 1.55.1.47-.07 1.45-.59 1.66-1.17.2-.57.2-1.06.14-1.17-.06-.1-.22-.16-.47-.28s-1.46-.72-1.69-.8c-.22-.09-.39-.13-.55.12s-.63.8-.77.96c-.14.17-.28.19-.53.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.24-.42.08-.16.04-.31-.02-.43-.06-.13-.55-1.34-.76-1.83-.2-.48-.4-.41-.55-.42z"/></svg>
+                        </a>
+                        <a href="https://x.com/Dataful_factly" target="_blank" rel="noopener noreferrer" aria-label="X" title="X">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.2 3.6h3.3l-7.2 8.24L21.7 21h-6.4l-5-6.55L4.5 21H1.2l7.7-8.8L1.6 3.6h6.6l4.53 5.99zm-1.16 15.4h1.83L7.2 5.5H5.24z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-footer-bottom">
+                <span>&copy; Factly Media &amp; Research, <span id="footer-year"></span>. All rights reserved.</span>
+                <span>Making public data meaningful since 2016</span>
+            </div>
         </div>
     </footer>
 
@@ -1093,6 +1272,7 @@ git push origin main</code></pre>
             document.getElementById('home-view').classList.add('hidden');
             document.getElementById('detail-view').classList.add('hidden');
             document.getElementById('docs-view').classList.add('hidden');
+            document.getElementById('contributors-view').classList.add('hidden');
 
             // Sync search inputs
             const headerSearch = document.getElementById('header-search');
@@ -1125,9 +1305,70 @@ git push origin main</code></pre>
             } else if (hash === '#/docs') {
                 document.getElementById('docs-view').classList.remove('hidden');
                 document.getElementById('docs-view').classList.add('animate-fade-in');
+            } else if (hash === '#/contributors') {
+                renderContributors();
+                document.getElementById('contributors-view').classList.remove('hidden');
+                document.getElementById('contributors-view').classList.add('animate-fade-in');
             } else {
                 window.location.hash = '#/';
             }
+        }
+
+        // Render the Contributors page, grouping CONTRIBUTORS by their `team`
+        // (first-seen order), each as its own section of cards.
+        function renderContributors() {
+            const container = document.getElementById('contributors-list');
+            if (!container) return;
+
+            if (typeof CONTRIBUTORS === 'undefined' || CONTRIBUTORS.length === 0) {
+                container.innerHTML = '<p class="font-body text-body-md text-on-surface-variant dark:text-gray-400 italic">No contributors listed yet.</p>';
+                return;
+            }
+
+            const teamOrder = [];
+            const byTeam = {};
+            CONTRIBUTORS.forEach(c => {
+                if (!byTeam[c.team]) {
+                    byTeam[c.team] = [];
+                    teamOrder.push(c.team);
+                }
+                byTeam[c.team].push(c);
+            });
+
+            container.innerHTML = teamOrder.map(team => `
+                <div>
+                    ${team ? `<h2 class="font-display text-title-lg font-bold text-on-surface dark:text-[#f3f0ef] mb-md border-b border-outline-variant dark:border-[#2d2d30] pb-sm">${team}</h2>` : ''}
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-lg">
+                        ${byTeam[team].map(contributorCardHtml).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function contributorInitials(name) {
+            return name.trim().split(/\s+/).map(w => w[0]).join('').slice(0, 2).toUpperCase();
+        }
+
+        function contributorCardHtml(c) {
+            const avatar = c.photo
+                ? `<img src="${c.photo}" alt="${c.name}" class="w-16 h-16 rounded-full object-cover border border-outline-variant dark:border-[#2d2d30]">`
+                : `<div class="w-16 h-16 rounded-full bg-primary/10 dark:bg-[#ffb1c2]/10 text-primary dark:text-[#ffb1c2] flex items-center justify-center font-display font-bold text-title-md border border-outline-variant dark:border-[#2d2d30]">${contributorInitials(c.name)}</div>`;
+
+            return `
+                <div class="bg-surface-container-lowest dark:bg-[#1c1c1e] border border-outline-variant dark:border-[#2d2d30] rounded-lg p-lg flex flex-col gap-sm">
+                    <div class="flex items-center gap-md">
+                        ${avatar}
+                        <div>
+                            <div class="font-display font-bold text-title-sm text-on-surface dark:text-[#f3f0ef]">${c.name}</div>
+                            <div class="font-label text-label-sm text-on-surface-variant dark:text-gray-400">${c.role}</div>
+                        </div>
+                    </div>
+                    ${c.linkedin ? `<a href="${c.linkedin}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-xs text-label-sm font-label text-primary dark:text-[#ffb1c2] hover:underline w-fit">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.94 8.5H4.1V21h2.84zM5.52 3.5a1.65 1.65 0 1 0 0 3.3 1.65 1.65 0 0 0 0-3.3M20 13.9c0-3.2-1.7-4.7-4-4.7-1.85 0-2.68 1.02-3.14 1.73V9.5H10v11.5h2.86v-6.4c0-1.35.5-2.35 1.83-2.35s1.85 1 1.85 2.4V21H20z"/></svg>
+                        LinkedIn
+                    </a>` : ''}
+                </div>
+            `;
         }
 
         // Render Home View Catalog
@@ -1279,6 +1520,9 @@ git push origin main</code></pre>
             // Set Title & Description
             document.getElementById('detail-title').textContent = dataset.name;
             document.getElementById('detail-description').textContent = dataset.description;
+            const usecaseEl = document.getElementById('detail-usecase');
+            usecaseEl.textContent = dataset.useCase || '';
+            usecaseEl.style.display = dataset.useCase ? '' : 'none';
             document.getElementById('detail-schema-count').textContent = `${dataset.schema.length} Fields Defined`;
 
             // Render Source Document card (parses the .docx client-side, if one is configured)
@@ -1544,7 +1788,9 @@ git push origin main</code></pre>
 
         // Initialize and Toggle Dark Mode Theme
         function initTheme() {
-            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            // Always defaults to light regardless of OS preference — dark mode only
+            // applies once the user explicitly picks it via the toggle.
+            if (localStorage.theme === 'dark') {
                 document.documentElement.classList.add('dark');
                 document.documentElement.classList.remove('light');
                 updateDarkModeIcon(true);
@@ -1624,6 +1870,9 @@ git push origin main</code></pre>
             // Load metadata in background
             preloadDatasetMetadata();
             console.log('Metadata preload started');
+
+            const footerYear = document.getElementById('footer-year');
+            if (footerYear) footerYear.textContent = new Date().getFullYear();
         });
     </script>
 </body>
