@@ -1,6 +1,6 @@
 # India Data Dictionary
 
-A free, open-source data dictionary for India's public datasets — corporate registries, disease and illness names, airline names, and more. It documents field-level schemas, standardized naming conventions, and sample records so anyone working with Indian open data can resolve inconsistent, duplicated, or conflicting entries with confidence.
+A free, open-source data dictionary for India's public datasets — corporate registries, disease and illness names, airline names, RBI bank names, and more. It documents field-level schemas, standardized naming conventions, and sample records so anyone working with Indian open data can resolve inconsistent, duplicated, or conflicting entries with confidence.
 
 The entire site is a single static page. There's no backend, no build step, and no database — everything is driven by one JavaScript file (`datasets.js`) and rendered client-side.
 
@@ -39,6 +39,7 @@ india-data-schema/
     ├── csr/               # CSR Companies Registry dataset: csv, pdf, docx
     ├── diseases/          # Diseases and Illnesses Registry dataset: csv, pdf, docx
     ├── airlines/          # Airline Names dataset: csv, pdf, docx
+    ├── rbi/               # RBI Bank Names dataset: csv, pdf, docx, json
     └── dataful-logo.png
 ```
 
