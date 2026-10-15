@@ -71,22 +71,26 @@ print(reconciled.head())`,
       { name: "Disease-wise Cases and Death reported under IDSP", id: "https://dataful.in/datasets/18514/" },
     ],
     schema: [
-      { name: "disease_illness_name", type: "STRING", primary: true, desc: "Original disease or illness name as reported.", sample: '"Acute Diarrheal Disease"' },
-      { name: "standard", type: "STRING", primary: false, desc: "Standardized disease name for consistent reporting.", sample: '"Acute Diarrheal Disease"' }
+      { name: "disease_illness", type: "STRING", primary: true, desc: "Original disease or illness name as reported.", sample: '"Acute Diarrheal Disease"' },
+      { name: "standardised_disease_name", type: "STRING", primary: false, desc: "Standardized disease name for consistent reporting.", sample: '"Acute diarrhoeal disease"' },
+      { name: "icd10_code", type: "STRING", primary: false, desc: "International Classification of Diseases 10th Revision (ICD-10) diagnosis code.", sample: '"A09.0"' },
+      { name: "icd10_title", type: "STRING", primary: false, desc: "Official title or disease description corresponding to the ICD-10 code.", sample: '"Other and unspecified gastroenteritis and colitis of infectious origin"' },
+      { name: "icd11_code", type: "STRING", primary: false, desc: "International Classification of Diseases 11th Revision (ICD-11) code.", sample: '"1A40.Z"' },
+      { name: "icd11_title", type: "STRING", primary: false, desc: "Official title or disease description corresponding to the ICD-11 code.", sample: '"Infectious gastroenteritis or colitis without specification of infectious agent"' }
     ],
-    previewHeaders: ["disease_illness_name", "standard"],
+    previewHeaders: ["disease_illness", "standardised_disease_name", "icd10_code", "icd10_title", "icd11_code", "icd11_title"],
     preview: [
-      { "disease_illness_name": "Acute Diarrheal Disease", "standard": "Acute Diarrheal Disease" },
-      { "disease_illness_name": "Malaria", "standard": "Malaria" }
+      { "disease_illness": "Acute Diarrheal Disease", "standardised_disease_name": "Acute diarrhoeal disease", "icd10_code": "A09.0", "icd10_title": "Other and unspecified gastroenteritis and colitis of infectious origin", "icd11_code": "1A40.Z", "icd11_title": "Infectious gastroenteritis or colitis without specification of infectious agent" },
+      { "disease_illness": "Japanese Encephalitis", "standardised_disease_name": "Japanese encephalitis", "icd10_code": "A83.0", "icd10_title": "Japanese encephalitis", "icd11_code": "1C85", "icd11_title": "Japanese encephalitis" }
     ],
     pythonCode: `import pandas as pd
 
-url = "https://raw.githubusercontent.com/saisantoshv3/india-data-schema/main/assets/diseases.csv"
+url = "https://raw.githubusercontent.com/factly/india-data-schema/main/assets/diseases/diseases.csv"
 df = pd.read_csv(url)
 
-# Display unique diseases
-print(df['standard'].unique()[:10])`,
-    curlCode: `curl -X GET "https://raw.githubusercontent.com/saisantoshv3/india-data-schema/main/assets/diseases.json" \\
+# Display unique standardized diseases
+print(df['standardised_disease_name'].unique()[:10])`,
+    curlCode: `curl -X GET "https://raw.githubusercontent.com/factly/india-data-schema/main/assets/diseases/diseases.json" \\
      -H "Accept: application/json"`
   },
   {
@@ -127,6 +131,61 @@ df = pd.read_csv(url)
 indian_active = df[(df['Country'] == 'India') & (df['Active'] == True)]
 print(indian_active.head())`,
     curlCode: `curl -X GET "https://raw.githubusercontent.com/saisantoshv3/electoral_bonds/main/airline_codes.json" \\
+     -H "Accept: application/json"`
+  },
+  {
+    id: "rbi-bank-names",
+    name: "RBI Bank Names",
+    category: "Banking & Finance",
+    icon: "account_balance",
+    description: "Comprehensive standardized registry of bank names compiled from Reserve Bank of India (RBI) publications, mapping diverse raw reporting variations, abbreviations, and historical names across commercial, regional rural, and co-operative banks to canonical entities.",
+    useCase: "Use the dictionary to join and standardize bank-level data across RBI publications, tables, and reporting periods. Use bank_name for exact joining against raw sources and standard_bank_name for grouping, aggregation, and tracking multi-year metrics like deposits, credit, branches, and ATMs without distortion from renamings, amalgamations, or spelling inconsistencies.",
+    tags: ["Banking", "RBI", "Finance", "Public Registry"],
+    updated: "Oct 15, 2026",
+    download: {
+      csv: "assets/rbi/bank_names.csv",
+      pdf: "assets/rbi/rbi_datasheet.pdf",
+      json: "assets/rbi/bank_names.json",
+      docx: "assets/rbi/bank_names.docx"
+    },
+    docxSections: [
+      "Dictionary Fields",
+      "What the Standardization Process Covers",
+      "Typos, Capitalisation and Formatting",
+      "Abbreviations and Legal Suffixes",
+      "Regional-Language Names and Look-Alike Banks",
+      "Mergers, Amalgamations and Renamings",
+      "Aggregate Rows and Non-Bank Entities",
+      "Reporting Inconsistencies Across RBI Publications",
+      "Using the Dictionary",
+      "Annexure: Key Mergers, Amalgamations and Renamings"
+    ],
+    related: [
+      { name: "RBI : Bank-wise Functioning Branches and ATMs", id: "https://dataful.in/collections/?q=bank%20wise" },
+      { name: "RBI : ATM, CRM and WLA Deployment Master Data", id: "https://dataful.in/collections/?q=ATM" },
+      { name: "RBI : Bank-wise Card Payments and Cash Withdrawals", id: "https://dataful.in/collections/?q=card%20payments" }
+    ],
+    schema: [
+      { name: "bank_name", type: "STRING", primary: true, desc: "The bank name exactly as it appears in the source RBI publication, with the original spelling, capitalisation and punctuation.", sample: '"ABHYUDAYA CO-OP. BANK LTD., MUMBAI"' },
+      { name: "standard_bank_name", type: "STRING", primary: false, desc: "The standardized name assigned by Dataful. Use this field to join, group and count banks.", sample: '"Abhyudaya Co-Operative Bank Limited, Mumbai"' }
+    ],
+    previewHeaders: ["bank_name", "standard_bank_name"],
+    preview: [
+      { "bank_name": "A.P.JANATA CO-OP.URBAN BANK LTD.S'BAD", "standard_bank_name": "A.P. Janata Co-Operative Urban Bank Limited, Secunderabad" },
+      { "bank_name": "AB BANK LIMITED", "standard_bank_name": "AB Bank Limited" },
+      { "bank_name": "ABHYUDAYA CO-OP. BANK LTD., MUMBAI", "standard_bank_name": "Abhyudaya Co-Operative Bank Limited, Mumbai" },
+      { "bank_name": "AIRTEL PAYMENTS BANK", "standard_bank_name": "Airtel Payments Bank Limited" },
+      { "bank_name": "BANK OF BARODA", "standard_bank_name": "Bank of Baroda" }
+    ],
+    pythonCode: `import pandas as pd
+
+url = "https://raw.githubusercontent.com/saisantoshv3/india-data-schema/main/assets/rbi/bank_names.csv"
+df = pd.read_csv(url)
+
+# Display all raw name variants for a given standard bank
+variants = df[df['standard_bank_name'] == 'State Bank of India']
+print(variants[['bank_name', 'standard_bank_name']])`,
+    curlCode: `curl -X GET "https://raw.githubusercontent.com/saisantoshv3/india-data-schema/main/assets/rbi/bank_names.json" \\
      -H "Accept: application/json"`
   }
 ];

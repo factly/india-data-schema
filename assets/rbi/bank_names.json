@@ -1,0 +1,2898 @@
+[
+  {
+    "bank_name": "A.P.JANATA CO-OP.URBAN BANK LTD.S'BAD",
+    "standard_bank_name": "A.P. Janata Co-Operative Urban Bank Limited, Secunderabad"
+  },
+  {
+    "bank_name": "AB BANK LIMITED",
+    "standard_bank_name": "AB Bank Limited"
+  },
+  {
+    "bank_name": "ABHYUDAYA CO-OP. BANK LTD., MUMBAI",
+    "standard_bank_name": "Abhyudaya Co-Operative Bank Limited, Mumbai"
+  },
+  {
+    "bank_name": "ABH DHABI COMMERCIAL BANK PJSC",
+    "standard_bank_name": "Abu Dhabi Commercial Bank PJSC"
+  },
+  {
+    "bank_name": "ADARNIYA P. D. PATILSAHEB SAHAKARI BANK LTD. KARAD",
+    "standard_bank_name": "Adarniya P. D. Patilsaheb Sahakari Bank Limited Karad"
+  },
+  {
+    "bank_name": "ADARSH CO-OP URBAN BANK LTD.",
+    "standard_bank_name": "Adarsh Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "Adhiyaman Grama Bank",
+    "standard_bank_name": "Adhiyaman Grama Bank"
+  },
+  {
+    "bank_name": "ADITYA BIRLA IDEA PAYMENTS BANK",
+    "standard_bank_name": "Aditya Birla Idea Payments Bank Limited"
+  },
+  {
+    "bank_name": "AGS Transact Technologies Ltd",
+    "standard_bank_name": "AGS Transact Technologies Limited"
+  },
+  {
+    "bank_name": "AHMEDABAD MERCANTILE CO-OP.BANK LTD.",
+    "standard_bank_name": "Ahmedabad Mercantile Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "AHMEDNAGAR DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Ahmednagar District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "AHMEDNAGAR MERCHANTS CO-OP.BANK LTD.",
+    "standard_bank_name": "Ahmednagar Merchants Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "AIRTEL PAYMENTS BANK",
+    "standard_bank_name": "Airtel Payments Bank Limited"
+  },
+  {
+    "bank_name": "AJRA URBAN CO-OP.BANK LTD.",
+    "standard_bank_name": "Ajra Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "AKHAND ANAND CO-OP.BANK LTD. SURAT",
+    "standard_bank_name": "Akhand Anand Co-Operative Bank Limited Surat"
+  },
+  {
+    "bank_name": "AKOLA DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Akola District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Alaknanda Gramin Bank",
+    "standard_bank_name": "Alaknanda Gramin Bank"
+  },
+  {
+    "bank_name": "ALAVI CO-OP.BANK LTD.",
+    "standard_bank_name": "Alavi Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Aligarh Gramin Bank",
+    "standard_bank_name": "Aligarh Gramin Bank"
+  },
+  {
+    "bank_name": "All Scheduled Commercial Banks",
+    "standard_bank_name": "All Scheduled Commercial Banks"
+  },
+  {
+    "bank_name": "Allahabad Bank",
+    "standard_bank_name": "Allahabad Bank"
+  },
+  {
+    "bank_name": "Allahabad Up Gramin Bank",
+    "standard_bank_name": "Allahabad UP Gramin Bank"
+  },
+  {
+    "bank_name": "ALMORA URBAN COOPERATIVE BANK LTD",
+    "standard_bank_name": "Almora Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "ALMORA ZILLA SAHAKARI BANK LTD.",
+    "standard_bank_name": "Almora Zilla Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "AMBALA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Ambala Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "AMBERNATH JAI HIND CO-OP.BANK LTD.,AMBERNATH",
+    "standard_bank_name": "Ambernath Jai Hind Co-Operative Bank Limited,Ambernath"
+  },
+  {
+    "bank_name": "AMERICAN EXPRESS",
+    "standard_bank_name": "American Express Banking Corporation"
+  },
+  {
+    "bank_name": "AMRAVATI DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Amravati District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "AMRITSAR CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Amritsar Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Andhra Bank",
+    "standard_bank_name": "Andhra Bank"
+  },
+  {
+    "bank_name": "Andhra Pradesh Grameena Bank",
+    "standard_bank_name": "Andhra Pradesh Grameena Bank"
+  },
+  {
+    "bank_name": "Andhra Pradesh Grameena Vikas Bank",
+    "standard_bank_name": "Andhra Pradesh Grameena Vikas Bank"
+  },
+  {
+    "bank_name": "ANDHRA PRADESH MAHESH CO-OPERATIVE URBAN BANK LTD., HYDERABAD",
+    "standard_bank_name": "Andhra Pradesh Mahesh Co-Operative Urban Bank Limited, Hyderabad"
+  },
+  {
+    "bank_name": "Andhra Pragathi Grameena Bank",
+    "standard_bank_name": "Andhra Pragathi Grameena Bank"
+  },
+  {
+    "bank_name": "ANNASAHEB MAGAR SAHAKARI BANK MYDT.PUNE",
+    "standard_bank_name": "Annasaheb Magar Sahakari Bank Maryadit, Pune"
+  },
+  {
+    "bank_name": "Arunachal Pradesh Rural Bank",
+    "standard_bank_name": "Arunachal Pradesh Rural Bank"
+  },
+  {
+    "bank_name": "ARVIND SAHAKARI BANK LTD., KATOL, NAGPUR",
+    "standard_bank_name": "Arvind Sahakari Bank Limited, Katol, Nagpur"
+  },
+  {
+    "bank_name": "Aryavart Bank",
+    "standard_bank_name": "Aryavart Bank"
+  },
+  {
+    "bank_name": "Aryavart Gramin Bank",
+    "standard_bank_name": "Aryavart Gramin Bank"
+  },
+  {
+    "bank_name": "Aryavrat Kshetriya Gramin Bank",
+    "standard_bank_name": "Aryavrat Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "ASHTA PEOPLE'S CO-OP.BANK LTD.",
+    "standard_bank_name": "Ashta People's Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Assam Gramin Bank",
+    "standard_bank_name": "Assam Gramin Bank"
+  },
+  {
+    "bank_name": "ASSAM GRAMIN VIKASH BANK",
+    "standard_bank_name": "Assam Gramin Vikash Bank"
+  },
+  {
+    "bank_name": "Au Small Finance Bank Limited",
+    "standard_bank_name": "AU Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "Aurangabad Jalna Gramin Bank",
+    "standard_bank_name": "Aurangabad Jalna Gramin Bank"
+  },
+  {
+    "bank_name": "Australia And New Zealand Banking Group Limited",
+    "standard_bank_name": "Australia And New Zealand Banking Group Limited"
+  },
+  {
+    "bank_name": "Avadh Gramin Bank",
+    "standard_bank_name": "Avadh Gramin Bank"
+  },
+  {
+    "bank_name": "Axis (UTI) Bank Ltd.",
+    "standard_bank_name": "Axis Bank Limited"
+  },
+  {
+    "bank_name": "Baitarani Gramya Bank",
+    "standard_bank_name": "Baitarani Gramya Bank"
+  },
+  {
+    "bank_name": "BALAGERIA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Balageria Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "BALASINOR NAGRIK SAHAKARI BANK LTD.",
+    "standard_bank_name": "Balasinor Nagrik Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "BALITIKURI CO-OP.BANK LTD",
+    "standard_bank_name": "Balitikuri Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Ballia Kshetriya Gramin Bank",
+    "standard_bank_name": "Ballia Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Ballia-Etawah Gramin Bank",
+    "standard_bank_name": "Ballia-Etawah Gramin Bank"
+  },
+  {
+    "bank_name": "BANASKANTHA MERCANTILE CO-OP.BANK LTD",
+    "standard_bank_name": "Banaskantha Mercantile Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "BANDHAN BANK",
+    "standard_bank_name": "Bandhan Bank Limited"
+  },
+  {
+    "bank_name": "BANGALORE CITY CO-OP.BANK LTD.",
+    "standard_bank_name": "Bangalore City Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Bangiya Gramin Vikash Bank",
+    "standard_bank_name": "Bangiya Gramin Vikash Bank"
+  },
+  {
+    "bank_name": "BANK OF AMERICA",
+    "standard_bank_name": "Bank of America"
+  },
+  {
+    "bank_name": "Bank Of America , National Association",
+    "standard_bank_name": "Bank of America, National Association"
+  },
+  {
+    "bank_name": "BANK OF BAHRAIN & KUWAIT B.S.C",
+    "standard_bank_name": "Bank of Bahrain & Kuwait B.S.C."
+  },
+  {
+    "bank_name": "Bank Of Baroda",
+    "standard_bank_name": "Bank of Baroda"
+  },
+  {
+    "bank_name": "Bank Of Ceylon",
+    "standard_bank_name": "Bank of Ceylon"
+  },
+  {
+    "bank_name": "Bank Of China Limited",
+    "standard_bank_name": "Bank of China Limited"
+  },
+  {
+    "bank_name": "Bank Of India",
+    "standard_bank_name": "Bank of India"
+  },
+  {
+    "bank_name": "Bank Of Maharashtra",
+    "standard_bank_name": "Bank of Maharashtra"
+  },
+  {
+    "bank_name": "Bank Of Nova Scotia",
+    "standard_bank_name": "Bank of Nova Scotia"
+  },
+  {
+    "bank_name": "Bank of Punjab Limited",
+    "standard_bank_name": "Bank of Punjab Limited"
+  },
+  {
+    "bank_name": "Bank Of Rajasthan Ltd",
+    "standard_bank_name": "Bank of Rajasthan Limited"
+  },
+  {
+    "bank_name": "Bara Banki Gramin Bank",
+    "standard_bank_name": "Bara Banki Gramin Bank"
+  },
+  {
+    "bank_name": "BARAMATI SAHAKARI BANK LTD.,BARAMATI",
+    "standard_bank_name": "Baramati Sahakari Bank Limited, Baramati"
+  },
+  {
+    "bank_name": "Barclays Bank",
+    "standard_bank_name": "Barclays Bank Plc"
+  },
+  {
+    "bank_name": "Bardhaman Gramin Bank",
+    "standard_bank_name": "Bardhaman Gramin Bank"
+  },
+  {
+    "bank_name": "Baroda Eastern Uttar Pradesh Gramin Bank",
+    "standard_bank_name": "Baroda Eastern Uttar Pradesh Gramin Bank"
+  },
+  {
+    "bank_name": "Baroda Gujarat Gramin Bank",
+    "standard_bank_name": "Baroda Gujarat Gramin Bank"
+  },
+  {
+    "bank_name": "Baroda Rajasthan Gramin Bank",
+    "standard_bank_name": "Baroda Rajasthan Gramin Bank"
+  },
+  {
+    "bank_name": "Baroda Rajasthan Kshetriya Gramin Bank",
+    "standard_bank_name": "Baroda Rajasthan Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Baroda U.P. Bank",
+    "standard_bank_name": "Baroda U.P. Bank"
+  },
+  {
+    "bank_name": "Baroda Uttar Pradesh Gramin Bank",
+    "standard_bank_name": "Baroda Uttar Pradesh Gramin Bank"
+  },
+  {
+    "bank_name": "Baroda Western Uttar Pradesh Gramin Bank",
+    "standard_bank_name": "Baroda Western Uttar Pradesh Gramin Bank"
+  },
+  {
+    "bank_name": "BASSEIN CATHOLIC CO-OP.BANK LTD.",
+    "standard_bank_name": "Bassein Catholic Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Bastar Kshetriya Gramin Bank",
+    "standard_bank_name": "Bastar Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "BAVLA NAGRIK SAHAKARI BANK LTD.",
+    "standard_bank_name": "Bavla Nagrik Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "BELLAD BAGEWADI URBAN SOUHARDA SAHAKARI BANK NIYAMIT",
+    "standard_bank_name": "Bellad Bagewadi Urban Souharda Sahakari Bank Niyamit"
+  },
+  {
+    "bank_name": "BELLAD-BAGEWADI URBAN CO-OP.BANK LTD.",
+    "standard_bank_name": "Bellad-Bagewadi Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "BELLARY DISTRICT CENTRAL CO-OP.BANK",
+    "standard_bank_name": "Bellary District Central Co-Operative Bank"
+  },
+  {
+    "bank_name": "BHADRADRI CO.OP.URBAN BANK LTD.",
+    "standard_bank_name": "Bhadradri Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "BHAGINI NIVEDITA SAHAKARI BANK LTD.",
+    "standard_bank_name": "Bhagini Nivedita Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "Bhandara Gramin Bank",
+    "standard_bank_name": "Bhandara Gramin Bank"
+  },
+  {
+    "bank_name": "BHANDARA URBAN CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Bhandara Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Bharat Overseas Bank Ltd",
+    "standard_bank_name": "Bharat Overseas Bank Limited"
+  },
+  {
+    "bank_name": "BHARATI SAHAKARI BANK LTD.(POONA)",
+    "standard_bank_name": "Bharati Sahakari Bank Limited (Poona)"
+  },
+  {
+    "bank_name": "BHARATIYA MAHILA BANK LTD",
+    "standard_bank_name": "Bharatiya Mahila Bank Limited"
+  },
+  {
+    "bank_name": "BHATINDA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Bhatinda Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "BHATKAL URBAN CO-OP.BANK LTD.",
+    "standard_bank_name": "Bhatkal Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "BHAVANA RISHI CO-OP URBAN BANK LTD.",
+    "standard_bank_name": "Bhavana Rishi Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "BHAVANI URBAN CO-OP BANK LTD",
+    "standard_bank_name": "Bhavani Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "BHIWANI CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Bhiwani Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "BICHOLIM URBAN CO-OP.BANK LTD.",
+    "standard_bank_name": "Bicholim Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Bihar Gramin Bank",
+    "standard_bank_name": "Bihar Gramin Bank"
+  },
+  {
+    "bank_name": "Bihar Kshetriya Gramin Bank",
+    "standard_bank_name": "Bihar Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Bikaner Kshetriya Gramin Bank",
+    "standard_bank_name": "Bikaner Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Bilaspur-Raipur Kshetriya Gramin Bank",
+    "standard_bank_name": "Bilaspur-Raipur Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Bnp Paribas",
+    "standard_bank_name": "BNP Paribas"
+  },
+  {
+    "bank_name": "Bolangir Anchalik Gramya Bank",
+    "standard_bank_name": "Bolangir Anchalik Gramya Bank"
+  },
+  {
+    "bank_name": "BRAHMADEODADA MANE SAHAKARI BANK LTD.,SOLAPUR",
+    "standard_bank_name": "Brahmadeodada Mane Sahakari Bank Limited,Solapur"
+  },
+  {
+    "bank_name": "BTI Payments Pvt. Ltd",
+    "standard_bank_name": "BTI Payments Private Limited"
+  },
+  {
+    "bank_name": "Bundelkhand Kshetriya Gramin Bank",
+    "standard_bank_name": "Bundelkhand Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Canara Bank",
+    "standard_bank_name": "Canara Bank"
+  },
+  {
+    "bank_name": "Capital Small Finance Bank Limited",
+    "standard_bank_name": "Capital Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "Cauvery Grameena Bank",
+    "standard_bank_name": "Cauvery Grameena Bank"
+  },
+  {
+    "bank_name": "Cauvery Kalpatharu Grameena Bank",
+    "standard_bank_name": "Cauvery Kalpatharu Grameena Bank"
+  },
+  {
+    "bank_name": "Central Bank Of India",
+    "standard_bank_name": "Central Bank of India"
+  },
+  {
+    "bank_name": "Central Madhya Pradesh Gramin Bank",
+    "standard_bank_name": "Central Madhya Pradesh Gramin Bank"
+  },
+  {
+    "bank_name": "CENTURION BANK OF PUNJAB LTD",
+    "standard_bank_name": "Centurion Bank of Punjab Limited"
+  },
+  {
+    "bank_name": "Chaitanya Godavari Grameena Bank",
+    "standard_bank_name": "Chaitanya Godavari Grameena Bank"
+  },
+  {
+    "bank_name": "Chambal Kshetriya Gramin Bank",
+    "standard_bank_name": "Chambal Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Chambal-Gwalior Kshetriya Gramin Bank",
+    "standard_bank_name": "Chambal-Gwalior Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Chandrapur Gadchiroli Gramin Bank",
+    "standard_bank_name": "Chandrapur Gadchiroli Gramin Bank"
+  },
+  {
+    "bank_name": "CHENNAI CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Chennai Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Chhattisgarh Gramin Bank",
+    "standard_bank_name": "Chhattisgarh Gramin Bank"
+  },
+  {
+    "bank_name": "CHHATTISGARH RAJYA GRAMIN BANK",
+    "standard_bank_name": "Chhattisgarh Rajya Gramin Bank"
+  },
+  {
+    "bank_name": "Chhindwara Seoni Kshetriya Gramin Bank",
+    "standard_bank_name": "Chhindwara Seoni Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Chickmagalur-Kodagu Grameena Bank",
+    "standard_bank_name": "Chickmagalur-Kodagu Grameena Bank"
+  },
+  {
+    "bank_name": "CITI BANK",
+    "standard_bank_name": "Citibank N.A."
+  },
+  {
+    "bank_name": "CITI BANK N.A",
+    "standard_bank_name": "Citibank N.A."
+  },
+  {
+    "bank_name": "CITIZEN CO.OP.BANK LTD. NOIDA",
+    "standard_bank_name": "Citizen Co-Operative Bank Limited Noida"
+  },
+  {
+    "bank_name": "CITIZEN CO-OP.BANK LTD.,VASCO-DA-GAMA",
+    "standard_bank_name": "Citizen Co-Operative Bank Limited, Vasco-da-Gama"
+  },
+  {
+    "bank_name": "CITY UNION BANK",
+    "standard_bank_name": "City Union Bank Limited"
+  },
+  {
+    "bank_name": "Coastal Local Area Bank Ltd.",
+    "standard_bank_name": "Coastal Local Area Bank Limited"
+  },
+  {
+    "bank_name": "COL. R. D. NIKAM SAINIK SAHAKARI BANK LTD.",
+    "standard_bank_name": "Col. R. D. Nikam Sainik Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "Commonwealth Bank Of Australia",
+    "standard_bank_name": "Commonwealth Bank of Australia"
+  },
+  {
+    "bank_name": "Cooperatieve Rabobank U.A.",
+    "standard_bank_name": "Cooperatieve Rabobank U.A."
+  },
+  {
+    "bank_name": "CO-OP.BANK OF RAJKOT LTD.",
+    "standard_bank_name": "Co-Operative Bank of Rajkot Limited"
+  },
+  {
+    "bank_name": "CORORATION BANK",
+    "standard_bank_name": "Corporation Bank"
+  },
+  {
+    "bank_name": "COSMOS CO-OPERATIVE BANK LTD.PUNE",
+    "standard_bank_name": "Cosmos Co-Operative Bank Limited, Pune"
+  },
+  {
+    "bank_name": "Credit Agricole Corporate And Investment Bank",
+    "standard_bank_name": "Credit Agricole Corporate And Investment Bank"
+  },
+  {
+    "bank_name": "CREDIT LYONNAIS",
+    "standard_bank_name": "Credit Lyonnais"
+  },
+  {
+    "bank_name": "Credit Suisse Ag",
+    "standard_bank_name": "Credit Suisse AG"
+  },
+  {
+    "bank_name": "Catholic Syrian Bank Ltd",
+    "standard_bank_name": "CSB Bank Limited"
+  },
+  {
+    "bank_name": "Csb Bank Limited",
+    "standard_bank_name": "CSB Bank Limited"
+  },
+  {
+    "bank_name": "CTBC BANK CO, LTD",
+    "standard_bank_name": "CTBC Bank Company Limited"
+  },
+  {
+    "bank_name": "Dakshin Bihar Gramin Bank",
+    "standard_bank_name": "Dakshin Bihar Gramin Bank"
+  },
+  {
+    "bank_name": "DAKSHIN DINAJPUR DISTRICT CENTRAL CO-OP. BANK LTD.",
+    "standard_bank_name": "Dakshin Dinajpur District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Damoh Panna Sagar Kshetriya Gramin Bank",
+    "standard_bank_name": "Damoh Panna Sagar Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "DARJEELING DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Darjeeling District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "DARUS SALAM CO-OPERATIVE URBAN BANK LTD., HYDERABAD",
+    "standard_bank_name": "Darus Salam Co-Operative Urban Bank Limited, Hyderabad"
+  },
+  {
+    "bank_name": "Dbs Bank India Limited",
+    "standard_bank_name": "DBS Bank India Limited"
+  },
+  {
+    "bank_name": "DBS BANK",
+    "standard_bank_name": "DBS Bank Limited"
+  },
+  {
+    "bank_name": "DBS Ltd.",
+    "standard_bank_name": "DBS Limited"
+  },
+  {
+    "bank_name": "Dcb Bank Limited",
+    "standard_bank_name": "DCB Bank Limited"
+  },
+  {
+    "bank_name": "DEVELOPMENT CREDIT BANK",
+    "standard_bank_name": "DCB Bank Limited"
+  },
+  {
+    "bank_name": "Deendayal Nagari Sahakari Bank Maryadit",
+    "standard_bank_name": "Deendayal Nagari Sahakari Bank Maryadit"
+  },
+  {
+    "bank_name": "Dena Bank",
+    "standard_bank_name": "Dena Bank"
+  },
+  {
+    "bank_name": "Dena Gujarat Gramin Bank",
+    "standard_bank_name": "Dena Gujarat Gramin Bank"
+  },
+  {
+    "bank_name": "Deutsche Bank",
+    "standard_bank_name": "Deutsche Bank AG"
+  },
+  {
+    "bank_name": "Deutsche Bank Ag",
+    "standard_bank_name": "Deutsche Bank AG"
+  },
+  {
+    "bank_name": "Devipatan Kshetriya Gramin Bank",
+    "standard_bank_name": "Devipatan Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Dewas-Shajapur Kshetriya Gramin Bank",
+    "standard_bank_name": "Dewas-Shajapur Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "DHANALAKSHMI BANK LTD",
+    "standard_bank_name": "Dhanlaxmi Bank Limited"
+  },
+  {
+    "bank_name": "Dhenkanal Gramya Bank",
+    "standard_bank_name": "Dhenkanal Gramya Bank"
+  },
+  {
+    "bank_name": "Doha Bank Q.P.S.C",
+    "standard_bank_name": "Doha Bank Q.P.S.C."
+  },
+  {
+    "bank_name": "DOHA BANK QSC",
+    "standard_bank_name": "Doha Bank Q.P.S.C."
+  },
+  {
+    "bank_name": "DR.ANNASAHEB CHOUGULE URBAN CO-OPERATIVE BANK LTD.PETH VADGAON",
+    "standard_bank_name": "Dr. Annasaheb Chougule Urban Co-Operative Bank Limited, Peth Vadgaon"
+  },
+  {
+    "bank_name": "Durg Rajnandgaon Gramin Bank",
+    "standard_bank_name": "Durg Rajnandgaon Gramin Bank"
+  },
+  {
+    "bank_name": "DURGAPUR STEEL PEOPLES' CO.OP.BANK LTD.",
+    "standard_bank_name": "Durgapur Steel Peoples' Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "EASTERN RLY.EMPLOYEES'COOP.BK.CALCUTTA",
+    "standard_bank_name": "Eastern Railway Employees' Co-Operative Bank, Calcutta"
+  },
+  {
+    "bank_name": "Electronic Payment and Services Private Limited",
+    "standard_bank_name": "Electronic Payment And Services Private Limited"
+  },
+  {
+    "bank_name": "Ellaquai Dehati Bank",
+    "standard_bank_name": "Ellaquai Dehati Bank"
+  },
+  {
+    "bank_name": "Emirates Nbd Bank (P.J.S.C.)",
+    "standard_bank_name": "Emirates NBD Bank PJSC"
+  },
+  {
+    "bank_name": "Equitas Small Finance Bank Limited",
+    "standard_bank_name": "Equitas Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "Esaf Small Finance Bank Limited",
+    "standard_bank_name": "ESAF Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "Etah Gramin Bank",
+    "standard_bank_name": "Etah Gramin Bank"
+  },
+  {
+    "bank_name": "Etawah Kshetriya Gramin Bank",
+    "standard_bank_name": "Etawah Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "FARIDABAD CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Faridabad Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "FARIDCOT CENTRAL CO-OPERATIVE BANK LTD",
+    "standard_bank_name": "Faridkot Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Farrukhabad Gramin Bank",
+    "standard_bank_name": "Farrukhabad Gramin Bank"
+  },
+  {
+    "bank_name": "FATEHABAD CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Fatehabad Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "FATEHGARH SAHIB CENTRAL CO-OPERATIVE BANK LTD., SIRHIND",
+    "standard_bank_name": "Fatehgarh Sahib Central Co-Operative Bank Limited, Sirhind"
+  },
+  {
+    "bank_name": "FAZILKA CENTRAL CO-OPERATIVE BANK LTD",
+    "standard_bank_name": "Fazilka Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Federal Bank Limited",
+    "standard_bank_name": "Federal Bank Limited"
+  },
+  {
+    "bank_name": "FEROZEPUR CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Ferozepur Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Fincare Small Finance Bank Limited",
+    "standard_bank_name": "Fincare Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "FINGROWTH CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Fingrowth Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "FINO PAYMENTS BANK",
+    "standard_bank_name": "Fino Payments Bank Limited"
+  },
+  {
+    "bank_name": "First Abu Dhabi Bank Pjsc",
+    "standard_bank_name": "First Abu Dhabi Bank PJSC"
+  },
+  {
+    "bank_name": "FIRSTRAND BANK",
+    "standard_bank_name": "Firstrand Bank Limited"
+  },
+  {
+    "bank_name": "GANDEVI PEOPLES CO-OP BANK LTD.",
+    "standard_bank_name": "Gandevi Peoples Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Ganesh Bank Of Kurundwad Ltd",
+    "standard_bank_name": "Ganesh Bank of Kurundwad Limited"
+  },
+  {
+    "bank_name": "Ganga Yamuna Gramin Bank",
+    "standard_bank_name": "Ganga Yamuna Gramin Bank"
+  },
+  {
+    "bank_name": "Gaur Gramin Bank",
+    "standard_bank_name": "Gaur Gramin Bank"
+  },
+  {
+    "bank_name": "GAYATRI CO-OP.URBAN BANK LTD. JAGTIAL",
+    "standard_bank_name": "Gayatri Co-Operative Urban Bank Limited Jagtial"
+  },
+  {
+    "bank_name": "Giridh Kshetriya Gramin Bank",
+    "standard_bank_name": "Giridh Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Global Trust Bank Limited",
+    "standard_bank_name": "Global Trust Bank Limited"
+  },
+  {
+    "bank_name": "GOA URBAN CO-OP.BANK LTD.",
+    "standard_bank_name": "Goa Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Gramin Bank Of Aryavart",
+    "standard_bank_name": "Gramin Bank of Aryavart"
+  },
+  {
+    "bank_name": "GS MAHANAGAR CO-OPERATIVE BANK LTD., MUMBAI",
+    "standard_bank_name": "GS Mahanagar Co-Operative Bank Limited, Mumbai"
+  },
+  {
+    "bank_name": "Gujarat Gramin Bank",
+    "standard_bank_name": "Gujarat Gramin Bank"
+  },
+  {
+    "bank_name": "GUJARAT STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Gujarat State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "GULEDGUDD LAXMI CO-OP.BANK LTD",
+    "standard_bank_name": "Guledgudd Laxmi Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "GUNTUR CO-OP.URBAN BANK LTD.",
+    "standard_bank_name": "Guntur Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "GURDASPUR CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Gurdaspur Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "GURGAON CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Gurgaon Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Gurgaon Gramin Bank",
+    "standard_bank_name": "Gurgaon Gramin Bank"
+  },
+  {
+    "bank_name": "Gwalior Datia Kshetriya Gramin Bank",
+    "standard_bank_name": "Gwalior Datia Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Hadoti Kshetriya Gramin Bank",
+    "standard_bank_name": "Hadoti Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Haryana Gramin Bank",
+    "standard_bank_name": "Haryana Gramin Bank"
+  },
+  {
+    "bank_name": "HASTI CO-OPERATIVE BANK LTD.DONDAICHA",
+    "standard_bank_name": "Hasti Co-Operative Bank Limited, Dondaicha"
+  },
+  {
+    "bank_name": "Hazaribagh Kshetriya Gramin Bank",
+    "standard_bank_name": "Hazaribagh Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "HDFC Bank Limited",
+    "standard_bank_name": "HDFC Bank Limited"
+  },
+  {
+    "bank_name": "Himachal Gramin Bank",
+    "standard_bank_name": "Himachal Gramin Bank"
+  },
+  {
+    "bank_name": "Himachal Pradesh Gramin Bank",
+    "standard_bank_name": "Himachal Pradesh Gramin Bank"
+  },
+  {
+    "bank_name": "HINDUSTAN CO-OP.BANK LTD.",
+    "standard_bank_name": "Hindustan Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "HISSAR DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Hissar District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "HITACHI PAYMENT SERVICES PVT LTD.",
+    "standard_bank_name": "Hitachi Payment Services Private Limited"
+  },
+  {
+    "bank_name": "HOSHIARPUR CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Hoshiarpur Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Howrah Gramin Bank",
+    "standard_bank_name": "Howrah Gramin Bank"
+  },
+  {
+    "bank_name": "Hsbc Bank Oman S.A.O.G.",
+    "standard_bank_name": "HSBC Bank Oman S.A.O.G."
+  },
+  {
+    "bank_name": "Hongkong and Shanghai Banking Corpn.Ltd.",
+    "standard_bank_name": "HSBC Limited"
+  },
+  {
+    "bank_name": "HSBC",
+    "standard_bank_name": "HSBC Limited"
+  },
+  {
+    "bank_name": "Icici Bank Limited",
+    "standard_bank_name": "ICICI Bank Limited"
+  },
+  {
+    "bank_name": "IDBI Bank",
+    "standard_bank_name": "IDBI Bank Limited"
+  },
+  {
+    "bank_name": "Idbi Limited",
+    "standard_bank_name": "IDBI Bank Limited"
+  },
+  {
+    "bank_name": "IDFC BANK LIMITED",
+    "standard_bank_name": "IDFC First Bank Limited"
+  },
+  {
+    "bank_name": "Idfc First Bank Limited",
+    "standard_bank_name": "IDFC First Bank Limited"
+  },
+  {
+    "bank_name": "ILKAL CO-OPERATIVE BANK LTD.ILKAL",
+    "standard_bank_name": "Ilkal Co-Operative Bank Limited, Ilkal"
+  },
+  {
+    "bank_name": "IMPHAL URBAN CO-OP.BANK LTD",
+    "standard_bank_name": "Imphal Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "INDIA POST PAYMENTS BANK",
+    "standard_bank_name": "India Post Payments Bank Limited"
+  },
+  {
+    "bank_name": "INDIA1 PAYMENTS LIMITED",
+    "standard_bank_name": "India1 Payments Limited"
+  },
+  {
+    "bank_name": "Indian Bank",
+    "standard_bank_name": "Indian Bank"
+  },
+  {
+    "bank_name": "Indian Overseas Bank",
+    "standard_bank_name": "Indian Overseas Bank"
+  },
+  {
+    "bank_name": "INDORE PARASPAR SAHAKARI BANK LTD., INDORE -2",
+    "standard_bank_name": "Indore Paraspar Sahakari Bank Limited, Indore -2"
+  },
+  {
+    "bank_name": "Indore Ujjain Kshetriya Gramin Bank",
+    "standard_bank_name": "Indore Ujjain Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "IndusInd Bank Limited",
+    "standard_bank_name": "Indusind Bank Limited"
+  },
+  {
+    "bank_name": "Industrial And Commercial Bank Of China",
+    "standard_bank_name": "Industrial And Commercial Bank of China"
+  },
+  {
+    "bank_name": "Industrial Bank Of Korea",
+    "standard_bank_name": "Industrial Bank of Korea"
+  },
+  {
+    "bank_name": "Ing Bank N.V.",
+    "standard_bank_name": "ING Bank N.V."
+  },
+  {
+    "bank_name": "ING Vysya Bank",
+    "standard_bank_name": "ING Vysya Bank Limited"
+  },
+  {
+    "bank_name": "IRINJALAKUDA TOWN CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Irinjalakuda Town Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Jaipur Thar Gramin Bank",
+    "standard_bank_name": "Jaipur Thar Gramin Bank"
+  },
+  {
+    "bank_name": "JALANDHAR CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Jalandhar Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "JALNA MERCHANTS CO-OP BANK LTD.",
+    "standard_bank_name": "Jalna Merchants Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "JALORE NAGRIK SAHAKARI BANK",
+    "standard_bank_name": "Jalore Nagrik Sahakari Bank"
+  },
+  {
+    "bank_name": "JAMIA CO-OPERATIVE BANK LTD, NEW DELHI",
+    "standard_bank_name": "Jamia Co-Operative Bank Limited, New Delhi"
+  },
+  {
+    "bank_name": "JAMKHANDI URBAN CO-OP.BANK LTD.",
+    "standard_bank_name": "Jamkhandi Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Jammu & Kashmir Bank",
+    "standard_bank_name": "Jammu And Kashmir Bank Limited"
+  },
+  {
+    "bank_name": "J & K Grameen Bank",
+    "standard_bank_name": "Jammu And Kashmir Grameen Bank"
+  },
+  {
+    "bank_name": "Jammu Rural Bank",
+    "standard_bank_name": "Jammu Rural Bank"
+  },
+  {
+    "bank_name": "Jamuna Gramin Bank",
+    "standard_bank_name": "Jamuna Gramin Bank"
+  },
+  {
+    "bank_name": "Jana Small Finance Bank Limited",
+    "standard_bank_name": "Jana Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "JANATA CO-OP.BANK LTD.(MALEGAON)",
+    "standard_bank_name": "Janata Co-Operative Bank Limited (Malegaon)"
+  },
+  {
+    "bank_name": "JANATA CO.OPERATIVE BANK LTD.HARUGERI",
+    "standard_bank_name": "Janata Co-Operative Bank Limited, Harugeri"
+  },
+  {
+    "bank_name": "JANATA SAHAKARI BANK LTD.(POONA)",
+    "standard_bank_name": "Janata Sahakari Bank Limited (Poona)"
+  },
+  {
+    "bank_name": "JANATA SAHAKARI BANK LIMITED, DHARASHIV",
+    "standard_bank_name": "Janata Sahakari Bank Limited, Dharashiv"
+  },
+  {
+    "bank_name": "JAWAHAR SAHAKARI BANK LTD.",
+    "standard_bank_name": "Jawahar Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "Jhabua-Dhar Kshetriya Gramin Bank",
+    "standard_bank_name": "Jhabua-Dhar Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "JHAJJAR CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Jhajjar Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Jharkhand Gramin Bank",
+    "standard_bank_name": "Jharkhand Gramin Bank"
+  },
+  {
+    "bank_name": "Jharkhand Rajya Gramin Bank",
+    "standard_bank_name": "Jharkhand Rajya Gramin Bank"
+  },
+  {
+    "bank_name": "JILLA SAHAKARI KENDRIYA BANK MARYADIT, BETUL",
+    "standard_bank_name": "Jilla Sahakari Kendriya Bank Maryadit, Betul"
+  },
+  {
+    "bank_name": "JILLA SAHAKARI KENDRIYA BANK MARYADIT, BILASPUR",
+    "standard_bank_name": "Jilla Sahakari Kendriya Bank Maryadit, Bilaspur"
+  },
+  {
+    "bank_name": "JILLA SAHAKARI KENDRIYA BANK MARYADIT, DURG",
+    "standard_bank_name": "Jilla Sahakari Kendriya Bank Maryadit, Durg"
+  },
+  {
+    "bank_name": "JILLA SAHAKARI KENDRIYA BANK MARYADIT, JAGDALPUR",
+    "standard_bank_name": "Jilla Sahakari Kendriya Bank Maryadit, Jagdalpur"
+  },
+  {
+    "bank_name": "JILLA SAHAKARI KENDRIYA BANK MARYADIT, RAJANANDGAON",
+    "standard_bank_name": "Jilla Sahakari Kendriya Bank Maryadit, Rajanandgaon"
+  },
+  {
+    "bank_name": "JIND CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Jind Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "JIO PAYMENTS BANK",
+    "standard_bank_name": "Jio Payments Bank Limited"
+  },
+  {
+    "bank_name": "JIVAN COMM.CO-OP.BANK LTD.",
+    "standard_bank_name": "Jivan Commercial Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "JOGINDRA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Jogindra Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "JP MORGAN CHASE BANK NATIONAL ASSOCIATION",
+    "standard_bank_name": "JPMorgan Chase Bank, National Association"
+  },
+  {
+    "bank_name": "Jsc Vtb Bank",
+    "standard_bank_name": "JSC VTB Bank"
+  },
+  {
+    "bank_name": "JUNAGADH COMM.CO-OP.BANK LTD.",
+    "standard_bank_name": "Junagadh Commercial Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "KAITHAL CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Kaithal Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "KAKATIYA CO-OP.URBAN BANK LTD.CHINTAL",
+    "standard_bank_name": "Kakatiya Co-Operative Urban Bank Limited, Chintal"
+  },
+  {
+    "bank_name": "Kalahandi Anchalik Gramya Bank",
+    "standard_bank_name": "Kalahandi Anchalik Gramya Bank"
+  },
+  {
+    "bank_name": "Kalinga Gramya Bank",
+    "standard_bank_name": "Kalinga Gramya Bank"
+  },
+  {
+    "bank_name": "Kalpatharu Grameena Bank",
+    "standard_bank_name": "Kalpatharu Grameena Bank"
+  },
+  {
+    "bank_name": "Kamraz Rural Bank",
+    "standard_bank_name": "Kamraz Rural Bank"
+  },
+  {
+    "bank_name": "KANAKA MAHALAKSHMI CO-OPERATIVE URBAN BANK LTD.",
+    "standard_bank_name": "Kanaka Mahalakshmi Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "Kanakadurga Grameena Bank",
+    "standard_bank_name": "Kanakadurga Grameena Bank"
+  },
+  {
+    "bank_name": "KANGRA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Kangra Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "KANGRA CO-OPERATIVE BANK LTD",
+    "standard_bank_name": "Kangra Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "KAPURTHALA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Kapurthala Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "KARIMNAGAR DISTRICT CO-OPERATIVE CENTRAL BANK LTD.",
+    "standard_bank_name": "Karimnagar District Co-Operative Central Bank Limited"
+  },
+  {
+    "bank_name": "KARNAL CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Karnal Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Karnataka Bank Limited",
+    "standard_bank_name": "Karnataka Bank Limited"
+  },
+  {
+    "bank_name": "Karnataka Grameena Bank",
+    "standard_bank_name": "Karnataka Grameena Bank"
+  },
+  {
+    "bank_name": "Karnataka Gramin Bank",
+    "standard_bank_name": "Karnataka Gramin Bank"
+  },
+  {
+    "bank_name": "Karnataka Vikas Grameena Bank",
+    "standard_bank_name": "Karnataka Vikas Grameena Bank"
+  },
+  {
+    "bank_name": "Karur Vysya Bank Limited",
+    "standard_bank_name": "Karur Vysya Bank Limited"
+  },
+  {
+    "bank_name": "Kashi Gomti Samyut Gramin Bank",
+    "standard_bank_name": "Kashi Gomti Samyut Gramin Bank"
+  },
+  {
+    "bank_name": "Kaveri Grameena Bank",
+    "standard_bank_name": "Kaveri Grameena Bank"
+  },
+  {
+    "bank_name": "KBC BANK N.V",
+    "standard_bank_name": "KBC Bank N.V."
+  },
+  {
+    "bank_name": "Keb Hana Bank",
+    "standard_bank_name": "KEB Hana Bank"
+  },
+  {
+    "bank_name": "Kerala Grameena Bank",
+    "standard_bank_name": "Kerala Grameena Bank"
+  },
+  {
+    "bank_name": "KERALA GRAMIN BANK",
+    "standard_bank_name": "Kerala Gramin Bank"
+  },
+  {
+    "bank_name": "KHAMGAON URBAN CO-OP.BANK LTD.",
+    "standard_bank_name": "Khamgaon Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "KHARDAH CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Khardah Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Kisan Gramin Bank,Budaun",
+    "standard_bank_name": "Kisan Gramin Bank,Budaun"
+  },
+  {
+    "bank_name": "KOILKUNTLA CO-OP.TOWN BANK LTD.",
+    "standard_bank_name": "Koilkuntla Co-Operative Town Bank Limited"
+  },
+  {
+    "bank_name": "Kookmin Bank",
+    "standard_bank_name": "Kookmin Bank"
+  },
+  {
+    "bank_name": "Koraput-Panchabati Gramya Bank",
+    "standard_bank_name": "Koraput-Panchabati Gramya Bank"
+  },
+  {
+    "bank_name": "Kosi Kshetriya Gramin Bank",
+    "standard_bank_name": "Kosi Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Kotak Mahindra Bank Limited",
+    "standard_bank_name": "Kotak Mahindra Bank Limited"
+  },
+  {
+    "bank_name": "KOTTARAKARA CO-OPERATIVE URBAN BANK LTD.",
+    "standard_bank_name": "Kottarakara Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "KRANTI CO.OP.URBAN BANK LTD.",
+    "standard_bank_name": "Kranti Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "Krishna Bhima Samruddhi Lab Ltd.",
+    "standard_bank_name": "Krishna Bhima Samruddhi Lab Limited"
+  },
+  {
+    "bank_name": "Krishna Grameena Bank",
+    "standard_bank_name": "Krishna Grameena Bank"
+  },
+  {
+    "bank_name": "Krung Thai Bank Public Company Limited",
+    "standard_bank_name": "Krung Thai Bank Public Company Limited"
+  },
+  {
+    "bank_name": "Kshetriya Gramin Bank,Hoshangabad",
+    "standard_bank_name": "Kshetriya Gramin Bank,Hoshangabad"
+  },
+  {
+    "bank_name": "Kshetriya Kisan Gramin Bank,Mainpuri",
+    "standard_bank_name": "Kshetriya Kisan Gramin Bank,Mainpuri"
+  },
+  {
+    "bank_name": "KURMANCHAL NAGAR SAHAKARI BANK LTD.",
+    "standard_bank_name": "Kurmanchal Nagar Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "KURUKSHETRA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Kurukshetra Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Lakshmi Vilas Bank Limited",
+    "standard_bank_name": "Lakshmi Vilas Bank Limited"
+  },
+  {
+    "bank_name": "Langpi Dehangi Rural Bank",
+    "standard_bank_name": "Langpi Dehangi Rural Bank"
+  },
+  {
+    "bank_name": "LOCAL AREA BANKS",
+    "standard_bank_name": "Local Area Banks"
+  },
+  {
+    "bank_name": "LOKMANGAL CO-OPERATIVE BANK LTD., SOLAPUR",
+    "standard_bank_name": "Lokmangal Co-Operative Bank Limited, Solapur"
+  },
+  {
+    "bank_name": "LOKNETE DATTAJI PATIL SAHAKARI BANK LTD., LASALGAON",
+    "standard_bank_name": "Loknete Dattaji Patil Sahakari Bank Limited, Lasalgaon"
+  },
+  {
+    "bank_name": "LOKVIKAS NAGARI SAHAKARI BANK LTD., AURANGABAD",
+    "standard_bank_name": "Lokvikas Nagari Sahakari Bank Limited, Aurangabad"
+  },
+  {
+    "bank_name": "LOKVIKAS NAGARI SAHAKARI BANK LIMITED, CHHATRAPATI SAMBHAJINAGAR",
+    "standard_bank_name": "Lokvikas Nagari Sahakari Bank Limited, Chhatrapati Sambhajinagar"
+  },
+  {
+    "bank_name": "Lord Krishna Bank Ltd",
+    "standard_bank_name": "Lord Krishna Bank Limited"
+  },
+  {
+    "bank_name": "Lucknow Kshetriya Gramin Bank",
+    "standard_bank_name": "Lucknow Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "LUDHIANA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Ludhiana Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "MADANPALLE CO-OPERATIVE TOWN BANK LTD., MADANAPALLE",
+    "standard_bank_name": "Madanpalle Co-Operative Town Bank Limited, Madanapalle"
+  },
+  {
+    "bank_name": "Madhya Bharat Gramin Bank",
+    "standard_bank_name": "Madhya Bharat Gramin Bank"
+  },
+  {
+    "bank_name": "Madhya Bihar Gramin Bank",
+    "standard_bank_name": "Madhya Bihar Gramin Bank"
+  },
+  {
+    "bank_name": "Madhya Pradesh Gramin Bank",
+    "standard_bank_name": "Madhya Pradesh Gramin Bank"
+  },
+  {
+    "bank_name": "Madhyanchal Gramin Bank",
+    "standard_bank_name": "Madhyanchal Gramin Bank"
+  },
+  {
+    "bank_name": "MAH.MANTRALAYA CO-OP BANK LTD.",
+    "standard_bank_name": "Mah.Mantralaya Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Mahakaushal Kshetriya Gramin Bank",
+    "standard_bank_name": "Mahakaushal Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "MAHANAGAR NAGARIK SAHAKARI BANK MARYADIT, BAIRAGARH, BHOPAL",
+    "standard_bank_name": "Mahanagar Nagarik Sahakari Bank Maryadit, Bairagarh, Bhopal"
+  },
+  {
+    "bank_name": "MAHARAJA CO-OPERATIVE URBAN BANK LTD., VISAKHAPATNAM",
+    "standard_bank_name": "Maharaja Co-Operative Urban Bank Limited, Visakhapatnam"
+  },
+  {
+    "bank_name": "Maharashtra Godavari Gramin Bank",
+    "standard_bank_name": "Maharashtra Godavari Gramin Bank"
+  },
+  {
+    "bank_name": "Maharashtra Gramin Bank",
+    "standard_bank_name": "Maharashtra Gramin Bank"
+  },
+  {
+    "bank_name": "MAHAVEER CO-OPERATIVE URBAN BANK LTD., HYDERABAD A.P.",
+    "standard_bank_name": "Mahaveer Co-Operative Urban Bank Limited, Hyderabad A.P."
+  },
+  {
+    "bank_name": "MAHENDRAGARH CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Mahendragarh Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "MAHESH SAHAKARI BANK LTD.PUNE",
+    "standard_bank_name": "Mahesh Sahakari Bank Limited, Pune"
+  },
+  {
+    "bank_name": "MAHESH URBAN CO-OPERATIVE BANK LTD",
+    "standard_bank_name": "Mahesh Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "MAHILA NAGRIK SAHAKARI BANK MARYADIT, MAHASAMUND",
+    "standard_bank_name": "Mahila Nagrik Sahakari Bank Maryadit, Mahasamund"
+  },
+  {
+    "bank_name": "MALAD SAHAKARI BANK LTD.",
+    "standard_bank_name": "Malad Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "MALAPPURAM DISTRICT CO-OPERATIVE CENTRAL BANK LTD.",
+    "standard_bank_name": "Malappuram District Co-Operative Central Bank Limited"
+  },
+  {
+    "bank_name": "Mallabhum Gramin Bank",
+    "standard_bank_name": "Mallabhum Gramin Bank"
+  },
+  {
+    "bank_name": "Malwa Gramin Bank",
+    "standard_bank_name": "Malwa Gramin Bank"
+  },
+  {
+    "bank_name": "Mandla Balaghat Kshetriya Gramin Bank",
+    "standard_bank_name": "Mandla Balaghat Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "MANGALORE CATHOLIC CO-OP.BANK LTD",
+    "standard_bank_name": "Mangalore Catholic Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Manipur Rural Bank",
+    "standard_bank_name": "Manipur Rural Bank"
+  },
+  {
+    "bank_name": "MANORAMA CO-OPERATIVE BANK LTD. SOLAPUR",
+    "standard_bank_name": "Manorama Co-Operative Bank Limited Solapur"
+  },
+  {
+    "bank_name": "MANSA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Mansa Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "MANVI PATTANA SOUHARDA SAH. BANK NYMT.",
+    "standard_bank_name": "Manvi Pattana Souharda Sahakari Bank Niyamit"
+  },
+  {
+    "bank_name": "Marathwada Gramin Bank",
+    "standard_bank_name": "Marathwada Gramin Bank"
+  },
+  {
+    "bank_name": "Marudhara Gramin Bank",
+    "standard_bank_name": "Marudhara Gramin Bank"
+  },
+  {
+    "bank_name": "Marwar Ganganagar Bikaner Gramin Bank",
+    "standard_bank_name": "Marwar Ganganagar Bikaner Gramin Bank"
+  },
+  {
+    "bank_name": "Marwar Gramin Bank",
+    "standard_bank_name": "Marwar Gramin Bank"
+  },
+  {
+    "bank_name": "Mashreq Bank Psc",
+    "standard_bank_name": "Mashreq Bank PSC"
+  },
+  {
+    "bank_name": "Mayurakshi Gramin Bank",
+    "standard_bank_name": "Mayurakshi Gramin Bank"
+  },
+  {
+    "bank_name": "Megalaya Rural Bank",
+    "standard_bank_name": "Meghalaya Rural Bank"
+  },
+  {
+    "bank_name": "MEHSANA URBAN CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Mehsana Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Mewar Aanchalik Gramin Bank",
+    "standard_bank_name": "Mewar Aanchalik Gramin Bank"
+  },
+  {
+    "bank_name": "Mizoram Rural Bank",
+    "standard_bank_name": "Mizoram Rural Bank"
+  },
+  {
+    "bank_name": "Mizuho Bank Ltd",
+    "standard_bank_name": "Mizuho Bank Limited"
+  },
+  {
+    "bank_name": "MODEL CO-OPERATIVE BANK LTD. MUMBAI",
+    "standard_bank_name": "Model Co-Operative Bank Limited Mumbai"
+  },
+  {
+    "bank_name": "MOGA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Moga Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "MOIRANG PRIMARY CO-OP.BANK LTD",
+    "standard_bank_name": "Moirang Primary Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Mufg Bank Ltd",
+    "standard_bank_name": "MUFG Bank Limited"
+  },
+  {
+    "bank_name": "MUKTSAR CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Muktsar Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "MUNICIPAL CO-OP.BANK LTD.(BOMBAY)",
+    "standard_bank_name": "Municipal Co-Operative Bank Limited (Bombay)"
+  },
+  {
+    "bank_name": "MURSHIDABAD DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Murshidabad District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Murshidabad Gramin Bank",
+    "standard_bank_name": "Murshidabad Gramin Bank"
+  },
+  {
+    "bank_name": "Muthoot Finance Ltd",
+    "standard_bank_name": "Muthoot Finance Limited"
+  },
+  {
+    "bank_name": "NADIA DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Nadia District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Nadia Gramin Bank",
+    "standard_bank_name": "Nadia Gramin Bank"
+  },
+  {
+    "bank_name": "Nagaland Rural Bank",
+    "standard_bank_name": "Nagaland Rural Bank"
+  },
+  {
+    "bank_name": "NAGARIK SAHAKARI BANK LTD.(BHIWANDI)",
+    "standard_bank_name": "Nagarik Sahakari Bank Limited (Bhiwandi)"
+  },
+  {
+    "bank_name": "NAGARIK SAHAKARI BANK MARYADIT, GWALIOR",
+    "standard_bank_name": "Nagarik Sahakari Bank Maryadit, Gwalior"
+  },
+  {
+    "bank_name": "NAGPUR NAGARIK SAHAKARI BANK LTD.",
+    "standard_bank_name": "Nagpur Nagarik Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "Nainital Almora Kshetriya Gramin Bank",
+    "standard_bank_name": "Nainital Almora Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Nainital Bank Limited",
+    "standard_bank_name": "Nainital Bank Limited"
+  },
+  {
+    "bank_name": "NAINITAL DISTRICT CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Nainital District Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "NANDURBAR MERCHANTS, CO-OP BANK LTD",
+    "standard_bank_name": "Nandurbar Merchants, Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Narmada Jhabua Gramin Bank",
+    "standard_bank_name": "Narmada Jhabua Gramin Bank"
+  },
+  {
+    "bank_name": "Narmada Malwa Gramin Bank",
+    "standard_bank_name": "Narmada Malwa Gramin Bank"
+  },
+  {
+    "bank_name": "National Australia Bank",
+    "standard_bank_name": "National Australia Bank"
+  },
+  {
+    "bank_name": "NATIONAL CO-OP.BANK LTD.,BANGALORE",
+    "standard_bank_name": "National Co-Operative Bank Limited,Bangalore"
+  },
+  {
+    "bank_name": "Nationalised Banks",
+    "standard_bank_name": "Nationalised Banks"
+  },
+  {
+    "bank_name": "Natwest Markets Plc",
+    "standard_bank_name": "Natwest Markets Plc"
+  },
+  {
+    "bank_name": "NAV JEEVAN CO-OP.BANK MYDT.ULHASNAGAR",
+    "standard_bank_name": "Nav Jeevan Co-Operative Bank Maryadit, Ulhasnagar"
+  },
+  {
+    "bank_name": "NAVI MUMBAI CO-OPERATIVE BANK LTD.VASHI",
+    "standard_bank_name": "Navi Mumbai Co-Operative Bank Limited, Vashi"
+  },
+  {
+    "bank_name": "NAWANSHAHR CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Nawanshahr Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Neelachal Gramya Bank",
+    "standard_bank_name": "Neelachal Gramya Bank"
+  },
+  {
+    "bank_name": "NELLORE DISTRICT CO-OPERATIVE CENTRAL BANK LTD.",
+    "standard_bank_name": "Nellore District Co-Operative Central Bank Limited"
+  },
+  {
+    "bank_name": "NEW INDIA CO-OP.BANK LTD.",
+    "standard_bank_name": "New India Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "NEW URBAN COOP BANK LTD RAMPUR",
+    "standard_bank_name": "New Urban Co-Operative Bank Limited, Rampur"
+  },
+  {
+    "bank_name": "NILESHWAR CO-OPERATIVE URBAN BANK LTD.",
+    "standard_bank_name": "Nileshwar Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "Nimar Kshetriya Gramin Bank",
+    "standard_bank_name": "Nimar Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "NIZAMABAD DISTRICT CO-OPERATIVE CENTRAL BANK LTD.",
+    "standard_bank_name": "Nizamabad District Co-Operative Central Bank Limited"
+  },
+  {
+    "bank_name": "NKGSB CO-OP. BANK LTD.",
+    "standard_bank_name": "NKGSB Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Nonghyup Bank",
+    "standard_bank_name": "Nonghyup Bank"
+  },
+  {
+    "bank_name": "North East Small Finance Bank Limited",
+    "standard_bank_name": "North East Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "North Malabar Gramin Bank",
+    "standard_bank_name": "North Malabar Gramin Bank"
+  },
+  {
+    "bank_name": "NSDL PAYMENTS BANK",
+    "standard_bank_name": "NSDL Payments Bank Limited"
+  },
+  {
+    "bank_name": "Odisha Grameen Bank",
+    "standard_bank_name": "Odisha Grameen Bank"
+  },
+  {
+    "bank_name": "Odisha Gramya Bank",
+    "standard_bank_name": "Odisha Gramya Bank"
+  },
+  {
+    "bank_name": "Oman International Bank SAO",
+    "standard_bank_name": "Oman International Bank S.A.O.G."
+  },
+  {
+    "bank_name": "Oriental Bank Of Commerce",
+    "standard_bank_name": "Oriental Bank of Commerce"
+  },
+  {
+    "bank_name": "OSMANABAD JANATA SAHAKARI BANK LTD.",
+    "standard_bank_name": "Osmanabad Janata Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "Palamau Kshetriya Gramin Bank",
+    "standard_bank_name": "Palamau Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Pallavan Grama Bank",
+    "standard_bank_name": "Pallavan Grama Bank"
+  },
+  {
+    "bank_name": "PALUS SAHAKARI BANK LTD.",
+    "standard_bank_name": "Palus Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "PANCHKULA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Panchkula Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "PANDHARPUR MERCHANTS' CO-OPERATIVE BANK LTD., PANDHARPUR",
+    "standard_bank_name": "Pandharpur Merchants' Co-Operative Bank Limited, Pandharpur"
+  },
+  {
+    "bank_name": "Pandyan Grama Bank",
+    "standard_bank_name": "Pandyan Grama Bank"
+  },
+  {
+    "bank_name": "PANIPAT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Panipat Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Parvatiya Gramin Bank",
+    "standard_bank_name": "Parvatiya Gramin Bank"
+  },
+  {
+    "bank_name": "Paschim Banga Gramin Bank",
+    "standard_bank_name": "Paschim Banga Gramin Bank"
+  },
+  {
+    "bank_name": "PATAN NAGRIK SAHAKARI BANK LTD.",
+    "standard_bank_name": "Patan Nagrik Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "PATIALA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Patiala Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Payment Banks",
+    "standard_bank_name": "Payment Banks"
+  },
+  {
+    "bank_name": "PAYTM PAYMENTS BANK",
+    "standard_bank_name": "Paytm Payments Bank Limited"
+  },
+  {
+    "bank_name": "PIMPALGAON MERCHANTS' CO-OP.BANK LTD.",
+    "standard_bank_name": "Pimpalgaon Merchants' Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Pinakini Grameena Bank",
+    "standard_bank_name": "Pinakini Grameena Bank"
+  },
+  {
+    "bank_name": "Pithoragarh Kshetriya Gramin Bank",
+    "standard_bank_name": "Pithoragarh Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "POCHAMPALLY CO-OPERATIVE URBAN BANK LTD., POCHAMPALLY",
+    "standard_bank_name": "Pochampally Co-Operative Urban Bank Limited, Pochampally"
+  },
+  {
+    "bank_name": "POORNAWADI NAGARIK SAHAKARI BANK MARYADIT, BEED",
+    "standard_bank_name": "Poornawadi Nagarik Sahakari Bank Maryadit, Beed"
+  },
+  {
+    "bank_name": "Pragathi Gramin Bank",
+    "standard_bank_name": "Pragathi Gramin Bank"
+  },
+  {
+    "bank_name": "Pragathi Krishna Gramin Bank",
+    "standard_bank_name": "Pragathi Krishna Gramin Bank"
+  },
+  {
+    "bank_name": "Prathama Bank",
+    "standard_bank_name": "Prathama Bank"
+  },
+  {
+    "bank_name": "Prathama Up Gramin Bank",
+    "standard_bank_name": "Prathama UP Gramin Bank"
+  },
+  {
+    "bank_name": "PRERANA CO-OPERATIVE BANK LTD.THAREGAON",
+    "standard_bank_name": "Prerana Co-Operative Bank Limited, Tharegaon"
+  },
+  {
+    "bank_name": "PRIME COOPERATIVE BANK LTD",
+    "standard_bank_name": "Prime Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "PRIYADARSHANI URBAN CO-OPERATIVE BANK LTD., KALLAM",
+    "standard_bank_name": "Priyadarshani Urban Co-Operative Bank Limited, Kallam"
+  },
+  {
+    "bank_name": "Pt Bank Maybank Indonesia Tbk",
+    "standard_bank_name": "PT Bank Maybank Indonesia Tbk"
+  },
+  {
+    "bank_name": "Puducherry Grama Bank",
+    "standard_bank_name": "Puducherry Grama Bank"
+  },
+  {
+    "bank_name": "Puduvai Bharathiar Grama Bank",
+    "standard_bank_name": "Puduvai Bharathiar Grama Bank"
+  },
+  {
+    "bank_name": "PUNE URBAN CO-OPERATIVE BANK LTD",
+    "standard_bank_name": "Pune Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "PUNJAB AND MAHARASHTRA COOP.BK.LTD.,BOMBAY",
+    "standard_bank_name": "Punjab And Maharashtra Co-Operative Bank Limited, Bombay"
+  },
+  {
+    "bank_name": "Punjab And Sind Bank",
+    "standard_bank_name": "Punjab And Sind Bank"
+  },
+  {
+    "bank_name": "Punjab Gramin Bank",
+    "standard_bank_name": "Punjab Gramin Bank"
+  },
+  {
+    "bank_name": "Punjab National Bank",
+    "standard_bank_name": "Punjab National Bank"
+  },
+  {
+    "bank_name": "Puri Gramya Bank",
+    "standard_bank_name": "Puri Gramya Bank"
+  },
+  {
+    "bank_name": "Purvanchal Bank",
+    "standard_bank_name": "Purvanchal Bank"
+  },
+  {
+    "bank_name": "Purvanchal Gramin Bank",
+    "standard_bank_name": "Purvanchal Gramin Bank"
+  },
+  {
+    "bank_name": "Qatar National Bank (Q.P.S.C)",
+    "standard_bank_name": "Qatar National Bank (Q.P.S.C.)"
+  },
+  {
+    "bank_name": "Qatar National Bank SAQ",
+    "standard_bank_name": "Qatar National Bank SAQ"
+  },
+  {
+    "bank_name": "Raigarh Kshetriya Gramin Bank",
+    "standard_bank_name": "Raigarh Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "RAJADHANI CO-OPERATIVE URBAN BANK LTD., HYDERABAD",
+    "standard_bank_name": "Rajadhani Co-Operative Urban Bank Limited, Hyderabad"
+  },
+  {
+    "bank_name": "RAJARAM BAPU SAHAKARI BANK LTD.",
+    "standard_bank_name": "Rajaram Bapu Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "Rajasthan Gramin Bank",
+    "standard_bank_name": "Rajasthan Gramin Bank"
+  },
+  {
+    "bank_name": "Rajasthan Marudhara Gramin Bank",
+    "standard_bank_name": "Rajasthan Marudhara Gramin Bank"
+  },
+  {
+    "bank_name": "Rajgarh Sehore Kshetriya Gramin Bank",
+    "standard_bank_name": "Rajgarh Sehore Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "RAJGURUNAGAR SAHAKARI BANK LTD.",
+    "standard_bank_name": "Rajgurunagar Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "RAJKOT NAGRIK SAHAKARI BANK LTD.",
+    "standard_bank_name": "Rajkot Nagrik Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "Ranchi Kshetriya Gramin Bank",
+    "standard_bank_name": "Ranchi Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "RANDER PEOPLE'S CO-OP.BANK LTD.",
+    "standard_bank_name": "Rander People's Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "RANGA REDDY CO-OPERATIVE URBAN BANK LTD., KOTHAPET",
+    "standard_bank_name": "Ranga Reddy Co-Operative Urban Bank Limited, Kothapet"
+  },
+  {
+    "bank_name": "RANI CHANNAMMA MAHILA SAHAKARI BANK NIYAMIT,BELAGAVI.",
+    "standard_bank_name": "Rani Channamma Mahila Sahakari Bank Niyamit, Belagavi"
+  },
+  {
+    "bank_name": "Rani Lakshmi Bai Kshetriya Gramin Bank",
+    "standard_bank_name": "Rani Lakshmi Bai Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Ratlam Mandsaur Kshetriya Gramin Bank",
+    "standard_bank_name": "Ratlam Mandsaur Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Ratnagiri Sindhudurg Gramin Bank",
+    "standard_bank_name": "Ratnagiri Sindhudurg Gramin Bank"
+  },
+  {
+    "bank_name": "Rayalaseema Grameena Bank",
+    "standard_bank_name": "Rayalaseema Grameena Bank"
+  },
+  {
+    "bank_name": "RATNAKAR BANK LIMITED",
+    "standard_bank_name": "RBL Bank Limited"
+  },
+  {
+    "bank_name": "RBS (ABN AMRO)",
+    "standard_bank_name": "Rbs (Abn Amro)"
+  },
+  {
+    "bank_name": "REGIONAL RURAL BANKS",
+    "standard_bank_name": "Regional Rural Banks"
+  },
+  {
+    "bank_name": "REWARI CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Rewari Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Rewa-Sidhi Gramin Bank",
+    "standard_bank_name": "Rewa-Sidhi Gramin Bank"
+  },
+  {
+    "bank_name": "Riddhi Siddhi Bullions Limited",
+    "standard_bank_name": "Riddhi Siddhi Bullions Limited"
+  },
+  {
+    "bank_name": "ROHTAK CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Rohtak Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "ROPAR CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Ropar Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Rushikulya Gramya Bank",
+    "standard_bank_name": "Rushikulya Gramya Bank"
+  },
+  {
+    "bank_name": "S.A.S.NAGAR CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "S.A.S.Nagar Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SADALGA URBAN SOUHARDA SAHAKARI BANK NIYAMIT",
+    "standard_bank_name": "Sadalga Urban Souharda Sahakari Bank Niyamit"
+  },
+  {
+    "bank_name": "Sagar Gramin Bank",
+    "standard_bank_name": "Sagar Gramin Bank"
+  },
+  {
+    "bank_name": "Saibaba Nagari Sahakari Bank Maryadit, Sailu",
+    "standard_bank_name": "Saibaba Nagari Sahakari Bank Maryadit, Sailu"
+  },
+  {
+    "bank_name": "SAIBABA NAGARI SAHAKARI BNK MARYADIT, SAILU, PARBHANI",
+    "standard_bank_name": "Saibaba Nagari Sahakari Bank Maryadit, Sailu, Parbhani"
+  },
+  {
+    "bank_name": "SAMARTH SAHAKARI BANK LTD. SOLAPUR",
+    "standard_bank_name": "Samarth Sahakari Bank Limited Solapur"
+  },
+  {
+    "bank_name": "SAMARTH SAHAKARI BANK MARYADIT, JALNA",
+    "standard_bank_name": "Samarth Sahakari Bank Maryadit, Jalna"
+  },
+  {
+    "bank_name": "Samastipur Kshetriya Gramin Bank",
+    "standard_bank_name": "Samastipur Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "SAMATA CO.OP.DEVELOPMENT BANK LTD.",
+    "standard_bank_name": "Samata Co-Operative Development Bank Limited"
+  },
+  {
+    "bank_name": "SAMRUDHI CO-OPERATIVE BANK LTD., NAGPUR",
+    "standard_bank_name": "Samrudhi Co-Operative Bank Limited, Nagpur"
+  },
+  {
+    "bank_name": "SANGHAMITRA CO-OPERATIVE URBAN BANK LTD., NALGONDA",
+    "standard_bank_name": "Sanghamitra Co-Operative Urban Bank Limited, Nalgonda"
+  },
+  {
+    "bank_name": "Sangli Bank Ltd",
+    "standard_bank_name": "Sangli Bank Limited"
+  },
+  {
+    "bank_name": "SANGOLA URBAN CO-OPERATIVE BANK LTD. SANGOLA, SOLAPUR",
+    "standard_bank_name": "Sangola Urban Co-Operative Bank Limited Sangola, Solapur"
+  },
+  {
+    "bank_name": "SANGRUR CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Sangrur Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SANMITRA MAHILA NAGARI SAH.BK.MT.CHANDRA",
+    "standard_bank_name": "Sanmitra Mahila Nagari Sah.Bk.Mt.Chandra"
+  },
+  {
+    "bank_name": "SANMITRA SAHAKARI BANK LTD.(PUNE)",
+    "standard_bank_name": "Sanmitra Sahakari Bank Limited (Pune)"
+  },
+  {
+    "bank_name": "Santhal Parganas Gramin Bank",
+    "standard_bank_name": "Santhal Parganas Gramin Bank"
+  },
+  {
+    "bank_name": "Saptagiri Grameena Bank",
+    "standard_bank_name": "Saptagiri Grameena Bank"
+  },
+  {
+    "bank_name": "SARANGPUR CO-OP.BANK LTD.",
+    "standard_bank_name": "Sarangpur Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SARASWAT CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Saraswat Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SARDAR BHILADWALA PARDI PEOPLE'S CO-OP.BANK LTD.",
+    "standard_bank_name": "Sardar Bhiladwala Pardi People's Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SARDAR SINGH NAGARIK SAHAKARI BANK MARYADIT, TIKAMGARH",
+    "standard_bank_name": "Sardar Singh Nagarik Sahakari Bank Maryadit, Tikamgarh"
+  },
+  {
+    "bank_name": "Sarva Haryana Gramin Bank",
+    "standard_bank_name": "Sarva Haryana Gramin Bank"
+  },
+  {
+    "bank_name": "Sarva U.P. Gramin Bank",
+    "standard_bank_name": "Sarva U.P. Gramin Bank"
+  },
+  {
+    "bank_name": "SARVODAYA SAHAKARI BANK LTD.MODASA",
+    "standard_bank_name": "Sarvodaya Sahakari Bank Limited, Modasa"
+  },
+  {
+    "bank_name": "Satpura Kshetriya Gramin Bank",
+    "standard_bank_name": "Satpura Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Satpura Narmada Kshetriya Gramin Bank",
+    "standard_bank_name": "Satpura Narmada Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "SAURASHTRA CO-OP.BANK LTD.(AHMEDABAD)",
+    "standard_bank_name": "Saurashtra Co-Operative Bank Limited (Ahmedabad)"
+  },
+  {
+    "bank_name": "Saurashtra Gramin Bank",
+    "standard_bank_name": "Saurashtra Gramin Bank"
+  },
+  {
+    "bank_name": "SBER BANK",
+    "standard_bank_name": "Sber Bank"
+  },
+  {
+    "bank_name": "SBI Comm. & Int. Bank Ltd.",
+    "standard_bank_name": "SBI Commercial & International Bank Limited"
+  },
+  {
+    "bank_name": "SBI COMMERCIAL & INTERNATIONAL BANK LD",
+    "standard_bank_name": "SBI Commercial & International Bank Limited"
+  },
+  {
+    "bank_name": "SBM (INDIA) BANK",
+    "standard_bank_name": "SBM Bank (India) Limited"
+  },
+  {
+    "bank_name": "SBM BANK (MAURITIUS) LTD",
+    "standard_bank_name": "SBM Bank (Mauritius) Limited"
+  },
+  {
+    "bank_name": "SBPP CO-OPERATIVE BANK LTD",
+    "standard_bank_name": "SBPP Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SEVALIA URBAN CO-OP.BANK LTD.",
+    "standard_bank_name": "Sevalia Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Shahdol Kshetriya Gramin Bank",
+    "standard_bank_name": "Shahdol Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "SHARAD SAHAKARI BANK LTD.(MANCHAR)",
+    "standard_bank_name": "Sharad Sahakari Bank Limited (Manchar)"
+  },
+  {
+    "bank_name": "Sharda Gramin Bank",
+    "standard_bank_name": "Sharda Gramin Bank"
+  },
+  {
+    "bank_name": "Shinhan Bank",
+    "standard_bank_name": "Shinhan Bank"
+  },
+  {
+    "bank_name": "SHIVAJI NAGARI SAHAKARI BANK LTD., PAITHAN,",
+    "standard_bank_name": "Shivaji Nagari Sahakari Bank Limited, Paithan,"
+  },
+  {
+    "bank_name": "Shivalik Small Finance Bank Limited",
+    "standard_bank_name": "Shivalik Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "Shivpuri Guna Kshetriya Gramin Bank",
+    "standard_bank_name": "Shivpuri Guna Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "SHREE DHARATI CO-OPERATIVE BANK LTD",
+    "standard_bank_name": "Shree Dharati Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SHREE MAHAYOGI LAKSHAMMA CO.BK.LTD.ADONI",
+    "standard_bank_name": "Shree Mahayogi Lakshamma Co-Operative Bank Limited, Adoni"
+  },
+  {
+    "bank_name": "SHREE MAHUVA NAGRIK SAHAKARI BANK LTD.",
+    "standard_bank_name": "Shree Mahuva Nagrik Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "SHREE PANCHAGANGA NAGARI SAH.BANK LTD.",
+    "standard_bank_name": "Shree Panchaganga Nagari Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "Shreyas Gramin Bank",
+    "standard_bank_name": "Shreyas Gramin Bank"
+  },
+  {
+    "bank_name": "SHRI ARIHANT CO-OP.BANK LTD.,BOMBAY",
+    "standard_bank_name": "Shri Arihant Co-Operative Bank Limited,Bombay"
+  },
+  {
+    "bank_name": "SHRI CHHANI NAGRIK SAHAKARI BANK LTD.",
+    "standard_bank_name": "Shri Chhani Nagrik Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "SHRI CHHATRAPATI RAJARSHI SHAHU UCB LTD",
+    "standard_bank_name": "Shri Chhatrapati Rajarshi Shahu Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SHRI KANYAKA NAGARI SAHAKARI BANK LTD., CHANDRAPUR",
+    "standard_bank_name": "Shri Kanyaka Nagari Sahakari Bank Limited, Chandrapur"
+  },
+  {
+    "bank_name": "SHRI SHIVESHWAR NAGRI SAHAKARI BANK LTD., BASMATNAGAR",
+    "standard_bank_name": "Shri Shiveshwar Nagri Sahakari Bank Limited, Basmatnagar"
+  },
+  {
+    "bank_name": "Shri Venkateswara Grameena Bank",
+    "standard_bank_name": "Shri Venkateswara Grameena Bank"
+  },
+  {
+    "bank_name": "SHRIMANT MALOJIRAJE SAHAKARI BANK LTD.",
+    "standard_bank_name": "Shrimant Malojiraje Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "SIKKIM STATE CO-OPERATIVE BANK LIMITED, GANGTOK",
+    "standard_bank_name": "Sikkim State Co-Operative Bank Limited, Gangtok"
+  },
+  {
+    "bank_name": "Singhbhum Kshetriya Gramin Bank",
+    "standard_bank_name": "Singhbhum Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "SIR M.VISVESVARAYA CO-OP.BANK LTD.",
+    "standard_bank_name": "Sir M.Visvesvaraya Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SIRSA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Sirsa Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SIRSI URBAN SAHAKARI BANK LTD.",
+    "standard_bank_name": "Sirsi Urban Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "Slice Small Finance Bank Limited",
+    "standard_bank_name": "Slice Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "SMRITI NAGRIK SAHAKARI BANK MARYADIT, MANDSAUR",
+    "standard_bank_name": "Smriti Nagrik Sahakari Bank Maryadit, Mandsaur"
+  },
+  {
+    "bank_name": "Societe Generale",
+    "standard_bank_name": "Societe Generale"
+  },
+  {
+    "bank_name": "Solapur Gramin Bank",
+    "standard_bank_name": "Solapur Gramin Bank"
+  },
+  {
+    "bank_name": "SONALI BANK",
+    "standard_bank_name": "Sonali Bank Plc"
+  },
+  {
+    "bank_name": "SONEPAT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Sonepat Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SOUTH CANARA DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "South Canara District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "SOUTH INDIAN BANK",
+    "standard_bank_name": "South Indian Bank Limited"
+  },
+  {
+    "bank_name": "South Malabar Gramin Bank",
+    "standard_bank_name": "South Malabar Gramin Bank"
+  },
+  {
+    "bank_name": "Sree Anantha Grameena Bank",
+    "standard_bank_name": "Sree Anantha Grameena Bank"
+  },
+  {
+    "bank_name": "SREENIDHI SOUHARDA SAHAKARI BANK NIYAMITHA, BANGALORE",
+    "standard_bank_name": "Sreenidhi Souharda Sahakari Bank Niyamitha, Bangalore"
+  },
+  {
+    "bank_name": "SREI",
+    "standard_bank_name": "Srei"
+  },
+  {
+    "bank_name": "SRI SUDHA CO-OP.BANK LTD.(SESHADRIPUR)",
+    "standard_bank_name": "Sri Sudha Co-Operative Bank Limited (Seshadripur)"
+  },
+  {
+    "bank_name": "SRI VASAVAMBA CO-OP.BANK LTD.",
+    "standard_bank_name": "Sri Vasavamba Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Sriganganagar Kshetriya Gramin Bank",
+    "standard_bank_name": "Sriganganagar Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "STAMBHADRI CO-OP.URBAN BANK LTD.KHAMMAM",
+    "standard_bank_name": "Stambhadri Co-Operative Urban Bank Limited, Khammam"
+  },
+  {
+    "bank_name": "Standard Chartered",
+    "standard_bank_name": "Standard Chartered Bank"
+  },
+  {
+    "bank_name": "State Bank of Bikaner & Jaipur",
+    "standard_bank_name": "State Bank of Bikaner And Jaipur"
+  },
+  {
+    "bank_name": "State Bank Of Hyderabad",
+    "standard_bank_name": "State Bank of Hyderabad"
+  },
+  {
+    "bank_name": "State Bank Of India",
+    "standard_bank_name": "State Bank of India"
+  },
+  {
+    "bank_name": "State Bank Of India And Its Associates",
+    "standard_bank_name": "State Bank of India And Its Associates"
+  },
+  {
+    "bank_name": "State Bank Of Indore",
+    "standard_bank_name": "State Bank of Indore"
+  },
+  {
+    "bank_name": "State Bank Of Mysore",
+    "standard_bank_name": "State Bank of Mysore"
+  },
+  {
+    "bank_name": "State Bank Of Patiala",
+    "standard_bank_name": "State Bank of Patiala"
+  },
+  {
+    "bank_name": "STATE BANK OF SAURASAHTRA",
+    "standard_bank_name": "State Bank of Saurashtra"
+  },
+  {
+    "bank_name": "State Bank Of Travancore",
+    "standard_bank_name": "State Bank of Travancore"
+  },
+  {
+    "bank_name": "STATE CO-OPERATIVE BANKS",
+    "standard_bank_name": "State Co-Operative Banks"
+  },
+  {
+    "bank_name": "Subhadra Local Area Bank Ltd.",
+    "standard_bank_name": "Subhadra Local Area Bank Limited"
+  },
+  {
+    "bank_name": "SUCO SOUHARDA SAHAKARI BANK LTD., BELLARY",
+    "standard_bank_name": "Suco Souharda Sahakari Bank Limited, Bellary"
+  },
+  {
+    "bank_name": "SUDHA CO-OPERATIVE URBAN BANK LTD., SURYAPET",
+    "standard_bank_name": "Sudha Co-Operative Urban Bank Limited, Suryapet (Nalgonda Dist.)"
+  },
+  {
+    "bank_name": "SUMERPUR MERCANTILE URBAN CO.OPERATIVE BANK LTD",
+    "standard_bank_name": "Sumerpur Mercantile Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Sumitomo Mitsui Banking Corporation",
+    "standard_bank_name": "Sumitomo Mitsui Banking Corporation"
+  },
+  {
+    "bank_name": "Surguja Kshetriya Gramin Bank",
+    "standard_bank_name": "Surguja Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Suryoday Small Finance Bank Limited",
+    "standard_bank_name": "Suryoday Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "Sutlej Gramin Bank",
+    "standard_bank_name": "Sutlej Gramin Bank"
+  },
+  {
+    "bank_name": "SUVARNAYUG SAH.BANK LTD.(PUNE)",
+    "standard_bank_name": "Suvarnayug Sahakari Bank Limited (Pune)"
+  },
+  {
+    "bank_name": "SVC CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "SVC Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Syndicate Bank",
+    "standard_bank_name": "Syndicate Bank"
+  },
+  {
+    "bank_name": "Tamil Nadu Grama Bank",
+    "standard_bank_name": "Tamil Nadu Grama Bank"
+  },
+  {
+    "bank_name": "Tamilnad Mercantile Bank Limited",
+    "standard_bank_name": "Tamilnad Mercantile Bank Limited"
+  },
+  {
+    "bank_name": "TAMILNAD MERCHANTILE BANK LTD",
+    "standard_bank_name": "Tamilnad Mercantile Bank Limited"
+  },
+  {
+    "bank_name": "TASGAON URBAN CO-OP.BANK LTD.",
+    "standard_bank_name": "Tasgaon Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "TATA COMMUNICATIONS PAYMENT SOLUTIONS LIMITED",
+    "standard_bank_name": "Tata Communications Payment Solutions Limited"
+  },
+  {
+    "bank_name": "TEHRI ZILA SHAKARI BANK LTD.",
+    "standard_bank_name": "Tehri Zila Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "Telangana Grameena Bank",
+    "standard_bank_name": "Telangana Grameena Bank"
+  },
+  {
+    "bank_name": "TEXTILE TRADERS CO-OP.BANK LTD.AHMEDABAD",
+    "standard_bank_name": "Textile Traders Co-Operative Bank Limited, Ahmedabad"
+  },
+  {
+    "bank_name": "Thane Gramin Bank",
+    "standard_bank_name": "Thane Gramin Bank"
+  },
+  {
+    "bank_name": "THE AGRASEN CO-OP.URBAN BK.LTD.HYDERABAD",
+    "standard_bank_name": "The Agrasen Co-Operative Urban Bank Limited, Hyderabad"
+  },
+  {
+    "bank_name": "THE AGRASEN NAGARI SAHAKARI BANK LTD., AKOLA",
+    "standard_bank_name": "The Agrasen Nagari Sahakari Bank Limited, Akola"
+  },
+  {
+    "bank_name": "THE AHMEDABAD DISTRICT CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Ahmedabad District Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE AHMEDNAGAR SHAHAR SAHAKARI BANK LTD.",
+    "standard_bank_name": "The Ahmednagar Shahar Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "THE AKOLA JANATA COMMERCIAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Akola Janata Commercial Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "The Akola-Washim District Central Co-operative Bank Ltd. Akola",
+    "standard_bank_name": "The Akola-Washim District Central Co-Operative Bank Limited Akola"
+  },
+  {
+    "bank_name": "The Amravati Zilla Parishad Shikshak Sahakari Bank Ltd",
+    "standard_bank_name": "The Amravati Zilla Parishad Shikshak Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "THE AMRELI JILLA MADHYASTH SAHAKARI BANK LTD.",
+    "standard_bank_name": "The Amreli Jilla Madhyasth Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "THE ANDHRA PRADESH STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Andhra Pradesh State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE ANNASAHEB SAVANT CO-OP. URBAN BANK MAHAD LTD.",
+    "standard_bank_name": "The Annasaheb Savant Co-Operative Urban Bank Mahad Limited"
+  },
+  {
+    "bank_name": "THE ASSAM CO-OPERATIVE APEX BANK LTD.",
+    "standard_bank_name": "The Assam Co-Operative Apex Bank Limited"
+  },
+  {
+    "bank_name": "THE ASSOCIATE CO-OP.BANK LTD.SURAT",
+    "standard_bank_name": "The Associate Co-Operative Bank Limited, Surat"
+  },
+  {
+    "bank_name": "THE BAGHAT URBAN CO-OP. BANK LTD",
+    "standard_bank_name": "The Baghat Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE BANASKANTHA DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Banaskantha District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE BANK OF TOKYO-MITSUBISHI UFJ LTD",
+    "standard_bank_name": "The Bank of Tokyo-Mitsubishi Ufj Limited"
+  },
+  {
+    "bank_name": "THE BARODA CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Baroda Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE BHAGYALAKSHMI MAHILA SAHAKARI BANK LTD.",
+    "standard_bank_name": "The Bhagyalakshmi Mahila Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "THE BHARAT CO-OPERATIVE BANK (MUMBAI)LTD.",
+    "standard_bank_name": "The Bharat Co-Operative Bank (Mumbai) Limited"
+  },
+  {
+    "bank_name": "THE BHARUCH DISTRICT CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Bharuch District Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE BHAVNAGAR DISTRICT CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Bhavnagar District Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE BURDWAN CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Burdwan Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE CHANDIGARH STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Chandigarh State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE CHANDWAD MERCHANTS CO-OPERATIVE BANK LTD., CHANDWAD",
+    "standard_bank_name": "The Chandwad Merchants Co-Operative Bank Limited, Chandwad"
+  },
+  {
+    "bank_name": "THE CITIZENS URBAN COOPERATIVE BANK LTD., JALANDHAR",
+    "standard_bank_name": "The Citizens Urban Co-Operative Bank Limited, Jalandhar"
+  },
+  {
+    "bank_name": "THE CO-OPERATIVE BANK OF MEHASANA LTD.",
+    "standard_bank_name": "The Co-Operative Bank of Mehasana Limited"
+  },
+  {
+    "bank_name": "THE DEOGIRI NAGARI SAHAKARI BANK LTD., AURANGABAD",
+    "standard_bank_name": "The Deogiri Nagari Sahakari Bank Limited, Aurangabad"
+  },
+  {
+    "bank_name": "THE DISTRICT CO-OPERATIVE CENTRAL BANK LTD., KHAMMAM",
+    "standard_bank_name": "The District Co-Operative Central Bank Limited, Khammam"
+  },
+  {
+    "bank_name": "THE FEROKE CO-OPERATIVE URBAN BANK LTD.",
+    "standard_bank_name": "The Feroke Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "THE GOA STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Goa State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE HARYANA STATE CO-OPERATIVE APEX BANK LTD.",
+    "standard_bank_name": "The Haryana State Co-Operative Apex Bank Limited"
+  },
+  {
+    "bank_name": "THE HIMACHAL PRADESH STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Himachal Pradesh State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE HINDUSTHAN CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Hindusthan Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "HONGKONG AND SHANGHAI BANKING CORP. LTD",
+    "standard_bank_name": "The Hongkong And Shanghai Banking Corporation Limited"
+  },
+  {
+    "bank_name": "THE JAMPETA CO.OP.URBAN BANK LTD.",
+    "standard_bank_name": "The Jampeta Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "The Jodhpur Central Co-opeative Bank Ltd.",
+    "standard_bank_name": "The Jodhpur Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE JUNAGADH JILLA SAHAKARI BANK LTD.",
+    "standard_bank_name": "The Junagadh Jilla Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "THE KACHCHH DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Kachchh District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE KALUPUR COMM.CO-OP.BANK LTD.",
+    "standard_bank_name": "The Kalupur Commercial Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE KALYAN JANATA SAH.BANK LTD.KALYAN",
+    "standard_bank_name": "The Kalyan Janata Sahakari Bank Limited, Kalyan"
+  },
+  {
+    "bank_name": "THE KASARAGOD CO-OPERATIVE TOWN BANK LTD.",
+    "standard_bank_name": "The Kasaragod Co-Operative Town Bank Limited"
+  },
+  {
+    "bank_name": "THE KERALA STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Kerala State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE KODINAR TALUKA CO-OPERATIVE BANKING UNION LTD.",
+    "standard_bank_name": "The Kodinar Taluka Co-Operative Banking Union Limited"
+  },
+  {
+    "bank_name": "THE KOTTAKKAL CO-OPERATIVE URBAN BANK LTD.",
+    "standard_bank_name": "The Kottakkal Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "THE LAXMI VILAS BANK LTD",
+    "standard_bank_name": "The Lakshmi Vilas Bank Limited"
+  },
+  {
+    "bank_name": "The Mandvi Nagrik Sahakari Bank Ltd.",
+    "standard_bank_name": "The Mandvi Nagrik Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "THE MANIPUR STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Manipur State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE MANJERI CO-OPERATIVE URBAN BANK LTD.",
+    "standard_bank_name": "The Manjeri Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "THE MIZORAM CO-OPERATIVE APEX BANK LTD.",
+    "standard_bank_name": "The Mizoram Co-Operative Apex Bank Limited"
+  },
+  {
+    "bank_name": "THE NANDURA URBAN CO-OPERATIVE BANK LTD., NANDURA",
+    "standard_bank_name": "The Nandura Urban Co-Operative Bank Limited, Nandura"
+  },
+  {
+    "bank_name": "THE NASIK ROAD DEOLALI VYAPARI SAHAKARI BANK LTD., NASIK ROAD",
+    "standard_bank_name": "The Nasik Road Deolali Vyapari Sahakari Bank Limited, Nasik Road"
+  },
+  {
+    "bank_name": "THE NILAMBUR CO-OPERATIVE URBAN BANK LTD.",
+    "standard_bank_name": "The Nilambur Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "THE OTTAPALAM CO-OPERATIVE URBAN BANK LTD.",
+    "standard_bank_name": "The Ottapalam Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "THE PANCHMAHAL DISTRICT CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Panchmahal District Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE PANDHARPUR URBAN CO-OP.BANK LTD.",
+    "standard_bank_name": "The Pandharpur Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE PANIPAT URBAN CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Panipat Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE PAYYANUR CO-OPERATIVE TOWN BANK LTD.",
+    "standard_bank_name": "The Payyanur Co-Operative Town Bank Limited"
+  },
+  {
+    "bank_name": "THE PEOPLES' URBAN CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Peoples' Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE PONANI CO-OPERATIVE URBAN BANK LTD.",
+    "standard_bank_name": "The Ponani Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "THE PUNJAB STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Punjab State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE PUSAD URBAN CO-OPERATIVE BANK LTD., PUSAD",
+    "standard_bank_name": "The Pusad Urban Co-Operative Bank Limited, Pusad"
+  },
+  {
+    "bank_name": "THE QUILON CO-OPERATIVE URBAN BANK LTD.",
+    "standard_bank_name": "The Quilon Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "THE RAIPUR URBAN MERCANTILE CO-OP. BANK LTD, RAIPUR",
+    "standard_bank_name": "The Raipur Urban Mercantile Co-Operative Bank Limited, Raipur"
+  },
+  {
+    "bank_name": "THE RAJASTHAN STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Rajasthan State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE RAJKOT DISTRICT CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Rajkot District Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "ROYAL BANK OF SCOTLAND N V",
+    "standard_bank_name": "The Royal Bank of Scotland N.V."
+  },
+  {
+    "bank_name": "Royal Bank of Scotland",
+    "standard_bank_name": "The Royal Bank of Scotland Plc"
+  },
+  {
+    "bank_name": "THE SABARKANTHA DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Sabarkantha District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE SALUR CO-OPERATIVE URBAN BANK LTD., SALUR",
+    "standard_bank_name": "The Salur Co-Operative Urban Bank Limited, Salur"
+  },
+  {
+    "bank_name": "THE SHAHADA PEOPLE'S CO-OPERATIVE BANK LTD. SHAHADA, DHULE",
+    "standard_bank_name": "The Shahada People's Co-Operative Bank Limited Shahada, Dhule"
+  },
+  {
+    "bank_name": "THE SIRCILLA CO-OPERATIVE URBAN BANK LTD., SIRCILLA",
+    "standard_bank_name": "The Sircilla Co-Operative Urban Bank Limited, Sircilla"
+  },
+  {
+    "bank_name": "THE SIWAN CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Siwan Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE SPSR NELLORE DISTRICT CO-OPERATIVE CENTRAL BANK LTD.",
+    "standard_bank_name": "The SPSR Nellore District Co-Operative Central Bank Limited"
+  },
+  {
+    "bank_name": "THE SULTAN'S BATTERY CO-OPERATIVE URBAN BANK LTD.",
+    "standard_bank_name": "The Sultan's Battery Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "THE SURAT DISTRICT CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Surat District Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE SUTEX CO-OPERATIVE BANK LTD. SURAT",
+    "standard_bank_name": "The Sutex Co-Operative Bank Limited Surat"
+  },
+  {
+    "bank_name": "THE TARN TARAN CENTRAL CO-OPERATIVE BANK LTD. TARN TARAN (PUNJAB)",
+    "standard_bank_name": "The Tarn Taran Central Co-Operative Bank Limited Tarn Taran (Punjab)"
+  },
+  {
+    "bank_name": "THE TIRUPATI CO-OPERATIVE BANK LIMITED",
+    "standard_bank_name": "The Tirupati Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE URBAN CO-OPERATIVE BANK LTD.NO.1758,PERINTHALMANNA",
+    "standard_bank_name": "The Urban Co-Operative Bank Limited No. 1758, Perinthalmanna"
+  },
+  {
+    "bank_name": "THE URBAN CO-OPERATIVE BANK LTD., DHARANGAON",
+    "standard_bank_name": "The Urban Co-Operative Bank Limited, Dharangaon"
+  },
+  {
+    "bank_name": "THE UTTARAKHAND STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Uttarakhand State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE VALSAD DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The Valsad District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE VISHWESHWAR SAHAKARI BANK LIMITED, PUNE",
+    "standard_bank_name": "The Vishweshwar Sahakari Bank Limited, Pune"
+  },
+  {
+    "bank_name": "VISHWESHWAR SAH.BANK LTD.(PUNE)",
+    "standard_bank_name": "The Vishweshwar Sahakari Bank Limited, Pune"
+  },
+  {
+    "bank_name": "THE WASHIM URBAN CO-OPERATIVE BANK LTD. WASHIM",
+    "standard_bank_name": "The Washim Urban Co-Operative Bank Limited Washim"
+  },
+  {
+    "bank_name": "THE WEST BENGAL STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "The West Bengal State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "THE YADAGIRI LAKSHMI NARASIMHA SWAMY CO-OPERATIVE URBAN BANK LTD",
+    "standard_bank_name": "The Yadagiri Lakshmi Narasimha Swamy Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "THE YAVATMAL URBAN CO-OPERATIVE BANK LTD., YAVATMAL",
+    "standard_bank_name": "The Yavatmal Urban Co-Operative Bank Limited, Yavatmal"
+  },
+  {
+    "bank_name": "THE YEOTMAL URBAN CO-OPERATIVE BANK LTD., YEOTMAL",
+    "standard_bank_name": "The Yeotmal Urban Co-Operative Bank Limited, Yeotmal"
+  },
+  {
+    "bank_name": "TIRUPATI URBAN CO-OP BANK MYDT",
+    "standard_bank_name": "Tirupati Urban Co-Operative Bank Maryadit"
+  },
+  {
+    "bank_name": "TJSB SAHAKARI BANK LTD. THANE",
+    "standard_bank_name": "TJSB Sahakari Bank Limited Thane"
+  },
+  {
+    "bank_name": "Tripura Gramin Bank",
+    "standard_bank_name": "Tripura Gramin Bank"
+  },
+  {
+    "bank_name": "TRIPURA STATE CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Tripura State Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Triveni Kshetriya Gramin Bank",
+    "standard_bank_name": "Triveni Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "TTC Co-Operative Bank Limited",
+    "standard_bank_name": "TTC Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "TUMKUR DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Tumkur District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "TUMKUR GR.MERCHANTS'CO-OP.BANK LTD.",
+    "standard_bank_name": "Tumkur Grain Merchants' Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Ubs Ag",
+    "standard_bank_name": "UBS AG"
+  },
+  {
+    "bank_name": "Uco Bank",
+    "standard_bank_name": "UCO Bank"
+  },
+  {
+    "bank_name": "UDAIPUR URBAN CO-OP.BANK LTD",
+    "standard_bank_name": "Udaipur Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "UDHAM SINGH NAGAR DISTRICT CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Udham Singh Nagar District Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "UFJ BANK LTD",
+    "standard_bank_name": "UFJ Bank Limited"
+  },
+  {
+    "bank_name": "Ujjivan Small Finance Bank Limited",
+    "standard_bank_name": "Ujjivan Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "Union Bank Of India",
+    "standard_bank_name": "Union Bank of India"
+  },
+  {
+    "bank_name": "UNION CO-OP.BANK LTD.(NARODA)",
+    "standard_bank_name": "Union Co-Operative Bank Limited (Naroda)"
+  },
+  {
+    "bank_name": "United Bank Of India",
+    "standard_bank_name": "United Bank of India"
+  },
+  {
+    "bank_name": "UNITED OVERSEAR BANK LTD",
+    "standard_bank_name": "United Overseas Bank Limited"
+  },
+  {
+    "bank_name": "United Western Bank Ltd",
+    "standard_bank_name": "United Western Bank Limited"
+  },
+  {
+    "bank_name": "Unity Small Finance Bank Limited",
+    "standard_bank_name": "Unity Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "UNIVERSAL CO-OP URBAN BANK LTD",
+    "standard_bank_name": "Universal Co-Operative Urban Bank Limited"
+  },
+  {
+    "bank_name": "URBAN CO-OPERATIVE BANK LTD.BASTI",
+    "standard_bank_name": "Urban Co-Operative Bank Limited, Basti"
+  },
+  {
+    "bank_name": "URBAN CO-OPERATIVE BANK LTD., DEHRADUN",
+    "standard_bank_name": "Urban Co-Operative Bank Limited, Dehradun"
+  },
+  {
+    "bank_name": "URBAN CO-OPERATIVE BANKS",
+    "standard_bank_name": "Urban Co-Operative Banks"
+  },
+  {
+    "bank_name": "Utkal Grameen Bank",
+    "standard_bank_name": "Utkal Grameen Bank"
+  },
+  {
+    "bank_name": "Utkal Gramya Bank",
+    "standard_bank_name": "Utkal Gramya Bank"
+  },
+  {
+    "bank_name": "Utkarsh Small Finance Bank Limited",
+    "standard_bank_name": "Utkarsh Small Finance Bank Limited"
+  },
+  {
+    "bank_name": "Uttar Banga Kshetriya Gramin Bank",
+    "standard_bank_name": "Uttar Banga Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Uttar Bihar Gramin Bank",
+    "standard_bank_name": "Uttar Bihar Gramin Bank"
+  },
+  {
+    "bank_name": "Uttar Bihar Kshetriya Gramin Bank",
+    "standard_bank_name": "Uttar Bihar Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Uttar Pradesh Gramin Bank",
+    "standard_bank_name": "Uttar Pradesh Gramin Bank"
+  },
+  {
+    "bank_name": "Uttarakhand Gramin Bank",
+    "standard_bank_name": "Uttarakhand Gramin Bank"
+  },
+  {
+    "bank_name": "Uttaranchal Gramin Bank",
+    "standard_bank_name": "Uttaranchal Gramin Bank"
+  },
+  {
+    "bank_name": "UTTARSANDA PEOPLE'S CO-OP.BANK LTD.",
+    "standard_bank_name": "Uttarsanda People's Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "VAIDYANATH URBAN CO-OP.BANK LTD.",
+    "standard_bank_name": "Vaidyanath Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "VAISHYA NAGARI SAHAKARI BANK LTD.",
+    "standard_bank_name": "Vaishya Nagari Sahakari Bank Limited"
+  },
+  {
+    "bank_name": "VAKRANGEE LIMITED",
+    "standard_bank_name": "Vakrangee Limited"
+  },
+  {
+    "bank_name": "Vallalar Grama Bank",
+    "standard_bank_name": "Vallalar Grama Bank"
+  },
+  {
+    "bank_name": "VALMIKI URBAN CO-OPERATIVE BANK LTD., PATHARI,",
+    "standard_bank_name": "Valmiki Urban Co-Operative Bank Limited, Pathari,"
+  },
+  {
+    "bank_name": "Vananchal Gramin Bank",
+    "standard_bank_name": "Vananchal Gramin Bank"
+  },
+  {
+    "bank_name": "VEERSHAIVA SAHAKARI BANK LTD.BANGALORE",
+    "standard_bank_name": "Veershaiva Sahakari Bank Limited, Bangalore"
+  },
+  {
+    "bank_name": "VIDARBHA MERCHANTS URBAN CO-OPERATIVE BANK LTD",
+    "standard_bank_name": "Vidarbha Merchants Urban Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Vidharbha Konkan Gramin Bank",
+    "standard_bank_name": "Vidharbha Konkan Gramin Bank"
+  },
+  {
+    "bank_name": "Vidharbha Kshetriya Gramin Bank",
+    "standard_bank_name": "Vidharbha Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "Vidisha-Bhopal Kshetriya Gramin Bank",
+    "standard_bank_name": "Vidisha-Bhopal Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "VIJAY COMMERCIAL CO-OP.BANK LTD.",
+    "standard_bank_name": "Vijay Commercial Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Vijaya Bank",
+    "standard_bank_name": "Vijaya Bank"
+  },
+  {
+    "bank_name": "VIJAYAPURA DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Vijayapura District Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "VIKAS SOUHARDA CO.OP. BANK LTD. HOSPET",
+    "standard_bank_name": "Vikas Souharda Co-Operative Bank Limited Hospet"
+  },
+  {
+    "bank_name": "VILAS CO-OPERATIVE BANK LTD. LATUR",
+    "standard_bank_name": "Vilas Co-Operative Bank Limited Latur"
+  },
+  {
+    "bank_name": "VISAKHAPATNAM CO-OP.BANK LTD.",
+    "standard_bank_name": "Visakhapatnam Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Visveshvaraya Grameena Bank",
+    "standard_bank_name": "Visveshvaraya Grameena Bank"
+  },
+  {
+    "bank_name": "Wainganga Krishna Gramin Bank",
+    "standard_bank_name": "Wainganga Krishna Gramin Bank"
+  },
+  {
+    "bank_name": "Wainganga Kshetriya Gramin Bank",
+    "standard_bank_name": "Wainganga Kshetriya Gramin Bank"
+  },
+  {
+    "bank_name": "WARANGAL URBAN COOPERATIVE BANK LTD., WARANGAL",
+    "standard_bank_name": "Warangal Urban Co-Operative Bank Limited, Warangal"
+  },
+  {
+    "bank_name": "West Bengal Gramin Bank",
+    "standard_bank_name": "West Bengal Gramin Bank"
+  },
+  {
+    "bank_name": "Westpac Banking Corporation",
+    "standard_bank_name": "Westpac Banking Corporation"
+  },
+  {
+    "bank_name": "White Label ATM Operators (WLAOs)",
+    "standard_bank_name": "White Label ATM Operators (WLAOs)"
+  },
+  {
+    "bank_name": "Woori Bank",
+    "standard_bank_name": "Woori Bank"
+  },
+  {
+    "bank_name": "YAMUNA NAGAR CENTRAL CO-OPERTIVE BANK LTD.",
+    "standard_bank_name": "Yamuna Nagar Central Co-Operative Bank Limited"
+  },
+  {
+    "bank_name": "Yes Bank Limited",
+    "standard_bank_name": "Yes Bank Limited"
+  },
+  {
+    "bank_name": "ZOROASTRIAN CO-OPERATIVE BANK LTD.",
+    "standard_bank_name": "Zoroastrian Co-Operative Bank Limited"
+  }
+]

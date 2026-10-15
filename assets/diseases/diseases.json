@@ -1,0 +1,1930 @@
+[
+  {
+    "disease_illness": "Acute Diarrheal Disease",
+    "standardised_disease_name": "Acute diarrhoeal disease",
+    "icd10_code": "A09.0",
+    "icd10_title": "Other and unspecified gastroenteritis and colitis of infectious origin",
+    "icd11_code": "1A40.Z",
+    "icd11_title": "Infectious gastroenteritis or colitis without specification of infectious agent"
+  },
+  {
+    "disease_illness": "Japanese Encephalitis",
+    "standardised_disease_name": "Japanese encephalitis",
+    "icd10_code": "A83.0",
+    "icd10_title": "Japanese encephalitis",
+    "icd11_code": "1C85",
+    "icd11_title": "Japanese encephalitis"
+  },
+  {
+    "disease_illness": "Dengue",
+    "standardised_disease_name": "Dengue",
+    "icd10_code": "A97.9",
+    "icd10_title": "Dengue, unspecified",
+    "icd11_code": "1D2Z",
+    "icd11_title": "Dengue, unspecified"
+  },
+  {
+    "disease_illness": "Measles",
+    "standardised_disease_name": "Measles",
+    "icd10_code": "B05.9",
+    "icd10_title": "Measles without complication",
+    "icd11_code": "1F03.0",
+    "icd11_title": "Measles without complication"
+  },
+  {
+    "disease_illness": "Hepatitis A",
+    "standardised_disease_name": "Hepatitis A",
+    "icd10_code": "B15.9",
+    "icd10_title": "Hepatitis A without hepatic coma",
+    "icd11_code": "1E50.0",
+    "icd11_title": "Acute hepatitis A"
+  },
+  {
+    "disease_illness": "Malaria",
+    "standardised_disease_name": "Malaria",
+    "icd10_code": "B54",
+    "icd10_title": "Unspecified malaria",
+    "icd11_code": "1F4Z",
+    "icd11_title": "Malaria, unspecified"
+  },
+  {
+    "disease_illness": "Acute Gastroenteritis",
+    "standardised_disease_name": "Gastroenteritis",
+    "icd10_code": "A09.9",
+    "icd10_title": "Gastroenteritis and colitis of unspecified origin",
+    "icd11_code": "1A40.0",
+    "icd11_title": "Gastroenteritis or colitis without specification of origin"
+  },
+  {
+    "disease_illness": "Jaundice",
+    "standardised_disease_name": "Jaundice",
+    "icd10_code": "R17.0",
+    "icd10_title": "Hyperbilirubinaemia with mention of jaundice, not elsewhere classified",
+    "icd11_code": "ME10.1",
+    "icd11_title": "Unspecified jaundice"
+  },
+  {
+    "disease_illness": "Suspected Food Poisoning",
+    "standardised_disease_name": "Food poisoning",
+    "icd10_code": "A05.9",
+    "icd10_title": "Bacterial foodborne intoxication, unspecified",
+    "icd11_code": "1A1Z",
+    "icd11_title": "Bacterial foodborne intoxications, unspecified"
+  },
+  {
+    "disease_illness": "Human Rabies",
+    "standardised_disease_name": "Rabies",
+    "icd10_code": "A82.9",
+    "icd10_title": "Rabies, unspecified",
+    "icd11_code": "1C82",
+    "icd11_title": "Rabies"
+  },
+  {
+    "disease_illness": "Fever",
+    "standardised_disease_name": "Fever",
+    "icd10_code": "R50.9",
+    "icd10_title": "Fever, unspecified",
+    "icd11_code": "MG26",
+    "icd11_title": "Fever of other or unknown origin"
+  },
+  {
+    "disease_illness": "Chickenpox",
+    "standardised_disease_name": "Chickenpox",
+    "icd10_code": "B01.9",
+    "icd10_title": "Varicella without complication",
+    "icd11_code": "1E90.0",
+    "icd11_title": "Varicella without complication"
+  },
+  {
+    "disease_illness": "Leptospirosis",
+    "standardised_disease_name": "Leptospirosis",
+    "icd10_code": "A27.9",
+    "icd10_title": "Leptospirosis, unspecified",
+    "icd11_code": "1B91",
+    "icd11_title": "Leptospirosis"
+  },
+  {
+    "disease_illness": "Suspected Typhoid",
+    "standardised_disease_name": "Typhoid fever",
+    "icd10_code": "A01.0",
+    "icd10_title": "Typhoid fever",
+    "icd11_code": "1A07.Z",
+    "icd11_title": "Typhoid fever, unspecified"
+  },
+  {
+    "disease_illness": "Hepatitis A & E",
+    "standardised_disease_name": "Hepatitis A | Hepatitis E",
+    "icd10_code": "B15.9 | B17.2",
+    "icd10_title": "Hepatitis A without hepatic coma | Acute hepatitis E",
+    "icd11_code": "1E50.0 | 1E50.4",
+    "icd11_title": "Acute hepatitis A | Acute hepatitis E"
+  },
+  {
+    "disease_illness": "Fever with Rash",
+    "standardised_disease_name": "Fever | Rash",
+    "icd10_code": "R50.9 | R21",
+    "icd10_title": "Fever, unspecified | Rash and other nonspecific skin eruption",
+    "icd11_code": "MG26 | ME62.Y",
+    "icd11_title": "Fever of other or unknown origin | Other specified acute skin eruption of uncertain or unspecified nature"
+  },
+  {
+    "disease_illness": "Hand Foot and Mouth Disease",
+    "standardised_disease_name": "Hand, foot and mouth disease",
+    "icd10_code": "B08.4",
+    "icd10_title": "Enteroviral vesicular stomatitis with exanthem",
+    "icd11_code": "1F05.0",
+    "icd11_title": "Enteroviral vesicular stomatitis"
+  },
+  {
+    "disease_illness": "Scrub Typhus",
+    "standardised_disease_name": "Scrub typhus",
+    "icd10_code": "A75.3",
+    "icd10_title": "Typhus fever due to Rickettsia tsutsugamushi",
+    "icd11_code": "1C30.3",
+    "icd11_title": "Typhus fever due to Orientia tsutsugamushi"
+  },
+  {
+    "disease_illness": "Meningococcal Meningitis",
+    "standardised_disease_name": "Meningococcal meningitis",
+    "icd10_code": "A39.0",
+    "icd10_title": "Meningococcal meningitis",
+    "icd11_code": "1C1C.0",
+    "icd11_title": "Meningococcal meningitis"
+  },
+  {
+    "disease_illness": "Hepatitis E",
+    "standardised_disease_name": "Hepatitis E",
+    "icd10_code": "B17.2",
+    "icd10_title": "Acute hepatitis E",
+    "icd11_code": "1E50.4",
+    "icd11_title": "Acute hepatitis E"
+  },
+  {
+    "disease_illness": "Chandipura Virus Encephalitis",
+    "standardised_disease_name": "Chandipura virus encephalitis",
+    "icd10_code": "",
+    "icd10_title": "",
+    "icd11_code": "",
+    "icd11_title": ""
+  },
+  {
+    "disease_illness": "Mumps",
+    "standardised_disease_name": "Mumps",
+    "icd10_code": "B26.9",
+    "icd10_title": "Mumps without complication",
+    "icd11_code": "1D80.0",
+    "icd11_title": "Mumps without complication"
+  },
+  {
+    "disease_illness": "Acute Encephalitis Syndrome",
+    "standardised_disease_name": "Acute encephalitis syndrome",
+    "icd10_code": "A86",
+    "icd10_title": "Unspecified viral encephalitis",
+    "icd11_code": "1D00.Z",
+    "icd11_title": "Infectious encephalitis, unspecified"
+  },
+  {
+    "disease_illness": "Dengue & Scrub Typhus",
+    "standardised_disease_name": "Dengue | Scrub typhus",
+    "icd10_code": "A97.9 | A75.3",
+    "icd10_title": "Dengue, unspecified | Typhus fever due to Rickettsia tsutsugamushi",
+    "icd11_code": "1D2Z | 1C30.3",
+    "icd11_title": "Dengue, unspecified | Typhus fever due to Orientia tsutsugamushi"
+  },
+  {
+    "disease_illness": "Chikungunya",
+    "standardised_disease_name": "Chikungunya",
+    "icd10_code": "A92.0",
+    "icd10_title": "Chikungunya virus disease",
+    "icd11_code": "1D40",
+    "icd11_title": "Chikungunya virus disease"
+  },
+  {
+    "disease_illness": "Dysentery",
+    "standardised_disease_name": "Dysentery",
+    "icd10_code": "A09.0",
+    "icd10_title": "Other and unspecified gastroenteritis and colitis of infectious origin",
+    "icd11_code": "1A40.Z",
+    "icd11_title": "Infectious gastroenteritis or colitis without specification of infectious agent"
+  },
+  {
+    "disease_illness": "Cholera",
+    "standardised_disease_name": "Cholera",
+    "icd10_code": "A00.9",
+    "icd10_title": "Cholera, unspecified",
+    "icd11_code": "1A00",
+    "icd11_title": "Cholera"
+  },
+  {
+    "disease_illness": "Viral Hepatitis",
+    "standardised_disease_name": "Viral hepatitis",
+    "icd10_code": "B19.9",
+    "icd10_title": "Unspecified viral hepatitis without hepatic coma",
+    "icd11_code": "1E5Z",
+    "icd11_title": "Viral hepatitis, unspecified"
+  },
+  {
+    "disease_illness": "Chikungunya & Dengue",
+    "standardised_disease_name": "Chikungunya | Dengue",
+    "icd10_code": "A92.0 | A97.9",
+    "icd10_title": "Chikungunya virus disease | Dengue, unspecified",
+    "icd11_code": "1D40 | 1D2Z",
+    "icd11_title": "Chikungunya virus disease | Dengue, unspecified"
+  },
+  {
+    "disease_illness": "West Nile Fever",
+    "standardised_disease_name": "West Nile fever",
+    "icd10_code": "A92.3",
+    "icd10_title": "West Nile virus infection",
+    "icd11_code": "1D46",
+    "icd11_title": "West Nile virus infection"
+  },
+  {
+    "disease_illness": "Rubella",
+    "standardised_disease_name": "Rubella",
+    "icd10_code": "B06.9",
+    "icd10_title": "Rubella without complication",
+    "icd11_code": "1F02.2",
+    "icd11_title": "Rubella without complication"
+  },
+  {
+    "disease_illness": "Malaria (P. falciparum)",
+    "standardised_disease_name": "Falciparum malaria",
+    "icd10_code": "B50.9",
+    "icd10_title": "Plasmodium falciparum malaria, unspecified",
+    "icd11_code": "1F40.Z",
+    "icd11_title": "Malaria due to Plasmodium falciparum, unspecified"
+  },
+  {
+    "disease_illness": "Shigellosis",
+    "standardised_disease_name": "Shigellosis",
+    "icd10_code": "A03.9",
+    "icd10_title": "Shigellosis, unspecified",
+    "icd11_code": "1A02",
+    "icd11_title": "Intestinal infections due to Shigella"
+  },
+  {
+    "disease_illness": "Mpox (Clade I)",
+    "standardised_disease_name": "Mpox",
+    "icd10_code": "B04",
+    "icd10_title": "Monkeypox",
+    "icd11_code": "1.00E+71",
+    "icd11_title": "Mpox"
+  },
+  {
+    "disease_illness": "Suspected Human Rabies",
+    "standardised_disease_name": "Rabies",
+    "icd10_code": "A82.9",
+    "icd10_title": "Rabies, unspecified",
+    "icd11_code": "1C82",
+    "icd11_title": "Rabies"
+  },
+  {
+    "disease_illness": "Nipah Virus",
+    "standardised_disease_name": "Nipah virus disease",
+    "icd10_code": "B33.8",
+    "icd10_title": "Other specified viral diseases",
+    "icd11_code": "1D63",
+    "icd11_title": "Henipavirus encephalitis"
+  },
+  {
+    "disease_illness": "Malaria (P. vivax)",
+    "standardised_disease_name": "Vivax malaria",
+    "icd10_code": "B51.9",
+    "icd10_title": "Plasmodium vivax malaria without complication",
+    "icd11_code": "1F41.Z",
+    "icd11_title": "Plasmodium vivax malaria without complication"
+  },
+  {
+    "disease_illness": "Measles & Rubella",
+    "standardised_disease_name": "Measles | Rubella",
+    "icd10_code": "B05.9 | B06.9",
+    "icd10_title": "Measles without complication | Rubella without complication",
+    "icd11_code": "1F03.0 | 1F02.2",
+    "icd11_title": "Measles without complication | Rubella without complication"
+  },
+  {
+    "disease_illness": "Anthrax",
+    "standardised_disease_name": "Anthrax",
+    "icd10_code": "A22.9",
+    "icd10_title": "Anthrax, unspecified",
+    "icd11_code": "1B97",
+    "icd11_title": "Anthrax"
+  },
+  {
+    "disease_illness": "Hepatitis A & E & Leptospirosis",
+    "standardised_disease_name": "Hepatitis A | Hepatitis E | Leptospirosis",
+    "icd10_code": "B15.9 | B17.2 | A27.9",
+    "icd10_title": "Hepatitis A without hepatic coma | Acute hepatitis E | Leptospirosis, unspecified",
+    "icd11_code": "1E50.0 | 1E50.4 | 1B91",
+    "icd11_title": "Acute hepatitis A | Acute hepatitis E | Leptospirosis"
+  },
+  {
+    "disease_illness": "Crimean-Congo Haemorrhagic Fever",
+    "standardised_disease_name": "Crimean-Congo haemorrhagic fever",
+    "icd10_code": "A98.0",
+    "icd10_title": "Crimean-Congo haemorrhagic fever",
+    "icd11_code": "1D49",
+    "icd11_title": "Crimean-Congo haemorrhagic fever"
+  },
+  {
+    "disease_illness": "Meningitis",
+    "standardised_disease_name": "Meningitis",
+    "icd10_code": "G03.9",
+    "icd10_title": "Meningitis, unspecified",
+    "icd11_code": "1D01.Z",
+    "icd11_title": "Infectious meningitis, unspecified"
+  },
+  {
+    "disease_illness": "Acute Diarrheal Disease (Klebsiella)",
+    "standardised_disease_name": "Klebsiella intestinal infection",
+    "icd10_code": "A04.8",
+    "icd10_title": "Other specified bacterial intestinal infections",
+    "icd11_code": "1A0Y",
+    "icd11_title": "Other specified bacterial intestinal infections"
+  },
+  {
+    "disease_illness": "Typhoid",
+    "standardised_disease_name": "Typhoid fever",
+    "icd10_code": "A01.0",
+    "icd10_title": "Typhoid fever",
+    "icd11_code": "1A07.Z",
+    "icd11_title": "Typhoid fever, unspecified"
+  },
+  {
+    "disease_illness": "Food Poisoning",
+    "standardised_disease_name": "Food poisoning",
+    "icd10_code": "A05.9",
+    "icd10_title": "Bacterial foodborne intoxication, unspecified",
+    "icd11_code": "1A1Z",
+    "icd11_title": "Bacterial foodborne intoxications, unspecified"
+  },
+  {
+    "disease_illness": "Mpox (Clade II)",
+    "standardised_disease_name": "Mpox",
+    "icd10_code": "B04",
+    "icd10_title": "Monkeypox",
+    "icd11_code": "1.00E+71",
+    "icd11_title": "Mpox"
+  },
+  {
+    "disease_illness": "Zika Virus Disease",
+    "standardised_disease_name": "Zika virus disease",
+    "icd10_code": "A92.5",
+    "icd10_title": "Zika virus disease",
+    "icd11_code": "1D48",
+    "icd11_title": "Zika virus disease"
+  },
+  {
+    "disease_illness": "Pertussis",
+    "standardised_disease_name": "Pertussis",
+    "icd10_code": "A37.9",
+    "icd10_title": "Whooping cough, unspecified",
+    "icd11_code": "1C12.Z",
+    "icd11_title": "Whooping cough, unspecified"
+  },
+  {
+    "disease_illness": "Malaria (P. falciparum & P. vivax)",
+    "standardised_disease_name": "Falciparum malaria | Vivax malaria",
+    "icd10_code": "B50.9 | B51.9",
+    "icd10_title": "Plasmodium falciparum malaria, unspecified | Plasmodium vivax malaria without complication",
+    "icd11_code": "1F40.Z | 1F41.Z",
+    "icd11_title": "Malaria due to Plasmodium falciparum, unspecified | Plasmodium vivax malaria without complication"
+  },
+  {
+    "disease_illness": "Chickenpox & Rubella",
+    "standardised_disease_name": "Chickenpox | Rubella",
+    "icd10_code": "B01.9 | B06.9",
+    "icd10_title": "Varicella without complication | Rubella without complication",
+    "icd11_code": "1E90.0 | 1F02.2",
+    "icd11_title": "Varicella without complication | Rubella without complication"
+  },
+  {
+    "disease_illness": "Mpox",
+    "standardised_disease_name": "Mpox",
+    "icd10_code": "B04",
+    "icd10_title": "Monkeypox",
+    "icd11_code": "1.00E+71",
+    "icd11_title": "Mpox"
+  },
+  {
+    "disease_illness": "Suspected Food Poisoning (Klebsiella)",
+    "standardised_disease_name": "Klebsiella intestinal infection",
+    "icd10_code": "A04.8",
+    "icd10_title": "Other specified bacterial intestinal infections",
+    "icd11_code": "1A0Y",
+    "icd11_title": "Other specified bacterial intestinal infections"
+  },
+  {
+    "disease_illness": "Diphtheria",
+    "standardised_disease_name": "Diphtheria",
+    "icd10_code": "A36.9",
+    "icd10_title": "Diphtheria, unspecified",
+    "icd11_code": "1C17.Z",
+    "icd11_title": "Diphtheria, unspecified"
+  },
+  {
+    "disease_illness": "Pyrexia of Unknown Origin",
+    "standardised_disease_name": "Fever",
+    "icd10_code": "R50.9",
+    "icd10_title": "Fever, unspecified",
+    "icd11_code": "MG26",
+    "icd11_title": "Fever of other or unknown origin"
+  },
+  {
+    "disease_illness": "Leptospirosis & Scrub Typhus",
+    "standardised_disease_name": "Leptospirosis | Scrub typhus",
+    "icd10_code": "A27.9 | A75.3",
+    "icd10_title": "Leptospirosis, unspecified | Typhus fever due to Rickettsia tsutsugamushi",
+    "icd11_code": "1B91 | 1C30.3",
+    "icd11_title": "Leptospirosis | Typhus fever due to Orientia tsutsugamushi"
+  },
+  {
+    "disease_illness": "Dengue & Leptospirosis",
+    "standardised_disease_name": "Dengue | Leptospirosis",
+    "icd10_code": "A97.9 | A27.9",
+    "icd10_title": "Dengue, unspecified | Leptospirosis, unspecified",
+    "icd11_code": "1D2Z | 1B91",
+    "icd11_title": "Dengue, unspecified | Leptospirosis"
+  },
+  {
+    "disease_illness": "Paratyphoid",
+    "standardised_disease_name": "Paratyphoid fever",
+    "icd10_code": "A01.4",
+    "icd10_title": "Paratyphoid fever, unspecified",
+    "icd11_code": "1A08",
+    "icd11_title": "Paratyphoid fever"
+  },
+  {
+    "disease_illness": "Suspected Scrub Typhus",
+    "standardised_disease_name": "Scrub typhus",
+    "icd10_code": "A75.3",
+    "icd10_title": "Typhus fever due to Rickettsia tsutsugamushi",
+    "icd11_code": "1C30.3",
+    "icd11_title": "Typhus fever due to Orientia tsutsugamushi"
+  },
+  {
+    "disease_illness": "Suspected Food Poisoning (Mushroom)",
+    "standardised_disease_name": "Mushroom poisoning",
+    "icd10_code": "T62.0",
+    "icd10_title": "Toxic effect: Ingested mushrooms",
+    "icd11_code": "NE61&XM9N55",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+  },
+  {
+    "disease_illness": "Malaria (Mixed)",
+    "standardised_disease_name": "Malaria",
+    "icd10_code": "B54",
+    "icd10_title": "Unspecified malaria",
+    "icd11_code": "1F4Z",
+    "icd11_title": "Malaria, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Acute Encephalitis Syndrome (Chandipura Virus)",
+    "standardised_disease_name": "Chandipura virus encephalitis",
+    "icd10_code": "",
+    "icd10_title": "",
+    "icd11_code": "",
+    "icd11_title": ""
+  },
+  {
+    "disease_illness": "Suspected Hand Foot and Mouth Disease",
+    "standardised_disease_name": "Hand, foot and mouth disease",
+    "icd10_code": "B08.4",
+    "icd10_title": "Enteroviral vesicular stomatitis with exanthem",
+    "icd11_code": "1F05.0",
+    "icd11_title": "Enteroviral vesicular stomatitis"
+  },
+  {
+    "disease_illness": "Suspected Viral Hepatitis",
+    "standardised_disease_name": "Viral hepatitis",
+    "icd10_code": "B19.9",
+    "icd10_title": "Unspecified viral hepatitis without hepatic coma",
+    "icd11_code": "1E5Z",
+    "icd11_title": "Viral hepatitis, unspecified"
+  },
+  {
+    "disease_illness": "Dengue & Malaria (P. vivax)",
+    "standardised_disease_name": "Dengue | Vivax malaria",
+    "icd10_code": "A97.9 | B51.9",
+    "icd10_title": "Dengue, unspecified | Plasmodium vivax malaria without complication",
+    "icd11_code": "1D2Z | 1F41.Z",
+    "icd11_title": "Dengue, unspecified | Plasmodium vivax malaria without complication"
+  },
+  {
+    "disease_illness": "Acute Diarrheal Disease (Shigella)",
+    "standardised_disease_name": "Shigellosis",
+    "icd10_code": "A03.9",
+    "icd10_title": "Shigellosis, unspecified",
+    "icd11_code": "1A02",
+    "icd11_title": "Intestinal infections due to Shigella"
+  },
+  {
+    "disease_illness": "Suspected Food Poisoning (Salmonella)",
+    "standardised_disease_name": "Salmonellosis",
+    "icd10_code": "A02.0",
+    "icd10_title": "Salmonella enteritis",
+    "icd11_code": "1A09.0",
+    "icd11_title": "Salmonella enteritis"
+  },
+  {
+    "disease_illness": "Dengue & Malaria (P. falciparum & P. vivax)",
+    "standardised_disease_name": "Dengue | Falciparum malaria | Vivax malaria",
+    "icd10_code": "A97.9 | B50.9 | B51.9",
+    "icd10_title": "Dengue, unspecified | Plasmodium falciparum malaria, unspecified | Plasmodium vivax malaria without complication",
+    "icd11_code": "1D2Z | 1F40.Z | 1F41.Z",
+    "icd11_title": "Dengue, unspecified | Malaria due to Plasmodium falciparum, unspecified | Plasmodium vivax malaria without complication"
+  },
+  {
+    "disease_illness": "Food Poisoning (Mushroom)",
+    "standardised_disease_name": "Mushroom poisoning",
+    "icd10_code": "T62.0",
+    "icd10_title": "Toxic effect: Ingested mushrooms",
+    "icd11_code": "NE61&XM9N55",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+  },
+  {
+    "disease_illness": "Hepatitis E & Typhoid",
+    "standardised_disease_name": "Hepatitis E | Typhoid fever",
+    "icd10_code": "B17.2 | A01.0",
+    "icd10_title": "Acute hepatitis E | Typhoid fever",
+    "icd11_code": "1E50.4 | 1A07.Z",
+    "icd11_title": "Acute hepatitis E | Typhoid fever, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Measles",
+    "standardised_disease_name": "Measles",
+    "icd10_code": "B05.9",
+    "icd10_title": "Measles without complication",
+    "icd11_code": "1F03.0",
+    "icd11_title": "Measles without complication"
+  },
+  {
+    "disease_illness": "Hepatitis B & C",
+    "standardised_disease_name": "Hepatitis B | Hepatitis C",
+    "icd10_code": "B18.1 | B18.2",
+    "icd10_title": "Chronic viral hepatitis B without delta-agent | Chronic viral hepatitis C",
+    "icd11_code": "1E51.0Z | 1E51.1",
+    "icd11_title": "Chronic hepatitis B, unspecified | Chronic hepatitis C"
+  },
+  {
+    "disease_illness": "Leishmaniasis",
+    "standardised_disease_name": "Leishmaniasis",
+    "icd10_code": "B55.9",
+    "icd10_title": "Leishmaniasis, unspecified",
+    "icd11_code": "1F54.Z",
+    "icd11_title": "Leishmaniasis, unspecified"
+  },
+  {
+    "disease_illness": "Human Metapneumovirus",
+    "standardised_disease_name": "Human metapneumovirus infection",
+    "icd10_code": "B34.8",
+    "icd10_title": "Other viral infections of unspecified site",
+    "icd11_code": "1E1Y",
+    "icd11_title": "Other specified viral diseases"
+  },
+  {
+    "disease_illness": "Others",
+    "standardised_disease_name": "Others",
+    "icd10_code": "",
+    "icd10_title": "",
+    "icd11_code": "",
+    "icd11_title": ""
+  },
+  {
+    "disease_illness": "Kyasanur Forest Disease",
+    "standardised_disease_name": "Kyasanur Forest disease",
+    "icd10_code": "A98.2",
+    "icd10_title": "Kyasanur Forest disease",
+    "icd11_code": "1D4B",
+    "icd11_title": "Kyasanur Forest disease"
+  },
+  {
+    "disease_illness": "Acute Gastroenteritis (Norovirus)",
+    "standardised_disease_name": "Norovirus infection",
+    "icd10_code": "A08.1",
+    "icd10_title": "Acute gastroenteropathy due to Norovirus",
+    "icd11_code": "1A23",
+    "icd11_title": "Enteritis due to Norovirus"
+  },
+  {
+    "disease_illness": "Amoebic Encephalitis",
+    "standardised_disease_name": "Amoebic Encephalitis",
+    "icd10_code": "",
+    "icd10_title": "",
+    "icd11_code": "",
+    "icd11_title": ""
+  },
+  {
+    "disease_illness": "Poliomyelitis (Vaccine-Derived Polio Virus)",
+    "standardised_disease_name": "Poliomyelitis (vaccine-derived poliovirus)",
+    "icd10_code": "A80.0",
+    "icd10_title": "Acute paralytic poliomyelitis, vaccine-associated",
+    "icd11_code": "1C81",
+    "icd11_title": "Acute poliomyelitis"
+  },
+  {
+    "disease_illness": "Animal Bite (Dog Bite)",
+    "standardised_disease_name": "Dog bite",
+    "icd10_code": "W54",
+    "icd10_title": "Bitten or struck by dog",
+    "icd11_code": "PA75&XE813",
+    "icd11_title": "Unintentionally bitten by animal [Land mammal]"
+  },
+  {
+    "disease_illness": "Acute Encephalitis Syndrome (Chandipura Virus)",
+    "standardised_disease_name": "Chandipura virus encephalitis",
+    "icd10_code": "",
+    "icd10_title": "",
+    "icd11_code": "",
+    "icd11_title": ""
+  },
+  {
+    "disease_illness": "Primary Amoebic Meningoencephalitis",
+    "standardised_disease_name": "Primary amoebic meningoencephalitis (Naegleria)",
+    "icd10_code": "B60.2",
+    "icd10_title": "Naegleriasis",
+    "icd11_code": "1F55",
+    "icd11_title": "Naegleriasis"
+  },
+  {
+    "disease_illness": "Influenza Like Illness",
+    "standardised_disease_name": "Influenza",
+    "icd10_code": "",
+    "icd10_title": "",
+    "icd11_code": "",
+    "icd11_title": ""
+  },
+  {
+    "disease_illness": "Mushroom Poisoning",
+    "standardised_disease_name": "Mushroom poisoning",
+    "icd10_code": "T62.0",
+    "icd10_title": "Toxic effect: Ingested mushrooms",
+    "icd11_code": "NE61&XM9N55",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+  },
+  {
+    "disease_illness": "Influenza",
+    "standardised_disease_name": "Influenza",
+    "icd10_code": "J11.1",
+    "icd10_title": "Influenza with other respiratory manifestations, virus not identified",
+    "icd11_code": "1.00E+32",
+    "icd11_title": "Influenza, virus not identified"
+  },
+  {
+    "disease_illness": "Hepatitis B",
+    "standardised_disease_name": "Hepatitis B",
+    "icd10_code": "B18.1",
+    "icd10_title": "Chronic viral hepatitis B without delta-agent",
+    "icd11_code": "1E51.0Z",
+    "icd11_title": "Chronic hepatitis B, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Mumps",
+    "standardised_disease_name": "Mumps",
+    "icd10_code": "B26.9",
+    "icd10_title": "Mumps without complication",
+    "icd11_code": "1D80.0",
+    "icd11_title": "Mumps without complication"
+  },
+  {
+    "disease_illness": "Melioidosis",
+    "standardised_disease_name": "Melioidosis",
+    "icd10_code": "A24.4",
+    "icd10_title": "Melioidosis, unspecified",
+    "icd11_code": "1C42",
+    "icd11_title": "Melioidosis"
+  },
+  {
+    "disease_illness": "Fever with Altered Sensorium",
+    "standardised_disease_name": "Fever",
+    "icd10_code": "R50.9",
+    "icd10_title": "Fever, unspecified",
+    "icd11_code": "MG26",
+    "icd11_title": "Fever of other or unknown origin"
+  },
+  {
+    "disease_illness": "Tetanus",
+    "standardised_disease_name": "Tetanus",
+    "icd10_code": "A35",
+    "icd10_title": "Other tetanus",
+    "icd11_code": "1C13",
+    "icd11_title": "Tetanus"
+  },
+  {
+    "disease_illness": "Brucellosis",
+    "standardised_disease_name": "Brucellosis",
+    "icd10_code": "A23.9",
+    "icd10_title": "Brucellosis, unspecified",
+    "icd11_code": "1B95",
+    "icd11_title": "Brucellosis"
+  },
+  {
+    "disease_illness": "Suspected Japanese Encephalitis",
+    "standardised_disease_name": "Japanese encephalitis",
+    "icd10_code": "A83.0",
+    "icd10_title": "Japanese encephalitis",
+    "icd11_code": "1C85",
+    "icd11_title": "Japanese encephalitis"
+  },
+  {
+    "disease_illness": "Suspected Dengue",
+    "standardised_disease_name": "Dengue",
+    "icd10_code": "A97.9",
+    "icd10_title": "Dengue, unspecified",
+    "icd11_code": "1D2Z",
+    "icd11_title": "Dengue, unspecified"
+  },
+  {
+    "disease_illness": "Acute Gastritis",
+    "standardised_disease_name": "Acute gastritis",
+    "icd10_code": "K29.1",
+    "icd10_title": "Other acute gastritis",
+    "icd11_code": "DA42.Z",
+    "icd11_title": "Gastritis, unspecified"
+  },
+  {
+    "disease_illness": "Animal Bite (Snake Bite)",
+    "standardised_disease_name": "Snake bite",
+    "icd10_code": "T63.0",
+    "icd10_title": "Toxic effect: Snake venom",
+    "icd11_code": "NE61",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Cutaneous Leishmaniasis (Kala-azar)",
+    "standardised_disease_name": "Leishmaniasis",
+    "icd10_code": "B55.9",
+    "icd10_title": "Leishmaniasis, unspecified",
+    "icd11_code": "1F54.Z",
+    "icd11_title": "Leishmaniasis, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Mushroom Poisoning",
+    "standardised_disease_name": "Mushroom poisoning",
+    "icd10_code": "T62.0",
+    "icd10_title": "Toxic effect: Ingested mushrooms",
+    "icd11_code": "NE61&XM9N55",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+  },
+  {
+    "disease_illness": "Kala-azar",
+    "standardised_disease_name": "Visceral leishmaniasis (kala-azar)",
+    "icd10_code": "B55.0",
+    "icd10_title": "Visceral leishmaniasis",
+    "icd11_code": "1F54.0",
+    "icd11_title": "Visceral leishmaniasis"
+  },
+  {
+    "disease_illness": "Suspected Anthrax",
+    "standardised_disease_name": "Anthrax",
+    "icd10_code": "A22.9",
+    "icd10_title": "Anthrax, unspecified",
+    "icd11_code": "1B97",
+    "icd11_title": "Anthrax"
+  },
+  {
+    "disease_illness": "Dysentery (Shigella)",
+    "standardised_disease_name": "Shigellosis",
+    "icd10_code": "A03.9",
+    "icd10_title": "Shigellosis, unspecified",
+    "icd11_code": "1A02",
+    "icd11_title": "Intestinal infections due to Shigella"
+  },
+  {
+    "disease_illness": "Adenovirus",
+    "standardised_disease_name": "Adenovirus infection",
+    "icd10_code": "B34.0",
+    "icd10_title": "Adenovirus infection, unspecified site",
+    "icd11_code": "1D90",
+    "icd11_title": "Adenovirus infection of unspecified site"
+  },
+  {
+    "disease_illness": "Food Poisoning (Shigella)",
+    "standardised_disease_name": "Shigellosis",
+    "icd10_code": "A03.9",
+    "icd10_title": "Shigellosis, unspecified",
+    "icd11_code": "1A02",
+    "icd11_title": "Intestinal infections due to Shigella"
+  },
+  {
+    "disease_illness": "Acute Flaccid Paralysis",
+    "standardised_disease_name": "Acute flaccid paralysis",
+    "icd10_code": "G83.9",
+    "icd10_title": "Paralytic syndrome, unspecified",
+    "icd11_code": "MB5Z",
+    "icd11_title": "Paralytic symptoms, unspecified"
+  },
+  {
+    "disease_illness": "Cutaneous Leishmaniasis",
+    "standardised_disease_name": "Cutaneous leishmaniasis",
+    "icd10_code": "B55.1",
+    "icd10_title": "Cutaneous leishmaniasis",
+    "icd11_code": "1F54.1",
+    "icd11_title": "Cutaneous leishmaniasis"
+  },
+  {
+    "disease_illness": "Jatropha Poisoning",
+    "standardised_disease_name": "Toxic plant/seed poisoning",
+    "icd10_code": "T62.2",
+    "icd10_title": "Toxic effect: Other ingested (parts of) plant(s)",
+    "icd11_code": "NE61&XM9N55",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+  },
+  {
+    "disease_illness": "Influenza A (H3N2)",
+    "standardised_disease_name": "Influenza (virus identified)",
+    "icd10_code": "J10.1",
+    "icd10_title": "Influenza with other respiratory manifestations, seasonal influenza virus identified",
+    "icd11_code": "1.00E+30",
+    "icd11_title": "Influenza due to identified seasonal influenza virus"
+  },
+  {
+    "disease_illness": "Food Poisoning (Norovirus)",
+    "standardised_disease_name": "Norovirus infection",
+    "icd10_code": "A08.1",
+    "icd10_title": "Acute gastroenteropathy due to Norovirus",
+    "icd11_code": "1A23",
+    "icd11_title": "Enteritis due to Norovirus"
+  },
+  {
+    "disease_illness": "Chickenpox & Measles",
+    "standardised_disease_name": "Chickenpox | Measles",
+    "icd10_code": "B01.9 | B05.9",
+    "icd10_title": "Varicella without complication | Measles without complication",
+    "icd11_code": "1E90.0 | 1F03.0",
+    "icd11_title": "Varicella without complication | Measles without complication"
+  },
+  {
+    "disease_illness": "Suspected Leishmaniasis",
+    "standardised_disease_name": "Leishmaniasis",
+    "icd10_code": "B55.9",
+    "icd10_title": "Leishmaniasis, unspecified",
+    "icd11_code": "1F54.Z",
+    "icd11_title": "Leishmaniasis, unspecified"
+  },
+  {
+    "disease_illness": "Fever & Upper Respiratory Tract Infection",
+    "standardised_disease_name": "Upper respiratory tract infection",
+    "icd10_code": "J06.9",
+    "icd10_title": "Acute upper respiratory infection, unspecified",
+    "icd11_code": "CA07.0",
+    "icd11_title": "Acute upper respiratory infection, site unspecified"
+  },
+  {
+    "disease_illness": "Allergic Conjunctivitis",
+    "standardised_disease_name": "Allergic conjunctivitis",
+    "icd10_code": "H10.1",
+    "icd10_title": "Acute atopic conjunctivitis",
+    "icd11_code": "9A60.02",
+    "icd11_title": "Allergic conjunctivitis"
+  },
+  {
+    "disease_illness": "Suspected Chickenpox",
+    "standardised_disease_name": "Chickenpox",
+    "icd10_code": "B01.9",
+    "icd10_title": "Varicella without complication",
+    "icd11_code": "1E90.0",
+    "icd11_title": "Varicella without complication"
+  },
+  {
+    "disease_illness": "Food Borne Illness",
+    "standardised_disease_name": "Food poisoning",
+    "icd10_code": "A05.9",
+    "icd10_title": "Bacterial foodborne intoxication, unspecified",
+    "icd11_code": "1A1Z",
+    "icd11_title": "Bacterial foodborne intoxications, unspecified"
+  },
+  {
+    "disease_illness": "Fever with Rash (Enterovirus)",
+    "standardised_disease_name": "Enteroviral fever with rash",
+    "icd10_code": "A88.0",
+    "icd10_title": "Enteroviral exanthematous fever [Boston exanthem]",
+    "icd11_code": "1F05.2",
+    "icd11_title": "Enteroviral exanthematous fever"
+  },
+  {
+    "disease_illness": "Chemical Gas Poisoning",
+    "standardised_disease_name": "Gas poisoning",
+    "icd10_code": "T59.9",
+    "icd10_title": "Toxic effect: Gases, fumes and vapours, unspecified",
+    "icd11_code": "NE61",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Seasonal Influenza",
+    "standardised_disease_name": "Influenza",
+    "icd10_code": "J11.1",
+    "icd10_title": "Influenza with other respiratory manifestations, virus not identified",
+    "icd11_code": "1.00E+32",
+    "icd11_title": "Influenza, virus not identified"
+  },
+  {
+    "disease_illness": "Primary Amoebic Meningoencephalitis (Naegleria Fowleri)",
+    "standardised_disease_name": "Primary amoebic meningoencephalitis (Naegleria)",
+    "icd10_code": "B60.2",
+    "icd10_title": "Naegleriasis",
+    "icd11_code": "1F55",
+    "icd11_title": "Naegleriasis"
+  },
+  {
+    "disease_illness": "Suspected Influenza A (H1N1)",
+    "standardised_disease_name": "Influenza",
+    "icd10_code": "J11.1",
+    "icd10_title": "Influenza with other respiratory manifestations, virus not identified",
+    "icd11_code": "1.00E+32",
+    "icd11_title": "Influenza, virus not identified"
+  },
+  {
+    "disease_illness": "Dengue & Malaria",
+    "standardised_disease_name": "Dengue | Malaria",
+    "icd10_code": "A97.9 | B54",
+    "icd10_title": "Dengue, unspecified | Unspecified malaria",
+    "icd11_code": "1D2Z | 1F4Z",
+    "icd11_title": "Dengue, unspecified | Malaria, unspecified"
+  },
+  {
+    "disease_illness": "Acute Respiratory Infection",
+    "standardised_disease_name": "Acute respiratory infection",
+    "icd10_code": "J22",
+    "icd10_title": "Unspecified acute lower respiratory infection",
+    "icd11_code": "CA4Y",
+    "icd11_title": "Other specified lung infections"
+  },
+  {
+    "disease_illness": "Acute Diarrheal Disease (Norovirus)",
+    "standardised_disease_name": "Norovirus infection",
+    "icd10_code": "A08.1",
+    "icd10_title": "Acute gastroenteropathy due to Norovirus",
+    "icd11_code": "1A23",
+    "icd11_title": "Enteritis due to Norovirus"
+  },
+  {
+    "disease_illness": "Suspected Filariasis",
+    "standardised_disease_name": "Filariasis",
+    "icd10_code": "B74.9",
+    "icd10_title": "Filariasis, unspecified",
+    "icd11_code": "1F66.Z",
+    "icd11_title": "Filariasis, unspecified"
+  },
+  {
+    "disease_illness": "Norovirus",
+    "standardised_disease_name": "Norovirus infection",
+    "icd10_code": "A08.1",
+    "icd10_title": "Acute gastroenteropathy due to Norovirus",
+    "icd11_code": "1A23",
+    "icd11_title": "Enteritis due to Norovirus"
+  },
+  {
+    "disease_illness": "Acute Flaccid Paralysis (Epstein Bar Virus & Human Herpes Virus 7)",
+    "standardised_disease_name": "Acute flaccid paralysis",
+    "icd10_code": "G83.9",
+    "icd10_title": "Paralytic syndrome, unspecified",
+    "icd11_code": "MB5Z",
+    "icd11_title": "Paralytic symptoms, unspecified"
+  },
+  {
+    "disease_illness": "Lyme Disease",
+    "standardised_disease_name": "Lyme disease",
+    "icd10_code": "A69.2",
+    "icd10_title": "Lyme disease",
+    "icd11_code": "1C1G.Z",
+    "icd11_title": "Lyme borreliosis, unspecified"
+  },
+  {
+    "disease_illness": "Acute Febrile Illness",
+    "standardised_disease_name": "Fever",
+    "icd10_code": "R50.9",
+    "icd10_title": "Fever, unspecified",
+    "icd11_code": "MG26",
+    "icd11_title": "Fever of other or unknown origin"
+  },
+  {
+    "disease_illness": "Hepatitis C",
+    "standardised_disease_name": "Hepatitis C",
+    "icd10_code": "B18.2",
+    "icd10_title": "Chronic viral hepatitis C",
+    "icd11_code": "1E51.1",
+    "icd11_title": "Chronic hepatitis C"
+  },
+  {
+    "disease_illness": "Suspected Measles & Rubella",
+    "standardised_disease_name": "Measles | Rubella",
+    "icd10_code": "B05.9 | B06.9",
+    "icd10_title": "Measles without complication | Rubella without complication",
+    "icd11_code": "1F03.0 | 1F02.2",
+    "icd11_title": "Measles without complication | Rubella without complication"
+  },
+  {
+    "disease_illness": "Epidemic Dropsy",
+    "standardised_disease_name": "Epidemic dropsy",
+    "icd10_code": "T62.2",
+    "icd10_title": "Toxic effect: Other ingested (parts of) plant(s)",
+    "icd11_code": "NE61&XM9N55",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+  },
+  {
+    "disease_illness": "Viral Fever",
+    "standardised_disease_name": "Viral fever / viral infection",
+    "icd10_code": "B34.9",
+    "icd10_title": "Viral infection, unspecified",
+    "icd11_code": "1E1Z",
+    "icd11_title": "Unspecified viral disease"
+  },
+  {
+    "disease_illness": "Viral Encephalitis",
+    "standardised_disease_name": "Viral encephalitis",
+    "icd10_code": "A86",
+    "icd10_title": "Unspecified viral encephalitis",
+    "icd11_code": "1C80",
+    "icd11_title": "Viral encephalitis, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Gastroenteritis",
+    "standardised_disease_name": "Gastroenteritis",
+    "icd10_code": "A09.9",
+    "icd10_title": "Gastroenteritis and colitis of unspecified origin",
+    "icd11_code": "1A40.0",
+    "icd11_title": "Gastroenteritis or colitis without specification of origin"
+  },
+  {
+    "disease_illness": "Dengue & Fever",
+    "standardised_disease_name": "Dengue",
+    "icd10_code": "A97.9",
+    "icd10_title": "Dengue, unspecified",
+    "icd11_code": "1D2Z",
+    "icd11_title": "Dengue, unspecified"
+  },
+  {
+    "disease_illness": "Avian Influenza",
+    "standardised_disease_name": "Avian influenza",
+    "icd10_code": "J09",
+    "icd10_title": "Influenza due to identified zoonotic or pandemic influenza virus",
+    "icd11_code": "1.00E+31",
+    "icd11_title": "Influenza due to identified zoonotic or pandemic influenza virus"
+  },
+  {
+    "disease_illness": "Convulsions of Unknown Cause",
+    "standardised_disease_name": "Convulsions",
+    "icd10_code": "R56.8",
+    "icd10_title": "Other and unspecified convulsions",
+    "icd11_code": "8A68.Z",
+    "icd11_title": "Type of seizure, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Diphtheria",
+    "standardised_disease_name": "Diphtheria",
+    "icd10_code": "A36.9",
+    "icd10_title": "Diphtheria, unspecified",
+    "icd11_code": "1C17.Z",
+    "icd11_title": "Diphtheria, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Epidemic Dropsy",
+    "standardised_disease_name": "Epidemic dropsy",
+    "icd10_code": "T62.2",
+    "icd10_title": "Toxic effect: Other ingested (parts of) plant(s)",
+    "icd11_code": "NE61&XM9N55",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+  },
+  {
+    "disease_illness": "Bacillary Dysentery",
+    "standardised_disease_name": "Shigellosis",
+    "icd10_code": "A03.9",
+    "icd10_title": "Shigellosis, unspecified",
+    "icd11_code": "1A02",
+    "icd11_title": "Intestinal infections due to Shigella"
+  },
+  {
+    "disease_illness": "Suspected Hepatitis A",
+    "standardised_disease_name": "Hepatitis A",
+    "icd10_code": "B15.9",
+    "icd10_title": "Hepatitis A without hepatic coma",
+    "icd11_code": "1E50.0",
+    "icd11_title": "Acute hepatitis A"
+  },
+  {
+    "disease_illness": "COVID-19",
+    "standardised_disease_name": "COVID-19",
+    "icd10_code": "U07.1",
+    "icd10_title": "COVID-19, virus identified",
+    "icd11_code": "RA01.0",
+    "icd11_title": "COVID-19, virus identified"
+  },
+  {
+    "disease_illness": "Suspected Pertussis",
+    "standardised_disease_name": "Pertussis",
+    "icd10_code": "A37.9",
+    "icd10_title": "Whooping cough, unspecified",
+    "icd11_code": "1C12.Z",
+    "icd11_title": "Whooping cough, unspecified"
+  },
+  {
+    "disease_illness": "Poisoning (BHC)",
+    "standardised_disease_name": "BHC (insecticide) poisoning",
+    "icd10_code": "T53.6",
+    "icd10_title": "Toxic effect: Other halogen derivatives of aliphatic hydrocarbons",
+    "icd11_code": "NE61",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Suspected Poisoning",
+    "standardised_disease_name": "Poisoning",
+    "icd10_code": "T65.9",
+    "icd10_title": "Toxic effect: Toxic effect of unspecified substance",
+    "icd11_code": "NE6Z",
+    "icd11_title": "Harmful effects of unspecified substance"
+  },
+  {
+    "disease_illness": "Acute Diarrheal Disease & Cholera",
+    "standardised_disease_name": "Cholera",
+    "icd10_code": "A00.9",
+    "icd10_title": "Cholera, unspecified",
+    "icd11_code": "1A00",
+    "icd11_title": "Cholera"
+  },
+  {
+    "disease_illness": "Chikungunya & Typhoid",
+    "standardised_disease_name": "Chikungunya | Typhoid fever",
+    "icd10_code": "A92.0 | A01.0",
+    "icd10_title": "Chikungunya virus disease | Typhoid fever",
+    "icd11_code": "1D40 | 1A07.Z",
+    "icd11_title": "Chikungunya virus disease | Typhoid fever, unspecified"
+  },
+  {
+    "disease_illness": "Dengue & West Nile Fever",
+    "standardised_disease_name": "Dengue | West Nile fever",
+    "icd10_code": "A97.9 | A92.3",
+    "icd10_title": "Dengue, unspecified | West Nile virus infection",
+    "icd11_code": "1D2Z | 1D46",
+    "icd11_title": "Dengue, unspecified | West Nile virus infection"
+  },
+  {
+    "disease_illness": "Suspected Jaundice",
+    "standardised_disease_name": "Jaundice",
+    "icd10_code": "R17.0",
+    "icd10_title": "Hyperbilirubinaemia with mention of jaundice, not elsewhere classified",
+    "icd11_code": "ME10.1",
+    "icd11_title": "Unspecified jaundice"
+  },
+  {
+    "disease_illness": "Chikungunya & Leptospirosis",
+    "standardised_disease_name": "Chikungunya | Leptospirosis",
+    "icd10_code": "A92.0 | A27.9",
+    "icd10_title": "Chikungunya virus disease | Leptospirosis, unspecified",
+    "icd11_code": "1D40 | 1B91",
+    "icd11_title": "Chikungunya virus disease | Leptospirosis"
+  },
+  {
+    "disease_illness": "Suspected Brucellosis",
+    "standardised_disease_name": "Brucellosis",
+    "icd10_code": "A23.9",
+    "icd10_title": "Brucellosis, unspecified",
+    "icd11_code": "1B95",
+    "icd11_title": "Brucellosis"
+  },
+  {
+    "disease_illness": "Influenza B",
+    "standardised_disease_name": "Influenza (virus identified)",
+    "icd10_code": "J10.1",
+    "icd10_title": "Influenza with other respiratory manifestations, seasonal influenza virus identified",
+    "icd11_code": "1.00E+30",
+    "icd11_title": "Influenza due to identified seasonal influenza virus"
+  },
+  {
+    "disease_illness": "Suspected Chikungunya",
+    "standardised_disease_name": "Chikungunya",
+    "icd10_code": "A92.0",
+    "icd10_title": "Chikungunya virus disease",
+    "icd11_code": "1D40",
+    "icd11_title": "Chikungunya virus disease"
+  },
+  {
+    "disease_illness": "Suspected Leptospirosis",
+    "standardised_disease_name": "Leptospirosis",
+    "icd10_code": "A27.9",
+    "icd10_title": "Leptospirosis, unspecified",
+    "icd11_code": "1B91",
+    "icd11_title": "Leptospirosis"
+  },
+  {
+    "disease_illness": "Suspected Malaria",
+    "standardised_disease_name": "Malaria",
+    "icd10_code": "B54",
+    "icd10_title": "Unspecified malaria",
+    "icd11_code": "1F4Z",
+    "icd11_title": "Malaria, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Cholera",
+    "standardised_disease_name": "Cholera",
+    "icd10_code": "A00.9",
+    "icd10_title": "Cholera, unspecified",
+    "icd11_code": "1A00",
+    "icd11_title": "Cholera"
+  },
+  {
+    "disease_illness": "Trypanosomiasis",
+    "standardised_disease_name": "Trypanosomiasis",
+    "icd10_code": "",
+    "icd10_title": "",
+    "icd11_code": "",
+    "icd11_title": ""
+  },
+  {
+    "disease_illness": "Food Poisoning (Salmonella)",
+    "standardised_disease_name": "Salmonellosis",
+    "icd10_code": "A02.0",
+    "icd10_title": "Salmonella enteritis",
+    "icd11_code": "1A09.0",
+    "icd11_title": "Salmonella enteritis"
+  },
+  {
+    "disease_illness": "Acute Encephalitis Syndrome (Japanese Encephalitis)",
+    "standardised_disease_name": "Japanese encephalitis",
+    "icd10_code": "A83.0",
+    "icd10_title": "Japanese encephalitis",
+    "icd11_code": "1C85",
+    "icd11_title": "Japanese encephalitis"
+  },
+  {
+    "disease_illness": "Suspected Meningitis",
+    "standardised_disease_name": "Meningitis",
+    "icd10_code": "G03.9",
+    "icd10_title": "Meningitis, unspecified",
+    "icd11_code": "1D01.Z",
+    "icd11_title": "Infectious meningitis, unspecified"
+  },
+  {
+    "disease_illness": "Filariasis",
+    "standardised_disease_name": "Filariasis",
+    "icd10_code": "B74.9",
+    "icd10_title": "Filariasis, unspecified",
+    "icd11_code": "1F66.Z",
+    "icd11_title": "Filariasis, unspecified"
+  },
+  {
+    "disease_illness": "Food Poisoning (Castor Fruit)",
+    "standardised_disease_name": "Toxic plant/seed poisoning",
+    "icd10_code": "T62.2",
+    "icd10_title": "Toxic effect: Other ingested (parts of) plant(s)",
+    "icd11_code": "NE61&XM9N55",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+  },
+  {
+    "disease_illness": "Acute Diarrheal Disease (Rotavirus)",
+    "standardised_disease_name": "Rotavirus diarrhoea",
+    "icd10_code": "A08.0",
+    "icd10_title": "Rotaviral enteritis",
+    "icd11_code": "1A22",
+    "icd11_title": "Gastroenteritis due to Rotavirus"
+  },
+  {
+    "disease_illness": "Suspected Salmonellosis",
+    "standardised_disease_name": "Salmonellosis",
+    "icd10_code": "A02.0",
+    "icd10_title": "Salmonella enteritis",
+    "icd11_code": "1A09.0",
+    "icd11_title": "Salmonella enteritis"
+  },
+  {
+    "disease_illness": "Trichinellosis",
+    "standardised_disease_name": "Trichinellosis",
+    "icd10_code": "B75",
+    "icd10_title": "Trichinellosis",
+    "icd11_code": "1F6E",
+    "icd11_title": "Trichinosis"
+  },
+  {
+    "disease_illness": "Diarrhoea",
+    "standardised_disease_name": "Diarrhoea",
+    "icd10_code": "A09.9",
+    "icd10_title": "Gastroenteritis and colitis of unspecified origin",
+    "icd11_code": "1A40.0",
+    "icd11_title": "Gastroenteritis or colitis without specification of origin"
+  },
+  {
+    "disease_illness": "Fever with Joint Pain",
+    "standardised_disease_name": "Fever | Joint pain",
+    "icd10_code": "R50.9 | M25.5",
+    "icd10_title": "Fever, unspecified | Pain in joint",
+    "icd11_code": "MG26 | ME82",
+    "icd11_title": "Fever of other or unknown origin | Pain in joint"
+  },
+  {
+    "disease_illness": "Fever with Body Pain",
+    "standardised_disease_name": "Fever | Body pain",
+    "icd10_code": "R50.9 | R52.9",
+    "icd10_title": "Fever, unspecified | Pain, unspecified",
+    "icd11_code": "MG26 | MG3Z",
+    "icd11_title": "Fever of other or unknown origin | Pain, unspecified"
+  },
+  {
+    "disease_illness": "Dengue & Japanese Encephalitis",
+    "standardised_disease_name": "Dengue | Japanese encephalitis",
+    "icd10_code": "A97.9 | A83.0",
+    "icd10_title": "Dengue, unspecified | Japanese encephalitis",
+    "icd11_code": "1D2Z | 1C85",
+    "icd11_title": "Dengue, unspecified | Japanese encephalitis"
+  },
+  {
+    "disease_illness": "Influenza A (H1N1)",
+    "standardised_disease_name": "Influenza A(H1N1)",
+    "icd10_code": "J09",
+    "icd10_title": "Influenza due to identified zoonotic or pandemic influenza virus",
+    "icd11_code": "1.00E+31",
+    "icd11_title": "Influenza due to identified zoonotic or pandemic influenza virus"
+  },
+  {
+    "disease_illness": "Neonatal Tetanus",
+    "standardised_disease_name": "Neonatal tetanus",
+    "icd10_code": "A33",
+    "icd10_title": "Tetanus neonatorum",
+    "icd11_code": "1C15",
+    "icd11_title": "Tetanus neonatorum"
+  },
+  {
+    "disease_illness": "Salmonellosis",
+    "standardised_disease_name": "Salmonellosis",
+    "icd10_code": "A02.0",
+    "icd10_title": "Salmonella enteritis",
+    "icd11_code": "1A09.0",
+    "icd11_title": "Salmonella enteritis"
+  },
+  {
+    "disease_illness": "Nipah Viral Disease",
+    "standardised_disease_name": "Nipah virus disease",
+    "icd10_code": "B33.8",
+    "icd10_title": "Other specified viral diseases",
+    "icd11_code": "1D63",
+    "icd11_title": "Henipavirus encephalitis"
+  },
+  {
+    "disease_illness": "Suspected Cutaneous Anthrax",
+    "standardised_disease_name": "Cutaneous anthrax",
+    "icd10_code": "A22.0",
+    "icd10_title": "Cutaneous anthrax",
+    "icd11_code": "1B97",
+    "icd11_title": "Anthrax"
+  },
+  {
+    "disease_illness": "Cutaneous Anthrax",
+    "standardised_disease_name": "Cutaneous anthrax",
+    "icd10_code": "A22.0",
+    "icd10_title": "Cutaneous anthrax",
+    "icd11_code": "1B97",
+    "icd11_title": "Anthrax"
+  },
+  {
+    "disease_illness": "Scabies",
+    "standardised_disease_name": "Scabies",
+    "icd10_code": "B86",
+    "icd10_title": "Scabies",
+    "icd11_code": "1G04.Z",
+    "icd11_title": "Scabies, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Seasonal Influenza",
+    "standardised_disease_name": "Influenza",
+    "icd10_code": "J11.1",
+    "icd10_title": "Influenza with other respiratory manifestations, virus not identified",
+    "icd11_code": "1.00E+32",
+    "icd11_title": "Influenza, virus not identified"
+  },
+  {
+    "disease_illness": "Suspected Acute Flaccid Paralysis",
+    "standardised_disease_name": "Acute flaccid paralysis",
+    "icd10_code": "G83.9",
+    "icd10_title": "Paralytic syndrome, unspecified",
+    "icd11_code": "MB5Z",
+    "icd11_title": "Paralytic symptoms, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Neonatal Tetanus",
+    "standardised_disease_name": "Neonatal tetanus",
+    "icd10_code": "A33",
+    "icd10_title": "Tetanus neonatorum",
+    "icd11_code": "1C15",
+    "icd11_title": "Tetanus neonatorum"
+  },
+  {
+    "disease_illness": "Chickenpox & Mumps",
+    "standardised_disease_name": "Chickenpox | Mumps",
+    "icd10_code": "B01.9 | B26.9",
+    "icd10_title": "Varicella without complication | Mumps without complication",
+    "icd11_code": "1E90.0 | 1D80.0",
+    "icd11_title": "Varicella without complication | Mumps without complication"
+  },
+  {
+    "disease_illness": "Suspected Chikungunya & Dengue",
+    "standardised_disease_name": "Chikungunya | Dengue",
+    "icd10_code": "A92.0 | A97.9",
+    "icd10_title": "Chikungunya virus disease | Dengue, unspecified",
+    "icd11_code": "1D40 | 1D2Z",
+    "icd11_title": "Chikungunya virus disease | Dengue, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Dengue & Leptospirosis",
+    "standardised_disease_name": "Dengue | Leptospirosis",
+    "icd10_code": "A97.9 | A27.9",
+    "icd10_title": "Dengue, unspecified | Leptospirosis, unspecified",
+    "icd11_code": "1D2Z | 1B91",
+    "icd11_title": "Dengue, unspecified | Leptospirosis"
+  },
+  {
+    "disease_illness": "Fever & Headache",
+    "standardised_disease_name": "Fever | Headache",
+    "icd10_code": "R50.9 | R51",
+    "icd10_title": "Fever, unspecified | Headache",
+    "icd11_code": "MG26 | 8A8Z",
+    "icd11_title": "Fever of other or unknown origin | Headache disorders, unspecified"
+  },
+  {
+    "disease_illness": "Fever with Arthralgia",
+    "standardised_disease_name": "Fever | Joint pain",
+    "icd10_code": "R50.9 | M25.5",
+    "icd10_title": "Fever, unspecified | Pain in joint",
+    "icd11_code": "MG26 | ME82",
+    "icd11_title": "Fever of other or unknown origin | Pain in joint"
+  },
+  {
+    "disease_illness": "Suspected Leptospirosis & Typhoid",
+    "standardised_disease_name": "Leptospirosis | Typhoid fever",
+    "icd10_code": "A27.9 | A01.0",
+    "icd10_title": "Leptospirosis, unspecified | Typhoid fever",
+    "icd11_code": "1B91 | 1A07.Z",
+    "icd11_title": "Leptospirosis | Typhoid fever, unspecified"
+  },
+  {
+    "disease_illness": "Herpes Simplex Encephalitis",
+    "standardised_disease_name": "Herpes simplex encephalitis",
+    "icd10_code": "B00.4",
+    "icd10_title": "Herpesviral encephalitis",
+    "icd11_code": "1F00.21",
+    "icd11_title": "Encephalitis due to herpes simplex virus"
+  },
+  {
+    "disease_illness": "Suspected Viral Fever",
+    "standardised_disease_name": "Viral fever / viral infection",
+    "icd10_code": "B34.9",
+    "icd10_title": "Viral infection, unspecified",
+    "icd11_code": "1E1Z",
+    "icd11_title": "Unspecified viral disease"
+  },
+  {
+    "disease_illness": "Dengue & Leptospirosis & Scrub Typhus",
+    "standardised_disease_name": "Dengue | Leptospirosis | Scrub typhus",
+    "icd10_code": "A97.9 | A27.9 | A75.3",
+    "icd10_title": "Dengue, unspecified | Leptospirosis, unspecified | Typhus fever due to Rickettsia tsutsugamushi",
+    "icd11_code": "1D2Z | 1B91 | 1C30.3",
+    "icd11_title": "Dengue, unspecified | Leptospirosis | Typhus fever due to Orientia tsutsugamushi"
+  },
+  {
+    "disease_illness": "Suspected Bacillary Dysentery",
+    "standardised_disease_name": "Shigellosis",
+    "icd10_code": "A03.9",
+    "icd10_title": "Shigellosis, unspecified",
+    "icd11_code": "1A02",
+    "icd11_title": "Intestinal infections due to Shigella"
+  },
+  {
+    "disease_illness": "Fever with Cough",
+    "standardised_disease_name": "Fever | Cough",
+    "icd10_code": "R50.9 | R05",
+    "icd10_title": "Fever, unspecified | Cough",
+    "icd11_code": "MG26 | MD12",
+    "icd11_title": "Fever of other or unknown origin | Cough"
+  },
+  {
+    "disease_illness": "Dengue & Scrub Typhus & Typhoid",
+    "standardised_disease_name": "Dengue | Scrub typhus | Typhoid fever",
+    "icd10_code": "A97.9 | A75.3 | A01.0",
+    "icd10_title": "Dengue, unspecified | Typhus fever due to Rickettsia tsutsugamushi | Typhoid fever",
+    "icd11_code": "1D2Z | 1C30.3 | 1A07.Z",
+    "icd11_title": "Dengue, unspecified | Typhus fever due to Orientia tsutsugamushi | Typhoid fever, unspecified"
+  },
+  {
+    "disease_illness": "Fever (Dengue & Malaria)",
+    "standardised_disease_name": "Dengue | Malaria",
+    "icd10_code": "A97.9 | B54",
+    "icd10_title": "Dengue, unspecified | Unspecified malaria",
+    "icd11_code": "1D2Z | 1F4Z",
+    "icd11_title": "Dengue, unspecified | Malaria, unspecified"
+  },
+  {
+    "disease_illness": "Epidemic Typhus",
+    "standardised_disease_name": "Epidemic typhus",
+    "icd10_code": "A75.0",
+    "icd10_title": "Epidemic louse-borne typhus fever due to Rickettsia prowazekii",
+    "icd11_code": "1C30.0",
+    "icd11_title": "Epidemic louse-borne typhus fever due to Rickettsia prowazekii"
+  },
+  {
+    "disease_illness": "Chikungunya & Scrub Typhus",
+    "standardised_disease_name": "Chikungunya | Scrub typhus",
+    "icd10_code": "A92.0 | A75.3",
+    "icd10_title": "Chikungunya virus disease | Typhus fever due to Rickettsia tsutsugamushi",
+    "icd11_code": "1D40 | 1C30.3",
+    "icd11_title": "Chikungunya virus disease | Typhus fever due to Orientia tsutsugamushi"
+  },
+  {
+    "disease_illness": "Hepatitis A & Leptospirosis",
+    "standardised_disease_name": "Hepatitis A | Leptospirosis",
+    "icd10_code": "B15.9 | A27.9",
+    "icd10_title": "Hepatitis A without hepatic coma | Leptospirosis, unspecified",
+    "icd11_code": "1E50.0 | 1B91",
+    "icd11_title": "Acute hepatitis A | Leptospirosis"
+  },
+  {
+    "disease_illness": "Fever & Malaria",
+    "standardised_disease_name": "Malaria",
+    "icd10_code": "B54",
+    "icd10_title": "Unspecified malaria",
+    "icd11_code": "1F4Z",
+    "icd11_title": "Malaria, unspecified"
+  },
+  {
+    "disease_illness": "Typhus Fever",
+    "standardised_disease_name": "Typhus fever",
+    "icd10_code": "A75.9",
+    "icd10_title": "Typhus fever, unspecified",
+    "icd11_code": "1C30.Z",
+    "icd11_title": "Typhus fever, unspecified"
+  },
+  {
+    "disease_illness": "Food Poisoning (Bamangadh)",
+    "standardised_disease_name": "Food poisoning",
+    "icd10_code": "A05.9",
+    "icd10_title": "Bacterial foodborne intoxication, unspecified",
+    "icd11_code": "1A1Z",
+    "icd11_title": "Bacterial foodborne intoxications, unspecified"
+  },
+  {
+    "disease_illness": "Food Poisoning (Staphylococcus)",
+    "standardised_disease_name": "Staphylococcal food poisoning",
+    "icd10_code": "A05.0",
+    "icd10_title": "Foodborne staphylococcal intoxication",
+    "icd11_code": "1A10",
+    "icd11_title": "Foodborne staphylococcal intoxication"
+  },
+  {
+    "disease_illness": "Viral Conjunctivitis",
+    "standardised_disease_name": "Viral conjunctivitis",
+    "icd10_code": "B30.9",
+    "icd10_title": "Viral conjunctivitis, unspecified",
+    "icd11_code": "1D84.Z",
+    "icd11_title": "Viral conjunctivitis, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Rubella",
+    "standardised_disease_name": "Rubella",
+    "icd10_code": "B06.9",
+    "icd10_title": "Rubella without complication",
+    "icd11_code": "1F02.2",
+    "icd11_title": "Rubella without complication"
+  },
+  {
+    "disease_illness": "Food Poisoning (Seed)",
+    "standardised_disease_name": "Toxic plant/seed poisoning",
+    "icd10_code": "T62.2",
+    "icd10_title": "Toxic effect: Other ingested (parts of) plant(s)",
+    "icd11_code": "NE61&XM9N55",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+  },
+  {
+    "disease_illness": "Cholera (Classical)",
+    "standardised_disease_name": "Cholera (classical)",
+    "icd10_code": "A00.0",
+    "icd10_title": "Cholera due to Vibrio cholerae 01, biovar cholerae",
+    "icd11_code": "1A00&XN8P1",
+    "icd11_title": "Cholera [Vibrio cholerae O1, biovar cholerae]"
+  },
+  {
+    "disease_illness": "Jatropha Poisoning (Ratanjot)",
+    "standardised_disease_name": "Toxic plant/seed poisoning",
+    "icd10_code": "T62.2",
+    "icd10_title": "Toxic effect: Other ingested (parts of) plant(s)",
+    "icd11_code": "NE61&XM9N55",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+  },
+  {
+    "disease_illness": "Poisoning",
+    "standardised_disease_name": "Poisoning",
+    "icd10_code": "T65.9",
+    "icd10_title": "Toxic effect: Toxic effect of unspecified substance",
+    "icd11_code": "NE6Z",
+    "icd11_title": "Harmful effects of unspecified substance"
+  },
+  {
+    "disease_illness": "Paederus Dermatitis from Rove Beetle",
+    "standardised_disease_name": "Paederus dermatitis",
+    "icd10_code": "L24.8",
+    "icd10_title": "Irritant contact dermatitis due to other agents",
+    "icd11_code": "NE61",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Fever (Viral Encephalitis)",
+    "standardised_disease_name": "Viral encephalitis",
+    "icd10_code": "A86",
+    "icd10_title": "Unspecified viral encephalitis",
+    "icd11_code": "1C80",
+    "icd11_title": "Viral encephalitis, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Alcohol Poisoning",
+    "standardised_disease_name": "Alcohol poisoning",
+    "icd10_code": "T51.9",
+    "icd10_title": "Toxic effect: Alcohol, unspecified",
+    "icd11_code": "NE61",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Suspected Fever with Rash",
+    "standardised_disease_name": "Fever | Rash",
+    "icd10_code": "R50.9 | R21",
+    "icd10_title": "Fever, unspecified | Rash and other nonspecific skin eruption",
+    "icd11_code": "MG26 | ME62.Y",
+    "icd11_title": "Fever of other or unknown origin | Other specified acute skin eruption of uncertain or unspecified nature"
+  },
+  {
+    "disease_illness": "Fever (Mixed Infection)",
+    "standardised_disease_name": "Fever",
+    "icd10_code": "R50.9",
+    "icd10_title": "Fever, unspecified",
+    "icd11_code": "MG26",
+    "icd11_title": "Fever of other or unknown origin"
+  },
+  {
+    "disease_illness": "Methanol Poisoning",
+    "standardised_disease_name": "Methanol poisoning",
+    "icd10_code": "T51.1",
+    "icd10_title": "Toxic effect: Methanol",
+    "icd11_code": "NE61&XM7KD9",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Methanol]"
+  },
+  {
+    "disease_illness": "Suspected Viral Encephalitis",
+    "standardised_disease_name": "Viral encephalitis",
+    "icd10_code": "A86",
+    "icd10_title": "Unspecified viral encephalitis",
+    "icd11_code": "1C80",
+    "icd11_title": "Viral encephalitis, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Upper Respiratory Tract Infection",
+    "standardised_disease_name": "Upper respiratory tract infection",
+    "icd10_code": "J06.9",
+    "icd10_title": "Acute upper respiratory infection, unspecified",
+    "icd11_code": "CA07.0",
+    "icd11_title": "Acute upper respiratory infection, site unspecified"
+  },
+  {
+    "disease_illness": "Castor Seed Poisoning",
+    "standardised_disease_name": "Toxic plant/seed poisoning",
+    "icd10_code": "T62.2",
+    "icd10_title": "Toxic effect: Other ingested (parts of) plant(s)",
+    "icd11_code": "NE61&XM9N55",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+  },
+  {
+    "disease_illness": "Suspected Jaundice & Viral Hepatitis",
+    "standardised_disease_name": "Viral hepatitis",
+    "icd10_code": "B19.9",
+    "icd10_title": "Unspecified viral hepatitis without hepatic coma",
+    "icd11_code": "1E5Z",
+    "icd11_title": "Viral hepatitis, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Viral Encephalitis (Chandipura Virus)",
+    "standardised_disease_name": "Chandipura virus encephalitis",
+    "icd10_code": "",
+    "icd10_title": "",
+    "icd11_code": "",
+    "icd11_title": ""
+  },
+  {
+    "disease_illness": "Viral Encephalitis (Chandipura Virus)",
+    "standardised_disease_name": "Chandipura virus encephalitis",
+    "icd10_code": "",
+    "icd10_title": "",
+    "icd11_code": "",
+    "icd11_title": ""
+  },
+  {
+    "disease_illness": "Suspected Trichinellosis",
+    "standardised_disease_name": "Trichinellosis",
+    "icd10_code": "B75",
+    "icd10_title": "Trichinellosis",
+    "icd11_code": "1F6E",
+    "icd11_title": "Trichinosis"
+  },
+  {
+    "disease_illness": "Suspected Kyasanur Forest Disease",
+    "standardised_disease_name": "Kyasanur Forest disease",
+    "icd10_code": "A98.2",
+    "icd10_title": "Kyasanur Forest disease",
+    "icd11_code": "1D4B",
+    "icd11_title": "Kyasanur Forest disease"
+  },
+  {
+    "disease_illness": "Suspected Acute Encephalitis Syndrome",
+    "standardised_disease_name": "Acute encephalitis syndrome",
+    "icd10_code": "A86",
+    "icd10_title": "Unspecified viral encephalitis",
+    "icd11_code": "1D00.Z",
+    "icd11_title": "Infectious encephalitis, unspecified"
+  },
+  {
+    "disease_illness": "Fever (Chikungunya)",
+    "standardised_disease_name": "Chikungunya",
+    "icd10_code": "A92.0",
+    "icd10_title": "Chikungunya virus disease",
+    "icd11_code": "1D40",
+    "icd11_title": "Chikungunya virus disease"
+  },
+  {
+    "disease_illness": "Suspected Acute Febrile Illness",
+    "standardised_disease_name": "Fever",
+    "icd10_code": "R50.9",
+    "icd10_title": "Fever, unspecified",
+    "icd11_code": "MG26",
+    "icd11_title": "Fever of other or unknown origin"
+  },
+  {
+    "disease_illness": "Suspected Acute Diarrheal Disease",
+    "standardised_disease_name": "Acute diarrhoeal disease",
+    "icd10_code": "A09.0",
+    "icd10_title": "Other and unspecified gastroenteritis and colitis of infectious origin",
+    "icd11_code": "1A40.Z",
+    "icd11_title": "Infectious gastroenteritis or colitis without specification of infectious agent"
+  },
+  {
+    "disease_illness": "Drug Side Effects",
+    "standardised_disease_name": "Adverse drug effect",
+    "icd10_code": "T88.7",
+    "icd10_title": "Unspecified adverse effect of drug or medicament",
+    "icd11_code": "NE60",
+    "icd11_title": "Harmful effects of drugs, medicaments or biological substances, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Chikungunya & Dengue & Scrub Typhus",
+    "standardised_disease_name": "Chikungunya | Dengue | Scrub typhus",
+    "icd10_code": "A92.0 | A97.9 | A75.3",
+    "icd10_title": "Chikungunya virus disease | Dengue, unspecified | Typhus fever due to Rickettsia tsutsugamushi",
+    "icd11_code": "1D40 | 1D2Z | 1C30.3",
+    "icd11_title": "Chikungunya virus disease | Dengue, unspecified | Typhus fever due to Orientia tsutsugamushi"
+  },
+  {
+    "disease_illness": "Suspected Acute Diarrheal Disease & Cholera",
+    "standardised_disease_name": "Cholera",
+    "icd10_code": "A00.9",
+    "icd10_title": "Cholera, unspecified",
+    "icd11_code": "1A00",
+    "icd11_title": "Cholera"
+  },
+  {
+    "disease_illness": "Suspected Chikungunya & Fever",
+    "standardised_disease_name": "Chikungunya",
+    "icd10_code": "A92.0",
+    "icd10_title": "Chikungunya virus disease",
+    "icd11_code": "1D40",
+    "icd11_title": "Chikungunya virus disease"
+  },
+  {
+    "disease_illness": "Suspected Acute Encephalitis Syndrome (Japanese Encephalitis)",
+    "standardised_disease_name": "Japanese encephalitis",
+    "icd10_code": "A83.0",
+    "icd10_title": "Japanese encephalitis",
+    "icd11_code": "1C85",
+    "icd11_title": "Japanese encephalitis"
+  },
+  {
+    "disease_illness": "Viral Exanthemas (Multiple Papulo Pustular Lesions)",
+    "standardised_disease_name": "Viral exanthem",
+    "icd10_code": "B09",
+    "icd10_title": "Unspecified viral infection characterized by skin and mucous membrane lesions",
+    "icd11_code": "1F0Z",
+    "icd11_title": "Viral infections characterised by skin or mucous membrane lesions, unspecified"
+  },
+  {
+    "disease_illness": "Acute Respiratory Infection (H3N2)",
+    "standardised_disease_name": "Influenza (virus identified)",
+    "icd10_code": "J10.1",
+    "icd10_title": "Influenza with other respiratory manifestations, seasonal influenza virus identified",
+    "icd11_code": "1.00E+30",
+    "icd11_title": "Influenza due to identified seasonal influenza virus"
+  },
+  {
+    "disease_illness": "Leptospirosis & Malaria",
+    "standardised_disease_name": "Leptospirosis | Malaria",
+    "icd10_code": "A27.9 | B54",
+    "icd10_title": "Leptospirosis, unspecified | Unspecified malaria",
+    "icd11_code": "1B91 | 1F4Z",
+    "icd11_title": "Leptospirosis | Malaria, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Viral Infection",
+    "standardised_disease_name": "Viral fever / viral infection",
+    "icd10_code": "B34.9",
+    "icd10_title": "Viral infection, unspecified",
+    "icd11_code": "1E1Z",
+    "icd11_title": "Unspecified viral disease"
+  },
+  {
+    "disease_illness": "Suspected Sub-cutaneous Worm",
+    "standardised_disease_name": "Suspected Sub-cutaneous Worm",
+    "icd10_code": "",
+    "icd10_title": "",
+    "icd11_code": "",
+    "icd11_title": ""
+  },
+  {
+    "disease_illness": "Amoebic Dysentery",
+    "standardised_disease_name": "Amoebic dysentery",
+    "icd10_code": "A06.0",
+    "icd10_title": "Acute amoebic dysentery",
+    "icd11_code": "1A36.00",
+    "icd11_title": "Acute amoebiasis"
+  },
+  {
+    "disease_illness": "Gas Poisoning",
+    "standardised_disease_name": "Gas poisoning",
+    "icd10_code": "T59.9",
+    "icd10_title": "Toxic effect: Gases, fumes and vapours, unspecified",
+    "icd11_code": "NE61",
+    "icd11_title": "Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Suspected Vitamin A Overdosage",
+    "standardised_disease_name": "Vitamin A overdose",
+    "icd10_code": "T45.2",
+    "icd10_title": "Poisoning: Vitamins, not elsewhere classified",
+    "icd11_code": "NE60",
+    "icd11_title": "Harmful effects of drugs, medicaments or biological substances, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Acute Meningitis",
+    "standardised_disease_name": "Meningitis",
+    "icd10_code": "G03.9",
+    "icd10_title": "Meningitis, unspecified",
+    "icd11_code": "1D01.Z",
+    "icd11_title": "Infectious meningitis, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Viral Fever (Chikungunya & Dengue)",
+    "standardised_disease_name": "Chikungunya | Dengue",
+    "icd10_code": "A92.0 | A97.9",
+    "icd10_title": "Chikungunya virus disease | Dengue, unspecified",
+    "icd11_code": "1D40 | 1D2Z",
+    "icd11_title": "Chikungunya virus disease | Dengue, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Viral Fever (Chikungunya)",
+    "standardised_disease_name": "Chikungunya",
+    "icd10_code": "A92.0",
+    "icd10_title": "Chikungunya virus disease",
+    "icd11_code": "1D40",
+    "icd11_title": "Chikungunya virus disease"
+  },
+  {
+    "disease_illness": "Food Poisoning (Adverse Effect following Vitamin A Administration)",
+    "standardised_disease_name": "Adverse drug effect",
+    "icd10_code": "T88.7",
+    "icd10_title": "Unspecified adverse effect of drug or medicament",
+    "icd11_code": "NE60",
+    "icd11_title": "Harmful effects of drugs, medicaments or biological substances, not elsewhere classified"
+  },
+  {
+    "disease_illness": "Suspected Viral Fever (Leptospirosis)",
+    "standardised_disease_name": "Leptospirosis",
+    "icd10_code": "A27.9",
+    "icd10_title": "Leptospirosis, unspecified",
+    "icd11_code": "1B91",
+    "icd11_title": "Leptospirosis"
+  },
+  {
+    "disease_illness": "Suspected Viral Fever (Dengue)",
+    "standardised_disease_name": "Dengue",
+    "icd10_code": "A97.9",
+    "icd10_title": "Dengue, unspecified",
+    "icd11_code": "1D2Z",
+    "icd11_title": "Dengue, unspecified"
+  },
+  {
+    "disease_illness": "Suspected Viral Fever (Chikungunya & Leptospirosis)",
+    "standardised_disease_name": "Chikungunya | Leptospirosis",
+    "icd10_code": "A92.0 | A27.9",
+    "icd10_title": "Chikungunya virus disease | Leptospirosis, unspecified",
+    "icd11_code": "1D40 | 1B91",
+    "icd11_title": "Chikungunya virus disease | Leptospirosis"
+  },
+  {
+    "disease_illness": "Suspected Food Poisoning (Trichinellosis)",
+    "standardised_disease_name": "Trichinellosis",
+    "icd10_code": "B75",
+    "icd10_title": "Trichinellosis",
+    "icd11_code": "1F6E",
+    "icd11_title": "Trichinosis"
+  }
+]

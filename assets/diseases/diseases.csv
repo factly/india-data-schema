@@ -1,276 +1,242 @@
-disease_illness_name,standard
-Acute Diarrheal Disease,Acute Diarrheal Disease
-Acute Diarrhoeal Disease,Acute Diarrheal Disease
-Acute diarrheal disease (Klebsiella),Acute diarrheal disease (Klebsiella)
-Acute Diarrheal Disease (Shigellosis),Acute Diarrheal Disease (Shigellosis)
-Acute Diarrhoeal Disease (Rota virus),Acute Diarrhoeal Disease (Rota virus)
-Acute Diarrhoeal Disease and Respiratandy Tract Infection and Viral Infection,Acute Diarrhoeal Disease and Respiratandy Tract Infection and Viral Infection
-Acute Encephalitic Syndrome,Acute Encephalitic Syndrome
-Acute Encephalitis Syndrome,Acute Encephalitic Syndrome
-Acute Encephalitic Syndrome (Chandipura Virus),Acute Encephalitic Syndrome (Chandipura Virus)
-Acute Encephalitic Syndrome (Suspected CHPV),Acute Encephalitic Syndrome (Suspected CHPV)
-Acute Encephalitis Syndrome (Japanese Encephalitis),Acute Encephalitis Syndrome (Japanese Encephalitis)
-Acute Febrile Illness,Acute Febrile Illness
-Acute Febrile Illness (Enteric Fever),Acute Febrile Illness (Enteric Fever)
-Acute Febrile Illness and Malaria,Acute Febrile Illness and Malaria
-Acute Febrile Illness and Viral Fever,Acute Febrile Illness and Viral Fever
-Acute Flaccid Paralysis,Acute Flaccid Paralysis
-Acute Flaccid Paralysis (Epstein Bar Virus and Human Herpes Virus),Acute Flaccid Paralysis (Epstein Bar Virus and Human Herpes Virus)
-Acute Gastritis,Acute Gastritis
-Acute Gastroente ritis,Acute Gastroenteritis
-Acute Gastroenter itis,Acute Gastroenteritis
-Acute Gastroenteri tis,Acute Gastroenteritis
-Acute Gastroenterit is,Acute Gastroenteritis
-Acute Gastroenteriti s,Acute Gastroenteritis
-Acute Gastroenteritis,Acute Gastroenteritis
-Acute Gastroenteritis (Norovirus),Acute Gastroenteritis (Norovirus)
-Acute Hepatitis,Acute Hepatitis
-Acute Hepatitis A,Acute Hepatitis-A
-Acute Hepatitis B,Acute Hepatitis-B
-Acute Hepatitis E,Acute Hepatitis-E
-Acute Meningitis,Acute Meningitis
-Acute Meningoencephalitis (Naegleria fowleri),Acute Meningoencephalitis (Naegleria fowleri)
-Acute Respiratandy Illness,Acute Respiratandy Illness
-Acute Respiratandy Infection,Acute Respiratandy Infection
-Acute Respiratandy Influenza,Acute Respiratandy Influenza
-Acute Viral Conjunctivitis,Acute Viral Conjunctivitis
-Acute Viral Encephalitis (Chandipura),Acute Viral Encephalitis (Chandipura)
-Acute Viral Fever,Acute Viral Fever
-Adenovirus,Adenovirus
-Alcohol Poisoning,Alcohol Poisoning
-Allergic Conjunctivitis,Allergic Conjunctivitis
-Amoebic Dysentery,Amoebic Dysentery
-Amoebic Encephalitis,Amoebic Encephalitis
-Animal bite - Dog Bite,Animal bite - Dog Bite
-Animal bite - Snake Bite,Animal bite - Snake Bite
-Anthrax,Anthrax
-ARI Influenza Like Illness(ILI),ARI Influenza Like Illness(ILI)
-Avian Influenza,Avian Influenza
-Bacillary Dysentery,Bacillary Dysentery
-Benzene Hexachlandide (BHC) Poisoning,Benzene Hexachlandide (BHC) Poisoning
-Brucellosis,Brucellosis
-Cast and Seed Poisoning,Cast and Seed Poisoning
-Chandipura Vesiculovirus (CHPV),Chandipura Vesiculovirus (CHPV)
-Chandipura Virus,Chandipura Vesiculovirus (CHPV)
-Chemical Gas Poisoning,Chemical Gas Poisoning
-Chicken Pox,Chickenpox
-Chickenpox,Chickenpox
-Chickenpox and Measles,Chickenpox and Measles
-Measles and Chickenpox,Chickenpox and Measles
-Chickenpox and Mumps,Chickenpox and Mumps
-Chikeckenpox,Chikeckenpox
-Chikungun ya,Chikungunya
-Chikunguny a,Chikungunya
-Chikungunya,Chikungunya
-Chikungunya & Dengue,Chikungunya and Dengue
-Chikungunya and Dengue,Chikungunya and Dengue
-Dengue & Chikungunya,Chikungunya and Dengue
-Dengue and Chikungunya,Chikungunya and Dengue
-Chikungunya and Leptospirosis,Chikungunya and Leptospirosis
-Cholera,Cholera
-Complicated Malaria (Plasmodium falciparum),Complicated Malaria (Plasmodium falciparum)
-Convulsions of Unknown Cause,Convulsions of Unknown Cause
-COVID 19,COVID 19
-Crimean Congo Haemandrhagic Fever (CCHF),Crimean-Congo Haemandrhagic Fever (CCHF)
-Crimean- Congo Haemorrhagi c Fever,Crimean-Congo Haemandrhagic Fever (CCHF)
-Crimean- Congo Haemorrhagic Fever,Crimean-Congo Haemandrhagic Fever (CCHF)
-Cutaneous Anthrax,Cutaneous Anthrax
-Cutaneous Leishmaniasis,Cutaneous Leishmaniasis
-Cutaneous Leishmaniasis (Kala Azar),Cutaneous Leishmaniasis (Kala Azar)
-Dengue,Dengue
-Dengue & Leptospirosis,Dengue & Leptospirosis
-Dengue & Malaria (P.vivax),Dengue & Malaria (P.vivax)
-Dengue and Japanese Encephalitis,Dengue and Japanese Encephalitis
-Dengue and Leptospirosis,Dengue and Leptospirosis
-Dengue and Scrub Typhus,Dengue and Scrub Typhus
-Diarrhoea,Diarrhoea
-Diphtheria,Diphtheria
-Drug side effects,Drug side effects
-Dysentery,Dysentery
-Dysentry,Dysentery
-Dysentery (Shigella),Dysentery (Shigella)
-Encephalitis,Encephalitis
-Enteric Fever,Enteric Fever
-Enteric Fever (Typhoid),Enteric Fever (Typhoid)
-Typhoid (Enteric Fever),Enteric Fever (Typhoid)
-Epidemic Dropsy,Epidemic Dropsy
-Falciparum Malaria,Falciparum Malaria
-Fever,Fever
-Fever (Mixed Infection),Fever (Mixed Infection)
-Fever and Chikungunya,Fever and Chikungunya
-Fever and Dengue,Fever and Dengue
-Fever and Headache,Fever and Headache
-Fever and Upper Respiratandy Tract Infection (URTI),Fever and Upper Respiratandy Tract Infection (URTI)
-Fever Leptospirosis,Fever Leptospirosis
-Fever of Unknown Cause,Fever of Unknown Cause
-Fever of Unknown andigin (PUO),Fever of Unknown Origin
-Fever of Unknown Origin,Fever of Unknown Origin
-Fever with Altered sensandium,Fever with Altered sensandium
-Fever with Arthralgia,Fever with Arthralgia
-Fever with Body Pains,Fever with Body Pains
-Fever with Cough,Fever with Cough
-Fever with Joint Pain,Fever with Joint Pain
-Fever with Rash,Fever with Rash
-Fever with Rash (Enterovirus),Fever with Rash (Enterovirus)
-Filariasis,Filariasis
-Food (Alcohol) poisoning,Food (Alcohol) poisoning
-Food Poisoning,Food Poisoning
-Food Poisoning (Acute Diarrhoeal Disease),Food Poisoning (Acute Diarrhoeal Disease)
-Food poisoning (Adverse effect following Vitamin A administration),Food poisoning (Adverse effect following Vitamin A administration)
-Food Poisoning (Bamangadh),Food Poisoning (Bamangadh)
-Food Poisoning (Caster Fruit),Food Poisoning (Caster Fruit)
-Food Poisoning (EIEC and Shigella),Food Poisoning (EIEC and Shigella)
-Food Poisoning (Mushroom Poisoning),Food Poisoning (Mushroom Poisoning)
-Suspected Food Poisoning (Mushroom Poisoning),Food Poisoning (Mushroom Poisoning)
-Food Poisoning (NandoVirus),Food Poisoning (NandoVirus)
-Food Poisoning (Salmonellosis),Food Poisoning (Salmonellosis)
-Food Poisoning (Seed),Food Poisoning (Seed)
-Food Poisoning (Shigella Sonnie),Food Poisoning (Shigella Sonnie)
-Food Poisoning (Staphylococcus),Food Poisoning (Staphylococcus)
-Food poisoning (Trichinosis),Food poisoning (Trichinosis)
-Forest Disease,Forest Disease
-Gas Poisoning,Gas Poisoning
-Gastroenteritis,Gastroenteritis
-H1N1,H1N1
-H3N2,H3N2
-Hand Foot and Mouth Disease,"Hand, Foot and Mouth Disease (HFMD)"
-"Hand, Foot and Mouth Disease","Hand, Foot and Mouth Disease (HFMD)"
-Hepatitis,Hepatitis
-Hepatitis A,Hepatitis A
-Hepatitis A & E,Hepatitis A & E
-Hepatitis A and B and Leptospirosis,Hepatitis A and B and Leptospirosis
-Hepatitis A and E,Hepatitis A and E
-Hepatitis A and Leptospirosis,Hepatitis A and Leptospirosis
-Hepatitis and Jaundice,Hepatitis and Jaundice
-Hepatitis B,Hepatitis B
-Hepatitis B and C,Hepatitis B and C
-Hepatitis C,Hepatitis C
-Hepatitis E,Hepatitis E
-Herpes Simplex Encephalitis,Herpes Simplex Encephalitis
-HFMD,"Hand, Foot and Mouth Disease"
-HMPV,Human metapneumovirus (HMPV)
-Human Rabies,Human Rabies
-Indigenous Malaria,Indigenous Malaria
-Influenza,Influenza
-Influenza A,Influenza A
-Influenza B,Influenza B
-Influenza like illness,Influenza like illness
-Japanese Encephalitis,Japanese Encephalitis
-Jatropha Seeds Poisoning,Jatropha Seeds Poisoning
-Jaundice,Jaundice
-Jaundice of less than 4 weeks,Jaundice
-Kala Azar,Kala Azar
-Kyasanur Fandest Disease,Kyasanur Fandest Disease
-Leishmaniasis,Leishmaniasis
-Leptospiro sis,Leptospirosis
-Leptospirosi s,Leptospirosis
-Leptospirosis,Leptospirosis
-Leptospirosis and Scrub Typhus,Leptospirosis and Scrub Typhus
-Scrub Typhus and Leptospirosis,Leptospirosis and Scrub Typhus
-Leptospirosis and Typhoid,Leptospirosis and Typhoid
-Lyme Disease,Lyme Disease
-Malaria,Malaria
-Malaria (Mixed),Malaria (Mixed)
-Malaria (P. vivax & P.falciparu m),Malaria (P.falciparum & P.vivax)
-Malaria (P. vivax & P.falciparum),Malaria (P.falciparum & P.vivax)
-Malaria (P.falciparu m & P.vivax),Malaria (P.falciparum & P.vivax)
-Malaria (P.falciparum & P.vivax),Malaria (P.falciparum & P.vivax)
-Malaria (P.falciparum and P.vivax),Malaria (P.falciparum & P.vivax)
-Malaria (P.vivax & P.falciparum),Malaria (P.falciparum & P.vivax)
-Malaria (P.falciparum and P.vivax) and Dengue,Malaria (P.falciparum and P.vivax) and Dengue
-Malaria (P.falciparum),Malaria (P.falciparum)
-Malaria (P.vivax),Malaria (P.vivax)
-Malaria (Plasmodium Falciparum),Malaria (P.falciparum)
-Malaria (Plasmodiu m Vivax),Malaria (P.vivax)
-Malaria (Plasmodium Vivax),Malaria (P.vivax)
-Malaria and Dengue,Malaria and Dengue
-Malaria and Leptospirosis,Malaria and Leptospirosis
-Measles,Measles
-Measles and Rubella,Measles and Rubella
-Melioidosis,Melioidosis
-Meningitis,Meningitis
-Meningococcal Meningitis,Meningococcal Meningitis
-Methanol Poisoning,Methanol Poisoning
-Mixed Fever,Mixed Fever
-Mixed Malaria (Plasmodium falciparum & Plasmodium vivax),Mixed Malaria (Plasmodium falciparum & Plasmodium vivax)
-Monkey Pox,Monkey Pox
-Mpox,Mpox
-Mpox (Clade I),Mpox (Clade I)
-Mumps,Mumps
-Mushroom Poisoning,Mushroom Poisoning
-Nandovirus,Nandovirus
-Neonatal Tetanus,Neonatal Tetanus
-Nile Fever,Nile Fever
-Nipah Viral Disease,Nipah Viral Disease
-Nipah Viral Encephalitis,Nipah Viral Encephalitis
-Nipah Virus,Nipah Virus
-Only Fever less than 7 days,Fever
-Others,Others
-Paederus Dermatitis From Rove Beetle,Paederus Dermatitis From Rove Beetle
-Paratyphoid,Paratyphoid
-Pare,Pare
-Pertussis,Pertussis
-Poisoning,Poisoning
-Poliomyelitis (Vaccine-Derived Polio Virus),Poliomyelitis (Vaccine-Derived Polio Virus)
-Primary Amoebic Meningo-encephalitis,Primary Amoebic Meningo-encephalitis
-Pyrexia of Unknown andigin (PUO),Pyrexia of Unknown andigin (PUO)
-Rabies,Rabies
-Rickettsia Scrub Typhus,Rickettsia Scrub Typhus
-Rubella,Rubella
-Salmonella Gastroenteritis,Salmonella Gastroenteritis
-Salmonellosis,Salmonellosis
-Scabies,Scabies
-Scrub Typhus,Scrub Typhus
-Scrub Typhus and Chikungunya,Scrub Typhus and Chikungunya
-Scrub Typhus and Dengue and Chikungunya,Scrub Typhus and Dengue and Chikungunya
-Scrub Typhus and Dengue and Leptospirosis,Scrub Typhus and Dengue and Leptospirosis
-Seasonal Influenza,Seasonal Influenza
-Shigellosis,Shigellosis
-Singhbum,Singhbum
-Staphylococcal Food Poisoning,Staphylococcal Food Poisoning
-Sub cutaneous Wandm,Subcutaneous Wound
-Suspected,
-Suspected Acute Hepatitis,Suspected Acute Hepatitis
-Suspected Anthrax,Suspected Anthrax
-Suspected Dengue Fever,Suspected Dengue Fever
-Suspected Food Poisoning,Suspected Food Poisoning
-Suspected Food Poisoning (Salmonella),Suspected Food Poisoning (Salmonella)
-Suspected Hepatitis,Suspected Hepatitis
-Suspected HFMD,"Suspected Hand, Foot and Mouth Disease (HFMD)"
-Suspected Human Rabies,Suspected Human Rabies
-Suspected Japanese Encephalitis,Suspected Japanese Encephalitis
-Suspected Measles,Suspected Measles
-Suspected Mumps,Suspected Mumps
-Suspected Mushroom Poisoning,Suspected Mushroom Poisoning
-Suspected Scrub Typhus,Suspected Scrub Typhus
-Suspected Typhoid,Suspected Typhoid
-Swine Flu (H1N1),Swine Flu (H1N1)
-Tetanus,Tetanus
-Trichinella,Trichinella
-Trichinellosis,Trichinellosis
-Trypanosomiasis,Trypanosomiasis
-Typhoid,Typhoid
-Typhoid and Chikungunya,Typhoid and Chikungunya
-Typhoid and Hepatitis E,Typhoid and Hepatitis-E
-Typhoid Fever,Typhoid Fever
-"Typhoid, Dengue and Scrub Typhus","Typhoid, Dengue and Scrub Typhus"
-Un Differentiated Fever,Un Differentiated Fever
-"Uneasiness, Vomiting and Diarrhoea","Uneasiness, Vomiting and Diarrhoea"
-Upper Respiratandy Tract Infection (URTI),Upper Respiratandy Tract Infection (URTI)
-Viral Encephalitis,Viral Encephalitis
-Viral Exanthems (Multiple Papulo Pustular Lesions),Viral Exanthems (Multiple Papulo Pustular Lesions)
-Viral Fever,Viral Fever
-Viral Fever (Chikungunya),Viral Fever (Chikungunya)
-Viral Fever (Dengue and Chikungunya),Viral Fever (Dengue and Chikungunya)
-Viral Fever (Dengue),Viral Fever (Dengue)
-Viral Fever (Leptospirosis and Chikungunya),Viral Fever (Leptospirosis and Chikungunya)
-Viral Fever (Leptospirosis),Viral Fever (Leptospirosis)
-Viral Hepatitis,Viral Hepatitis
-Viral Infection,Viral Infection
-Visceral Leishmaniasis,Visceral Leishmaniasis
-Vitamin A Overdosage,Vitamin A Overdosage
-Vivax Malaria,Vivax Malaria
-Vomiting and Diarrhoea,Vomiting and Diarrhoea
-West Nile and Dengue,West Nile and Dengue
-West Nile Fever,West Nile Fever
-Zika Virus,Zika Virus
+disease_illness,standardised_disease_name,icd10_code,icd10_title,icd11_code,icd11_title
+Acute Diarrheal Disease,Acute diarrhoeal disease,A09.0,Other and unspecified gastroenteritis and colitis of infectious origin,1A40.Z,Infectious gastroenteritis or colitis without specification of infectious agent
+Japanese Encephalitis,Japanese encephalitis,A83.0,Japanese encephalitis,1C85,Japanese encephalitis
+Dengue,Dengue,A97.9,"Dengue, unspecified",1D2Z,"Dengue, unspecified"
+Measles,Measles,B05.9,Measles without complication,1F03.0,Measles without complication
+Hepatitis A,Hepatitis A,B15.9,Hepatitis A without hepatic coma,1E50.0,Acute hepatitis A
+Malaria,Malaria,B54,Unspecified malaria,1F4Z,"Malaria, unspecified"
+Acute Gastroenteritis,Gastroenteritis,A09.9,Gastroenteritis and colitis of unspecified origin,1A40.0,Gastroenteritis or colitis without specification of origin
+Jaundice,Jaundice,R17.0,"Hyperbilirubinaemia with mention of jaundice, not elsewhere classified",ME10.1,Unspecified jaundice
+Suspected Food Poisoning,Food poisoning,A05.9,"Bacterial foodborne intoxication, unspecified",1A1Z,"Bacterial foodborne intoxications, unspecified"
+Human Rabies,Rabies,A82.9,"Rabies, unspecified",1C82,Rabies
+Fever,Fever,R50.9,"Fever, unspecified",MG26,Fever of other or unknown origin
+Chickenpox,Chickenpox,B01.9,Varicella without complication,1E90.0,Varicella without complication
+Leptospirosis,Leptospirosis,A27.9,"Leptospirosis, unspecified",1B91,Leptospirosis
+Suspected Typhoid,Typhoid fever,A01.0,Typhoid fever,1A07.Z,"Typhoid fever, unspecified"
+Hepatitis A & E,Hepatitis A | Hepatitis E,B15.9 | B17.2,Hepatitis A without hepatic coma | Acute hepatitis E,1E50.0 | 1E50.4,Acute hepatitis A | Acute hepatitis E
+Fever with Rash,Fever | Rash,R50.9 | R21,"Fever, unspecified | Rash and other nonspecific skin eruption",MG26 | ME62.Y,Fever of other or unknown origin | Other specified acute skin eruption of uncertain or unspecified nature
+Hand Foot and Mouth Disease,"Hand, foot and mouth disease",B08.4,Enteroviral vesicular stomatitis with exanthem,1F05.0,Enteroviral vesicular stomatitis
+Scrub Typhus,Scrub typhus,A75.3,Typhus fever due to Rickettsia tsutsugamushi,1C30.3,Typhus fever due to Orientia tsutsugamushi
+Meningococcal Meningitis,Meningococcal meningitis,A39.0,Meningococcal meningitis,1C1C.0,Meningococcal meningitis
+Hepatitis E,Hepatitis E,B17.2,Acute hepatitis E,1E50.4,Acute hepatitis E
+Chandipura Virus Encephalitis,Chandipura virus encephalitis,,,,
+Mumps,Mumps,B26.9,Mumps without complication,1D80.0,Mumps without complication
+Acute Encephalitis Syndrome,Acute encephalitis syndrome,A86,Unspecified viral encephalitis,1D00.Z,"Infectious encephalitis, unspecified"
+Dengue & Scrub Typhus,Dengue | Scrub typhus,A97.9 | A75.3,"Dengue, unspecified | Typhus fever due to Rickettsia tsutsugamushi",1D2Z | 1C30.3,"Dengue, unspecified | Typhus fever due to Orientia tsutsugamushi"
+Chikungunya,Chikungunya,A92.0,Chikungunya virus disease,1D40,Chikungunya virus disease
+Dysentery,Dysentery,A09.0,Other and unspecified gastroenteritis and colitis of infectious origin,1A40.Z,Infectious gastroenteritis or colitis without specification of infectious agent
+Cholera,Cholera,A00.9,"Cholera, unspecified",1A00,Cholera
+Viral Hepatitis,Viral hepatitis,B19.9,Unspecified viral hepatitis without hepatic coma,1E5Z,"Viral hepatitis, unspecified"
+Chikungunya & Dengue,Chikungunya | Dengue,A92.0 | A97.9,"Chikungunya virus disease | Dengue, unspecified",1D40 | 1D2Z,"Chikungunya virus disease | Dengue, unspecified"
+West Nile Fever,West Nile fever,A92.3,West Nile virus infection,1D46,West Nile virus infection
+Rubella,Rubella,B06.9,Rubella without complication,1F02.2,Rubella without complication
+Malaria (P. falciparum),Falciparum malaria,B50.9,"Plasmodium falciparum malaria, unspecified",1F40.Z,"Malaria due to Plasmodium falciparum, unspecified"
+Shigellosis,Shigellosis,A03.9,"Shigellosis, unspecified",1A02,Intestinal infections due to Shigella
+Mpox (Clade I),Mpox,B04,Monkeypox,1.00E+71,Mpox
+Suspected Human Rabies,Rabies,A82.9,"Rabies, unspecified",1C82,Rabies
+Nipah Virus,Nipah virus disease,B33.8,Other specified viral diseases,1D63,Henipavirus encephalitis
+Malaria (P. vivax),Vivax malaria,B51.9,Plasmodium vivax malaria without complication,1F41.Z,Plasmodium vivax malaria without complication
+Measles & Rubella,Measles | Rubella,B05.9 | B06.9,Measles without complication | Rubella without complication,1F03.0 | 1F02.2,Measles without complication | Rubella without complication
+Anthrax,Anthrax,A22.9,"Anthrax, unspecified",1B97,Anthrax
+Hepatitis A & E & Leptospirosis,Hepatitis A | Hepatitis E | Leptospirosis,B15.9 | B17.2 | A27.9,"Hepatitis A without hepatic coma | Acute hepatitis E | Leptospirosis, unspecified",1E50.0 | 1E50.4 | 1B91,Acute hepatitis A | Acute hepatitis E | Leptospirosis
+Crimean-Congo Haemorrhagic Fever,Crimean-Congo haemorrhagic fever,A98.0,Crimean-Congo haemorrhagic fever,1D49,Crimean-Congo haemorrhagic fever
+Meningitis,Meningitis,G03.9,"Meningitis, unspecified",1D01.Z,"Infectious meningitis, unspecified"
+Acute Diarrheal Disease (Klebsiella),Klebsiella intestinal infection,A04.8,Other specified bacterial intestinal infections,1A0Y,Other specified bacterial intestinal infections
+Typhoid,Typhoid fever,A01.0,Typhoid fever,1A07.Z,"Typhoid fever, unspecified"
+Food Poisoning,Food poisoning,A05.9,"Bacterial foodborne intoxication, unspecified",1A1Z,"Bacterial foodborne intoxications, unspecified"
+Mpox (Clade II),Mpox,B04,Monkeypox,1.00E+71,Mpox
+Zika Virus Disease,Zika virus disease,A92.5,Zika virus disease,1D48,Zika virus disease
+Pertussis,Pertussis,A37.9,"Whooping cough, unspecified",1C12.Z,"Whooping cough, unspecified"
+Malaria (P. falciparum & P. vivax),Falciparum malaria | Vivax malaria,B50.9 | B51.9,"Plasmodium falciparum malaria, unspecified | Plasmodium vivax malaria without complication",1F40.Z | 1F41.Z,"Malaria due to Plasmodium falciparum, unspecified | Plasmodium vivax malaria without complication"
+Chickenpox & Rubella,Chickenpox | Rubella,B01.9 | B06.9,Varicella without complication | Rubella without complication,1E90.0 | 1F02.2,Varicella without complication | Rubella without complication
+Mpox,Mpox,B04,Monkeypox,1.00E+71,Mpox
+Suspected Food Poisoning (Klebsiella),Klebsiella intestinal infection,A04.8,Other specified bacterial intestinal infections,1A0Y,Other specified bacterial intestinal infections
+Diphtheria,Diphtheria,A36.9,"Diphtheria, unspecified",1C17.Z,"Diphtheria, unspecified"
+Pyrexia of Unknown Origin,Fever,R50.9,"Fever, unspecified",MG26,Fever of other or unknown origin
+Leptospirosis & Scrub Typhus,Leptospirosis | Scrub typhus,A27.9 | A75.3,"Leptospirosis, unspecified | Typhus fever due to Rickettsia tsutsugamushi",1B91 | 1C30.3,Leptospirosis | Typhus fever due to Orientia tsutsugamushi
+Dengue & Leptospirosis,Dengue | Leptospirosis,A97.9 | A27.9,"Dengue, unspecified | Leptospirosis, unspecified",1D2Z | 1B91,"Dengue, unspecified | Leptospirosis"
+Paratyphoid,Paratyphoid fever,A01.4,"Paratyphoid fever, unspecified",1A08,Paratyphoid fever
+Suspected Scrub Typhus,Scrub typhus,A75.3,Typhus fever due to Rickettsia tsutsugamushi,1C30.3,Typhus fever due to Orientia tsutsugamushi
+Suspected Food Poisoning (Mushroom),Mushroom poisoning,T62.0,Toxic effect: Ingested mushrooms,NE61&XM9N55,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+Malaria (Mixed),Malaria,B54,Unspecified malaria,1F4Z,"Malaria, unspecified"
+Suspected Acute Encephalitis Syndrome (Chandipura Virus),Chandipura virus encephalitis,,,,
+Suspected Hand Foot and Mouth Disease,"Hand, foot and mouth disease",B08.4,Enteroviral vesicular stomatitis with exanthem,1F05.0,Enteroviral vesicular stomatitis
+Suspected Viral Hepatitis,Viral hepatitis,B19.9,Unspecified viral hepatitis without hepatic coma,1E5Z,"Viral hepatitis, unspecified"
+Dengue & Malaria (P. vivax),Dengue | Vivax malaria,A97.9 | B51.9,"Dengue, unspecified | Plasmodium vivax malaria without complication",1D2Z | 1F41.Z,"Dengue, unspecified | Plasmodium vivax malaria without complication"
+Acute Diarrheal Disease (Shigella),Shigellosis,A03.9,"Shigellosis, unspecified",1A02,Intestinal infections due to Shigella
+Suspected Food Poisoning (Salmonella),Salmonellosis,A02.0,Salmonella enteritis,1A09.0,Salmonella enteritis
+Dengue & Malaria (P. falciparum & P. vivax),Dengue | Falciparum malaria | Vivax malaria,A97.9 | B50.9 | B51.9,"Dengue, unspecified | Plasmodium falciparum malaria, unspecified | Plasmodium vivax malaria without complication",1D2Z | 1F40.Z | 1F41.Z,"Dengue, unspecified | Malaria due to Plasmodium falciparum, unspecified | Plasmodium vivax malaria without complication"
+Food Poisoning (Mushroom),Mushroom poisoning,T62.0,Toxic effect: Ingested mushrooms,NE61&XM9N55,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+Hepatitis E & Typhoid,Hepatitis E | Typhoid fever,B17.2 | A01.0,Acute hepatitis E | Typhoid fever,1E50.4 | 1A07.Z,"Acute hepatitis E | Typhoid fever, unspecified"
+Suspected Measles,Measles,B05.9,Measles without complication,1F03.0,Measles without complication
+Hepatitis B & C,Hepatitis B | Hepatitis C,B18.1 | B18.2,Chronic viral hepatitis B without delta-agent | Chronic viral hepatitis C,1E51.0Z | 1E51.1,"Chronic hepatitis B, unspecified | Chronic hepatitis C"
+Leishmaniasis,Leishmaniasis,B55.9,"Leishmaniasis, unspecified",1F54.Z,"Leishmaniasis, unspecified"
+Human Metapneumovirus,Human metapneumovirus infection,B34.8,Other viral infections of unspecified site,1E1Y,Other specified viral diseases
+Others,Others,,,,
+Kyasanur Forest Disease,Kyasanur Forest disease,A98.2,Kyasanur Forest disease,1D4B,Kyasanur Forest disease
+Acute Gastroenteritis (Norovirus),Norovirus infection,A08.1,Acute gastroenteropathy due to Norovirus,1A23,Enteritis due to Norovirus
+Amoebic Encephalitis,Amoebic Encephalitis,,,,
+Poliomyelitis (Vaccine-Derived Polio Virus),Poliomyelitis (vaccine-derived poliovirus),A80.0,"Acute paralytic poliomyelitis, vaccine-associated",1C81,Acute poliomyelitis
+Animal Bite (Dog Bite),Dog bite,W54,Bitten or struck by dog,PA75&XE813,Unintentionally bitten by animal [Land mammal]
+Acute Encephalitis Syndrome (Chandipura Virus),Chandipura virus encephalitis,,,,
+Primary Amoebic Meningoencephalitis,Primary amoebic meningoencephalitis (Naegleria),B60.2,Naegleriasis,1F55,Naegleriasis
+Influenza Like Illness,Influenza,,,,
+Mushroom Poisoning,Mushroom poisoning,T62.0,Toxic effect: Ingested mushrooms,NE61&XM9N55,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+Influenza,Influenza,J11.1,"Influenza with other respiratory manifestations, virus not identified",1.00E+32,"Influenza, virus not identified"
+Hepatitis B,Hepatitis B,B18.1,Chronic viral hepatitis B without delta-agent,1E51.0Z,"Chronic hepatitis B, unspecified"
+Suspected Mumps,Mumps,B26.9,Mumps without complication,1D80.0,Mumps without complication
+Melioidosis,Melioidosis,A24.4,"Melioidosis, unspecified",1C42,Melioidosis
+Fever with Altered Sensorium,Fever,R50.9,"Fever, unspecified",MG26,Fever of other or unknown origin
+Tetanus,Tetanus,A35,Other tetanus,1C13,Tetanus
+Brucellosis,Brucellosis,A23.9,"Brucellosis, unspecified",1B95,Brucellosis
+Suspected Japanese Encephalitis,Japanese encephalitis,A83.0,Japanese encephalitis,1C85,Japanese encephalitis
+Suspected Dengue,Dengue,A97.9,"Dengue, unspecified",1D2Z,"Dengue, unspecified"
+Acute Gastritis,Acute gastritis,K29.1,Other acute gastritis,DA42.Z,"Gastritis, unspecified"
+Animal Bite (Snake Bite),Snake bite,T63.0,Toxic effect: Snake venom,NE61,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+Cutaneous Leishmaniasis (Kala-azar),Leishmaniasis,B55.9,"Leishmaniasis, unspecified",1F54.Z,"Leishmaniasis, unspecified"
+Suspected Mushroom Poisoning,Mushroom poisoning,T62.0,Toxic effect: Ingested mushrooms,NE61&XM9N55,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+Kala-azar,Visceral leishmaniasis (kala-azar),B55.0,Visceral leishmaniasis,1F54.0,Visceral leishmaniasis
+Suspected Anthrax,Anthrax,A22.9,"Anthrax, unspecified",1B97,Anthrax
+Dysentery (Shigella),Shigellosis,A03.9,"Shigellosis, unspecified",1A02,Intestinal infections due to Shigella
+Adenovirus,Adenovirus infection,B34.0,"Adenovirus infection, unspecified site",1D90,Adenovirus infection of unspecified site
+Food Poisoning (Shigella),Shigellosis,A03.9,"Shigellosis, unspecified",1A02,Intestinal infections due to Shigella
+Acute Flaccid Paralysis,Acute flaccid paralysis,G83.9,"Paralytic syndrome, unspecified",MB5Z,"Paralytic symptoms, unspecified"
+Cutaneous Leishmaniasis,Cutaneous leishmaniasis,B55.1,Cutaneous leishmaniasis,1F54.1,Cutaneous leishmaniasis
+Jatropha Poisoning,Toxic plant/seed poisoning,T62.2,Toxic effect: Other ingested (parts of) plant(s),NE61&XM9N55,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+Influenza A (H3N2),Influenza (virus identified),J10.1,"Influenza with other respiratory manifestations, seasonal influenza virus identified",1.00E+30,Influenza due to identified seasonal influenza virus
+Food Poisoning (Norovirus),Norovirus infection,A08.1,Acute gastroenteropathy due to Norovirus,1A23,Enteritis due to Norovirus
+Chickenpox & Measles,Chickenpox | Measles,B01.9 | B05.9,Varicella without complication | Measles without complication,1E90.0 | 1F03.0,Varicella without complication | Measles without complication
+Suspected Leishmaniasis,Leishmaniasis,B55.9,"Leishmaniasis, unspecified",1F54.Z,"Leishmaniasis, unspecified"
+Fever & Upper Respiratory Tract Infection,Upper respiratory tract infection,J06.9,"Acute upper respiratory infection, unspecified",CA07.0,"Acute upper respiratory infection, site unspecified"
+Allergic Conjunctivitis,Allergic conjunctivitis,H10.1,Acute atopic conjunctivitis,9A60.02,Allergic conjunctivitis
+Suspected Chickenpox,Chickenpox,B01.9,Varicella without complication,1E90.0,Varicella without complication
+Food Borne Illness,Food poisoning,A05.9,"Bacterial foodborne intoxication, unspecified",1A1Z,"Bacterial foodborne intoxications, unspecified"
+Fever with Rash (Enterovirus),Enteroviral fever with rash,A88.0,Enteroviral exanthematous fever [Boston exanthem],1F05.2,Enteroviral exanthematous fever
+Chemical Gas Poisoning,Gas poisoning,T59.9,"Toxic effect: Gases, fumes and vapours, unspecified",NE61,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+Seasonal Influenza,Influenza,J11.1,"Influenza with other respiratory manifestations, virus not identified",1.00E+32,"Influenza, virus not identified"
+Primary Amoebic Meningoencephalitis (Naegleria Fowleri),Primary amoebic meningoencephalitis (Naegleria),B60.2,Naegleriasis,1F55,Naegleriasis
+Suspected Influenza A (H1N1),Influenza,J11.1,"Influenza with other respiratory manifestations, virus not identified",1.00E+32,"Influenza, virus not identified"
+Dengue & Malaria,Dengue | Malaria,A97.9 | B54,"Dengue, unspecified | Unspecified malaria",1D2Z | 1F4Z,"Dengue, unspecified | Malaria, unspecified"
+Acute Respiratory Infection,Acute respiratory infection,J22,Unspecified acute lower respiratory infection,CA4Y,Other specified lung infections
+Acute Diarrheal Disease (Norovirus),Norovirus infection,A08.1,Acute gastroenteropathy due to Norovirus,1A23,Enteritis due to Norovirus
+Suspected Filariasis,Filariasis,B74.9,"Filariasis, unspecified",1F66.Z,"Filariasis, unspecified"
+Norovirus,Norovirus infection,A08.1,Acute gastroenteropathy due to Norovirus,1A23,Enteritis due to Norovirus
+Acute Flaccid Paralysis (Epstein Bar Virus & Human Herpes Virus 7),Acute flaccid paralysis,G83.9,"Paralytic syndrome, unspecified",MB5Z,"Paralytic symptoms, unspecified"
+Lyme Disease,Lyme disease,A69.2,Lyme disease,1C1G.Z,"Lyme borreliosis, unspecified"
+Acute Febrile Illness,Fever,R50.9,"Fever, unspecified",MG26,Fever of other or unknown origin
+Hepatitis C,Hepatitis C,B18.2,Chronic viral hepatitis C,1E51.1,Chronic hepatitis C
+Suspected Measles & Rubella,Measles | Rubella,B05.9 | B06.9,Measles without complication | Rubella without complication,1F03.0 | 1F02.2,Measles without complication | Rubella without complication
+Epidemic Dropsy,Epidemic dropsy,T62.2,Toxic effect: Other ingested (parts of) plant(s),NE61&XM9N55,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+Viral Fever,Viral fever / viral infection,B34.9,"Viral infection, unspecified",1E1Z,Unspecified viral disease
+Viral Encephalitis,Viral encephalitis,A86,Unspecified viral encephalitis,1C80,"Viral encephalitis, not elsewhere classified"
+Gastroenteritis,Gastroenteritis,A09.9,Gastroenteritis and colitis of unspecified origin,1A40.0,Gastroenteritis or colitis without specification of origin
+Dengue & Fever,Dengue,A97.9,"Dengue, unspecified",1D2Z,"Dengue, unspecified"
+Avian Influenza,Avian influenza,J09,Influenza due to identified zoonotic or pandemic influenza virus,1.00E+31,Influenza due to identified zoonotic or pandemic influenza virus
+Convulsions of Unknown Cause,Convulsions,R56.8,Other and unspecified convulsions,8A68.Z,"Type of seizure, unspecified"
+Suspected Diphtheria,Diphtheria,A36.9,"Diphtheria, unspecified",1C17.Z,"Diphtheria, unspecified"
+Suspected Epidemic Dropsy,Epidemic dropsy,T62.2,Toxic effect: Other ingested (parts of) plant(s),NE61&XM9N55,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+Bacillary Dysentery,Shigellosis,A03.9,"Shigellosis, unspecified",1A02,Intestinal infections due to Shigella
+Suspected Hepatitis A,Hepatitis A,B15.9,Hepatitis A without hepatic coma,1E50.0,Acute hepatitis A
+COVID-19,COVID-19,U07.1,"COVID-19, virus identified",RA01.0,"COVID-19, virus identified"
+Suspected Pertussis,Pertussis,A37.9,"Whooping cough, unspecified",1C12.Z,"Whooping cough, unspecified"
+Poisoning (BHC),BHC (insecticide) poisoning,T53.6,Toxic effect: Other halogen derivatives of aliphatic hydrocarbons,NE61,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+Suspected Poisoning,Poisoning,T65.9,Toxic effect: Toxic effect of unspecified substance,NE6Z,Harmful effects of unspecified substance
+Acute Diarrheal Disease & Cholera,Cholera,A00.9,"Cholera, unspecified",1A00,Cholera
+Chikungunya & Typhoid,Chikungunya | Typhoid fever,A92.0 | A01.0,Chikungunya virus disease | Typhoid fever,1D40 | 1A07.Z,"Chikungunya virus disease | Typhoid fever, unspecified"
+Dengue & West Nile Fever,Dengue | West Nile fever,A97.9 | A92.3,"Dengue, unspecified | West Nile virus infection",1D2Z | 1D46,"Dengue, unspecified | West Nile virus infection"
+Suspected Jaundice,Jaundice,R17.0,"Hyperbilirubinaemia with mention of jaundice, not elsewhere classified",ME10.1,Unspecified jaundice
+Chikungunya & Leptospirosis,Chikungunya | Leptospirosis,A92.0 | A27.9,"Chikungunya virus disease | Leptospirosis, unspecified",1D40 | 1B91,Chikungunya virus disease | Leptospirosis
+Suspected Brucellosis,Brucellosis,A23.9,"Brucellosis, unspecified",1B95,Brucellosis
+Influenza B,Influenza (virus identified),J10.1,"Influenza with other respiratory manifestations, seasonal influenza virus identified",1.00E+30,Influenza due to identified seasonal influenza virus
+Suspected Chikungunya,Chikungunya,A92.0,Chikungunya virus disease,1D40,Chikungunya virus disease
+Suspected Leptospirosis,Leptospirosis,A27.9,"Leptospirosis, unspecified",1B91,Leptospirosis
+Suspected Malaria,Malaria,B54,Unspecified malaria,1F4Z,"Malaria, unspecified"
+Suspected Cholera,Cholera,A00.9,"Cholera, unspecified",1A00,Cholera
+Trypanosomiasis,Trypanosomiasis,,,,
+Food Poisoning (Salmonella),Salmonellosis,A02.0,Salmonella enteritis,1A09.0,Salmonella enteritis
+Acute Encephalitis Syndrome (Japanese Encephalitis),Japanese encephalitis,A83.0,Japanese encephalitis,1C85,Japanese encephalitis
+Suspected Meningitis,Meningitis,G03.9,"Meningitis, unspecified",1D01.Z,"Infectious meningitis, unspecified"
+Filariasis,Filariasis,B74.9,"Filariasis, unspecified",1F66.Z,"Filariasis, unspecified"
+Food Poisoning (Castor Fruit),Toxic plant/seed poisoning,T62.2,Toxic effect: Other ingested (parts of) plant(s),NE61&XM9N55,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+Acute Diarrheal Disease (Rotavirus),Rotavirus diarrhoea,A08.0,Rotaviral enteritis,1A22,Gastroenteritis due to Rotavirus
+Suspected Salmonellosis,Salmonellosis,A02.0,Salmonella enteritis,1A09.0,Salmonella enteritis
+Trichinellosis,Trichinellosis,B75,Trichinellosis,1F6E,Trichinosis
+Diarrhoea,Diarrhoea,A09.9,Gastroenteritis and colitis of unspecified origin,1A40.0,Gastroenteritis or colitis without specification of origin
+Fever with Joint Pain,Fever | Joint pain,R50.9 | M25.5,"Fever, unspecified | Pain in joint",MG26 | ME82,Fever of other or unknown origin | Pain in joint
+Fever with Body Pain,Fever | Body pain,R50.9 | R52.9,"Fever, unspecified | Pain, unspecified",MG26 | MG3Z,"Fever of other or unknown origin | Pain, unspecified"
+Dengue & Japanese Encephalitis,Dengue | Japanese encephalitis,A97.9 | A83.0,"Dengue, unspecified | Japanese encephalitis",1D2Z | 1C85,"Dengue, unspecified | Japanese encephalitis"
+Influenza A (H1N1),Influenza A(H1N1),J09,Influenza due to identified zoonotic or pandemic influenza virus,1.00E+31,Influenza due to identified zoonotic or pandemic influenza virus
+Neonatal Tetanus,Neonatal tetanus,A33,Tetanus neonatorum,1C15,Tetanus neonatorum
+Salmonellosis,Salmonellosis,A02.0,Salmonella enteritis,1A09.0,Salmonella enteritis
+Nipah Viral Disease,Nipah virus disease,B33.8,Other specified viral diseases,1D63,Henipavirus encephalitis
+Suspected Cutaneous Anthrax,Cutaneous anthrax,A22.0,Cutaneous anthrax,1B97,Anthrax
+Cutaneous Anthrax,Cutaneous anthrax,A22.0,Cutaneous anthrax,1B97,Anthrax
+Scabies,Scabies,B86,Scabies,1G04.Z,"Scabies, unspecified"
+Suspected Seasonal Influenza,Influenza,J11.1,"Influenza with other respiratory manifestations, virus not identified",1.00E+32,"Influenza, virus not identified"
+Suspected Acute Flaccid Paralysis,Acute flaccid paralysis,G83.9,"Paralytic syndrome, unspecified",MB5Z,"Paralytic symptoms, unspecified"
+Suspected Neonatal Tetanus,Neonatal tetanus,A33,Tetanus neonatorum,1C15,Tetanus neonatorum
+Chickenpox & Mumps,Chickenpox | Mumps,B01.9 | B26.9,Varicella without complication | Mumps without complication,1E90.0 | 1D80.0,Varicella without complication | Mumps without complication
+Suspected Chikungunya & Dengue,Chikungunya | Dengue,A92.0 | A97.9,"Chikungunya virus disease | Dengue, unspecified",1D40 | 1D2Z,"Chikungunya virus disease | Dengue, unspecified"
+Suspected Dengue & Leptospirosis,Dengue | Leptospirosis,A97.9 | A27.9,"Dengue, unspecified | Leptospirosis, unspecified",1D2Z | 1B91,"Dengue, unspecified | Leptospirosis"
+Fever & Headache,Fever | Headache,R50.9 | R51,"Fever, unspecified | Headache",MG26 | 8A8Z,"Fever of other or unknown origin | Headache disorders, unspecified"
+Fever with Arthralgia,Fever | Joint pain,R50.9 | M25.5,"Fever, unspecified | Pain in joint",MG26 | ME82,Fever of other or unknown origin | Pain in joint
+Suspected Leptospirosis & Typhoid,Leptospirosis | Typhoid fever,A27.9 | A01.0,"Leptospirosis, unspecified | Typhoid fever",1B91 | 1A07.Z,"Leptospirosis | Typhoid fever, unspecified"
+Herpes Simplex Encephalitis,Herpes simplex encephalitis,B00.4,Herpesviral encephalitis,1F00.21,Encephalitis due to herpes simplex virus
+Suspected Viral Fever,Viral fever / viral infection,B34.9,"Viral infection, unspecified",1E1Z,Unspecified viral disease
+Dengue & Leptospirosis & Scrub Typhus,Dengue | Leptospirosis | Scrub typhus,A97.9 | A27.9 | A75.3,"Dengue, unspecified | Leptospirosis, unspecified | Typhus fever due to Rickettsia tsutsugamushi",1D2Z | 1B91 | 1C30.3,"Dengue, unspecified | Leptospirosis | Typhus fever due to Orientia tsutsugamushi"
+Suspected Bacillary Dysentery,Shigellosis,A03.9,"Shigellosis, unspecified",1A02,Intestinal infections due to Shigella
+Fever with Cough,Fever | Cough,R50.9 | R05,"Fever, unspecified | Cough",MG26 | MD12,Fever of other or unknown origin | Cough
+Dengue & Scrub Typhus & Typhoid,Dengue | Scrub typhus | Typhoid fever,A97.9 | A75.3 | A01.0,"Dengue, unspecified | Typhus fever due to Rickettsia tsutsugamushi | Typhoid fever",1D2Z | 1C30.3 | 1A07.Z,"Dengue, unspecified | Typhus fever due to Orientia tsutsugamushi | Typhoid fever, unspecified"
+Fever (Dengue & Malaria),Dengue | Malaria,A97.9 | B54,"Dengue, unspecified | Unspecified malaria",1D2Z | 1F4Z,"Dengue, unspecified | Malaria, unspecified"
+Epidemic Typhus,Epidemic typhus,A75.0,Epidemic louse-borne typhus fever due to Rickettsia prowazekii,1C30.0,Epidemic louse-borne typhus fever due to Rickettsia prowazekii
+Chikungunya & Scrub Typhus,Chikungunya | Scrub typhus,A92.0 | A75.3,Chikungunya virus disease | Typhus fever due to Rickettsia tsutsugamushi,1D40 | 1C30.3,Chikungunya virus disease | Typhus fever due to Orientia tsutsugamushi
+Hepatitis A & Leptospirosis,Hepatitis A | Leptospirosis,B15.9 | A27.9,"Hepatitis A without hepatic coma | Leptospirosis, unspecified",1E50.0 | 1B91,Acute hepatitis A | Leptospirosis
+Fever & Malaria,Malaria,B54,Unspecified malaria,1F4Z,"Malaria, unspecified"
+Typhus Fever,Typhus fever,A75.9,"Typhus fever, unspecified",1C30.Z,"Typhus fever, unspecified"
+Food Poisoning (Bamangadh),Food poisoning,A05.9,"Bacterial foodborne intoxication, unspecified",1A1Z,"Bacterial foodborne intoxications, unspecified"
+Food Poisoning (Staphylococcus),Staphylococcal food poisoning,A05.0,Foodborne staphylococcal intoxication,1A10,Foodborne staphylococcal intoxication
+Viral Conjunctivitis,Viral conjunctivitis,B30.9,"Viral conjunctivitis, unspecified",1D84.Z,"Viral conjunctivitis, unspecified"
+Suspected Rubella,Rubella,B06.9,Rubella without complication,1F02.2,Rubella without complication
+Food Poisoning (Seed),Toxic plant/seed poisoning,T62.2,Toxic effect: Other ingested (parts of) plant(s),NE61&XM9N55,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+Cholera (Classical),Cholera (classical),A00.0,"Cholera due to Vibrio cholerae 01, biovar cholerae",1A00&XN8P1,"Cholera [Vibrio cholerae O1, biovar cholerae]"
+Jatropha Poisoning (Ratanjot),Toxic plant/seed poisoning,T62.2,Toxic effect: Other ingested (parts of) plant(s),NE61&XM9N55,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+Poisoning,Poisoning,T65.9,Toxic effect: Toxic effect of unspecified substance,NE6Z,Harmful effects of unspecified substance
+Paederus Dermatitis from Rove Beetle,Paederus dermatitis,L24.8,Irritant contact dermatitis due to other agents,NE61,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+Fever (Viral Encephalitis),Viral encephalitis,A86,Unspecified viral encephalitis,1C80,"Viral encephalitis, not elsewhere classified"
+Alcohol Poisoning,Alcohol poisoning,T51.9,"Toxic effect: Alcohol, unspecified",NE61,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+Suspected Fever with Rash,Fever | Rash,R50.9 | R21,"Fever, unspecified | Rash and other nonspecific skin eruption",MG26 | ME62.Y,Fever of other or unknown origin | Other specified acute skin eruption of uncertain or unspecified nature
+Fever (Mixed Infection),Fever,R50.9,"Fever, unspecified",MG26,Fever of other or unknown origin
+Methanol Poisoning,Methanol poisoning,T51.1,Toxic effect: Methanol,NE61&XM7KD9,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Methanol]"
+Suspected Viral Encephalitis,Viral encephalitis,A86,Unspecified viral encephalitis,1C80,"Viral encephalitis, not elsewhere classified"
+Upper Respiratory Tract Infection,Upper respiratory tract infection,J06.9,"Acute upper respiratory infection, unspecified",CA07.0,"Acute upper respiratory infection, site unspecified"
+Castor Seed Poisoning,Toxic plant/seed poisoning,T62.2,Toxic effect: Other ingested (parts of) plant(s),NE61&XM9N55,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified [Substances, chiefly nonmedicinal]"
+Suspected Jaundice & Viral Hepatitis,Viral hepatitis,B19.9,Unspecified viral hepatitis without hepatic coma,1E5Z,"Viral hepatitis, unspecified"
+Suspected Viral Encephalitis (Chandipura Virus),Chandipura virus encephalitis,,,,
+Viral Encephalitis (Chandipura Virus),Chandipura virus encephalitis,,,,
+Suspected Trichinellosis,Trichinellosis,B75,Trichinellosis,1F6E,Trichinosis
+Suspected Kyasanur Forest Disease,Kyasanur Forest disease,A98.2,Kyasanur Forest disease,1D4B,Kyasanur Forest disease
+Suspected Acute Encephalitis Syndrome,Acute encephalitis syndrome,A86,Unspecified viral encephalitis,1D00.Z,"Infectious encephalitis, unspecified"
+Fever (Chikungunya),Chikungunya,A92.0,Chikungunya virus disease,1D40,Chikungunya virus disease
+Suspected Acute Febrile Illness,Fever,R50.9,"Fever, unspecified",MG26,Fever of other or unknown origin
+Suspected Acute Diarrheal Disease,Acute diarrhoeal disease,A09.0,Other and unspecified gastroenteritis and colitis of infectious origin,1A40.Z,Infectious gastroenteritis or colitis without specification of infectious agent
+Drug Side Effects,Adverse drug effect,T88.7,Unspecified adverse effect of drug or medicament,NE60,"Harmful effects of drugs, medicaments or biological substances, not elsewhere classified"
+Chikungunya & Dengue & Scrub Typhus,Chikungunya | Dengue | Scrub typhus,A92.0 | A97.9 | A75.3,"Chikungunya virus disease | Dengue, unspecified | Typhus fever due to Rickettsia tsutsugamushi",1D40 | 1D2Z | 1C30.3,"Chikungunya virus disease | Dengue, unspecified | Typhus fever due to Orientia tsutsugamushi"
+Suspected Acute Diarrheal Disease & Cholera,Cholera,A00.9,"Cholera, unspecified",1A00,Cholera
+Suspected Chikungunya & Fever,Chikungunya,A92.0,Chikungunya virus disease,1D40,Chikungunya virus disease
+Suspected Acute Encephalitis Syndrome (Japanese Encephalitis),Japanese encephalitis,A83.0,Japanese encephalitis,1C85,Japanese encephalitis
+Viral Exanthemas (Multiple Papulo Pustular Lesions),Viral exanthem,B09,Unspecified viral infection characterized by skin and mucous membrane lesions,1F0Z,"Viral infections characterised by skin or mucous membrane lesions, unspecified"
+Acute Respiratory Infection (H3N2),Influenza (virus identified),J10.1,"Influenza with other respiratory manifestations, seasonal influenza virus identified",1.00E+30,Influenza due to identified seasonal influenza virus
+Leptospirosis & Malaria,Leptospirosis | Malaria,A27.9 | B54,"Leptospirosis, unspecified | Unspecified malaria",1B91 | 1F4Z,"Leptospirosis | Malaria, unspecified"
+Suspected Viral Infection,Viral fever / viral infection,B34.9,"Viral infection, unspecified",1E1Z,Unspecified viral disease
+Suspected Sub-cutaneous Worm,Suspected Sub-cutaneous Worm,,,,
+Amoebic Dysentery,Amoebic dysentery,A06.0,Acute amoebic dysentery,1A36.00,Acute amoebiasis
+Gas Poisoning,Gas poisoning,T59.9,"Toxic effect: Gases, fumes and vapours, unspecified",NE61,"Harmful effects of or exposure to noxious substances, chiefly nonmedicinal as to source, not elsewhere classified"
+Suspected Vitamin A Overdosage,Vitamin A overdose,T45.2,"Poisoning: Vitamins, not elsewhere classified",NE60,"Harmful effects of drugs, medicaments or biological substances, not elsewhere classified"
+Acute Meningitis,Meningitis,G03.9,"Meningitis, unspecified",1D01.Z,"Infectious meningitis, unspecified"
+Suspected Viral Fever (Chikungunya & Dengue),Chikungunya | Dengue,A92.0 | A97.9,"Chikungunya virus disease | Dengue, unspecified",1D40 | 1D2Z,"Chikungunya virus disease | Dengue, unspecified"
+Suspected Viral Fever (Chikungunya),Chikungunya,A92.0,Chikungunya virus disease,1D40,Chikungunya virus disease
+Food Poisoning (Adverse Effect following Vitamin A Administration),Adverse drug effect,T88.7,Unspecified adverse effect of drug or medicament,NE60,"Harmful effects of drugs, medicaments or biological substances, not elsewhere classified"
+Suspected Viral Fever (Leptospirosis),Leptospirosis,A27.9,"Leptospirosis, unspecified",1B91,Leptospirosis
+Suspected Viral Fever (Dengue),Dengue,A97.9,"Dengue, unspecified",1D2Z,"Dengue, unspecified"
+Suspected Viral Fever (Chikungunya & Leptospirosis),Chikungunya | Leptospirosis,A92.0 | A27.9,"Chikungunya virus disease | Leptospirosis, unspecified",1D40 | 1B91,Chikungunya virus disease | Leptospirosis
+Suspected Food Poisoning (Trichinellosis),Trichinellosis,B75,Trichinellosis,1F6E,Trichinosis
