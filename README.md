@@ -40,6 +40,7 @@ india-data-schema/
     ├── diseases/          # Diseases and Illnesses Registry dataset: csv, pdf, docx
     ├── airlines/          # Airline Names dataset: csv, pdf, docx
     ├── rbi/               # RBI Bank Names dataset: csv, pdf, docx, json
+    ├── cpse/              # CPSE Names Registry dataset: csv, pdf, docx
     └── dataful-logo.png
 ```
 

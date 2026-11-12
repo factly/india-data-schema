@@ -12,7 +12,6 @@ const DATASETS = [
     download: {
       csv: "assets/csr/mca_companies.csv",
       pdf: "assets/csr/mca_companies.pdf",
-      json: "assets/csr/mca_companies.json",
       docx: "assets/csr/CSR.docx"
     },
     // Explicit Data Documentation sub-section titles for CSR.docx — some of its bold
@@ -49,8 +48,8 @@ df = pd.read_csv(url)
 # Companies with a known alternate CIN (renamed, relocated, or reincorporated)
 reconciled = df[df['other_cin'].notna() & (df['other_cin'] != '')]
 print(reconciled.head())`,
-    curlCode: `curl -X GET "https://raw.githubusercontent.com/saisantoshv3/india-data-schema/main/assets/csr/mca_companies.json" \\
-     -H "Accept: application/json"`
+    curlCode: `curl -L "https://raw.githubusercontent.com/factly/india-data-schema/main/assets/csr/mca_companies.csv" \\
+     -o mca_companies.csv`
   },
   {
     id: "diseases-registry",
@@ -105,7 +104,6 @@ print(df['standardised_disease_name'].unique()[:10])`,
     download: {
       csv: "assets/airlines/airlines_names.csv",
       pdf: "assets/airlines/airlines_names.pdf",
-      json: "assets/airlines/airlines_names.json",
       docx: "assets/airlines/airline_names.docx"
     },
     related: [
@@ -124,14 +122,14 @@ print(df['standardised_disease_name'].unique()[:10])`,
     ],
     pythonCode: `import pandas as pd
 
-url = "https://raw.githubusercontent.com/saisantoshv3/electoral_bonds/main/airline_codes.csv"
+url = "https://raw.githubusercontent.com/factly/india-data-schema/main/assets/airlines/airlines_names.csv"
 df = pd.read_csv(url)
 
-# Display active airlines in India
-indian_active = df[(df['Country'] == 'India') & (df['Active'] == True)]
-print(indian_active.head())`,
-    curlCode: `curl -X GET "https://raw.githubusercontent.com/saisantoshv3/electoral_bonds/main/airline_codes.json" \\
-     -H "Accept: application/json"`
+# All raw name variants for a standard airline
+variants = df[df['standard_airline'] == 'Air India Limited']
+print(variants[['airline', 'standard_airline']])`,
+    curlCode: `curl -L "https://raw.githubusercontent.com/factly/india-data-schema/main/assets/airlines/airlines_names.csv" \\
+     -o airlines_names.csv`
   },
   {
     id: "rbi-bank-names",
@@ -187,5 +185,54 @@ variants = df[df['standard_bank_name'] == 'State Bank of India']
 print(variants[['bank_name', 'standard_bank_name']])`,
     curlCode: `curl -X GET "https://raw.githubusercontent.com/saisantoshv3/india-data-schema/main/assets/rbi/bank_names.json" \\
      -H "Accept: application/json"`
+  },
+  {
+    id: "cpse-names",
+    name: "CPSE Names Registry",
+    category: "Government",
+    icon: "domain",
+    description: "Standardized registry of Central Public Sector Enterprises (CPSEs) mapping the many raw name variants found in government publications to a single canonical name, with CIN and Ratna (Maharatna, Navratna, Miniratna) status.",
+    useCase: "Use cpse_as_per_source for exact joining against raw sources and standard_cpse for grouping and aggregation across years, ministries, and publications. The CIN and other_cin fields link CPSEs to corporate registry data, while ratna_status and note help track Ratna classification and mergers (e.g. Dena Bank and Vijaya Bank into Bank of Baroda).",
+    tags: ["CPSE", "Public Sector", "Government", "Ratna Status"],
+    updated: "Nov 12, 2026",
+    download: {
+      csv: "assets/cpse/cpse.csv",
+      pdf: "assets/cpse/cpse.pdf",
+      docx: "assets/cpse/cpse.docx"
+    },
+    // Explicit Data Documentation sub-section titles for cpse.docx
+    docxSections: [
+      "Dataful's Cleaning and Reconciliation Strategy",
+      "What Does a Company's Corporate Identification Number (CIN) Tell Us?",
+      "When Does a CIN Change?",
+      "Dataful's Data Cleaning Strategy"
+    ],
+    related: [
+      { name: "CPSE Disinvestments", id: "https://dataful.in/collections/2274/" },
+      { name: "Master Collection: Central Public Sector Enterprises (CPSEs)", id: "https://dataful.in/collections/464/" },
+      
+    ],
+    schema: [
+      { name: "cpse_as_per_source", type: "STRING", primary: true, desc: "The CPSE name exactly as it appears in the source publication, with original spelling, capitalisation and abbreviations.", sample: '"National Mineral Development Corp.Ltd."' },
+      { name: "standard_cpse", type: "STRING", primary: false, desc: "The standardized CPSE name. Use this field to join, group and count enterprises.", sample: '"NMDC Limited"' },
+      { name: "cin", type: "STRING", primary: false, desc: "Corporate Identification Number (CIN) assigned by the Ministry of Corporate Affairs. Blank for entities without one, such as statutory bodies and banks.", sample: '"L13100TG1958GOI001674"' },
+      { name: "other_cin", type: "STRING", primary: false, desc: "Alternate or prior CIN of the enterprise, e.g. after a change in company type.", sample: '"L13100AP1958GOI001674"' },
+      { name: "ratna_status", type: "STRING", primary: false, desc: "Ratna classification of the CPSE: Maharatna, Navratna, Miniratna-I or Miniratna-II. Blank if none.", sample: '"Navratna"' },
+      { name: "note", type: "STRING", primary: false, desc: "Additional remarks, such as mergers or renamings.", sample: '"Dena Bank merged with Bank of Baroda"' }
+    ],
+    previewHeaders: ["cpse_as_per_source", "standard_cpse", "cin", "other_cin", "ratna_status", "note"],
+    pythonCode: `import pandas as pd
+
+url = "https://raw.githubusercontent.com/factly/india-data-schema/main/assets/cpse/cpse.csv"
+df = pd.read_csv(url)
+
+# All raw name variants for a standard CPSE
+variants = df[df['standard_cpse'] == 'Bank of Baroda']
+print(variants[['cpse_as_per_source', 'standard_cpse', 'note']])
+
+# Maharatna CPSEs
+print(df[df['ratna_status'] == 'Maharatna']['standard_cpse'].unique())`,
+    curlCode: `curl -L "https://raw.githubusercontent.com/factly/india-data-schema/main/assets/cpse/cpse.csv" \\
+     -o cpse.csv`
   }
 ];
